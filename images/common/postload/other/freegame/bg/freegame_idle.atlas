@@ -1,0 +1,118 @@
+
+freegame_idle.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daruma_basegame_star_spark_1
+  rotate: false
+  xy: 1907, 1910
+  size: 130, 125
+  orig: 130, 125
+  offset: 0, 0
+  index: -1
+daruma_free spins__bg
+  rotate: false
+  xy: 2, 1313
+  size: 1282, 722
+  orig: 1282, 722
+  offset: 0, 0
+  index: -1
+daruma_free spins__bg_flower_2
+  rotate: true
+  xy: 1286, 638
+  size: 149, 197
+  orig: 149, 197
+  offset: 0, 0
+  index: -1
+daruma_free spins__bg_flower_2_1
+  rotate: false
+  xy: 2, 155
+  size: 246, 224
+  orig: 246, 224
+  offset: 0, 0
+  index: -1
+daruma_free spins__bg_flower_3
+  rotate: false
+  xy: 250, 196
+  size: 252, 183
+  orig: 252, 183
+  offset: 0, 0
+  index: -1
+daruma_free spins__bg_flower_3_1
+  rotate: false
+  xy: 1519, 1702
+  size: 263, 198
+  orig: 263, 198
+  offset: 0, 0
+  index: -1
+daruma_free spins__lantern
+  rotate: false
+  xy: 1519, 1466
+  size: 199, 234
+  orig: 199, 234
+  offset: 0, 0
+  index: -1
+daruma_free spins_bg_flower_1
+  rotate: false
+  xy: 504, 309
+  size: 292, 70
+  orig: 292, 70
+  offset: 0, 0
+  index: -1
+daruma_free spins_bg_flower_1_1
+  rotate: false
+  xy: 1519, 1902
+  size: 386, 133
+  orig: 386, 133
+  offset: 0, 0
+  index: -1
+daruma_free spins_fire_fly_001
+  rotate: false
+  xy: 2, 100
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1
+daruma_free spins_water
+  rotate: false
+  xy: 2, 613
+  size: 1282, 229
+  orig: 1282, 229
+  offset: 0, 0
+  index: -1
+daruma_free spins_water_1
+  rotate: false
+  xy: 2, 1078
+  size: 1282, 233
+  orig: 1282, 233
+  offset: 0, 0
+  index: -1
+daruma_free spins_water_2
+  rotate: false
+  xy: 2, 844
+  size: 1282, 232
+  orig: 1282, 232
+  offset: 0, 0
+  index: -1
+daruma_free spins_water_3
+  rotate: true
+  xy: 1286, 789
+  size: 1246, 231
+  orig: 1246, 231
+  offset: 0, 0
+  index: -1
+daruma_free spins_water_4
+  rotate: false
+  xy: 2, 381
+  size: 1143, 230
+  orig: 1143, 230
+  offset: 0, 0
+  index: -1
+daruma_freegame_Pagoda_light
+  rotate: false
+  xy: 1147, 455
+  size: 124, 156
+  orig: 124, 156
+  offset: 0, 0
+  index: -1

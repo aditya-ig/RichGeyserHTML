@@ -1,0 +1,175 @@
+{
+  "resources": [
+    "res\\Audio\\preLoad.ogg",
+    "res\\Audio\\preLoad.m4a",
+    "res\\Audio\\preLoad.mp3",
+    "res\\Audio\\preLoad.ac3"
+  ],
+  "spritemap": {
+    "5oak": {
+      "start": 0,
+      "end": 3.501814058956916,
+      "loop": false
+    },
+    "anticipation": {
+      "start": 5,
+      "end": 11.125963718820863,
+      "loop": false
+    },
+    "basegame_loop": {
+      "start": 13,
+      "end": 43,
+      "loop": true
+    },
+    "Bet_Button": {
+      "start": 44,
+      "end": 44.61578231292517,
+      "loop": false
+    },
+    "big_win_loop": {
+      "start": 46,
+      "end": 49.97891156462585,
+      "loop": false
+    },
+    "bonus_win": {
+      "start": 51,
+      "end": 54.97315192743764,
+      "loop": false
+    },
+    "common_win_end": {
+      "start": 56,
+      "end": 59.18138321995465,
+      "loop": false
+    },
+    "CS_BigWin_End": {
+      "start": 61,
+      "end": 65.12562358276644,
+      "loop": false
+    },
+    "CS_BonusPopUp_Intro": {
+      "start": 67,
+      "end": 69.37301587301587,
+      "loop": false
+    },
+    "CS_BonusPopUp_Outro": {
+      "start": 71,
+      "end": 73.30662131519274,
+      "loop": false
+    },
+    "fade_transition": {
+      "start": 75,
+      "end": 77.80281179138322,
+      "loop": false
+    },
+    "Freespins_Loop": {
+      "start": 79,
+      "end": 126.47691609977323,
+      "loop": true
+    },
+    "FS_counter_update_1": {
+      "start": 128,
+      "end": 128.23510204081632,
+      "loop": false
+    },
+    "FS_counter_update_2": {
+      "start": 130,
+      "end": 130.7226530612245,
+      "loop": false
+    },
+    "FS_counter_update_5": {
+      "start": 132,
+      "end": 133.32265306122449,
+      "loop": false
+    },
+    "fs_number_move": {
+      "start": 135,
+      "end": 135.87972789115645,
+      "loop": false
+    },
+    "generic_btn": {
+      "start": 137,
+      "end": 137.07607709750567,
+      "loop": false
+    },
+    "line_win": {
+      "start": 139,
+      "end": 140.66721088435375,
+      "loop": false
+    },
+    "mega_big_win_loop": {
+      "start": 142,
+      "end": 146.0084126984127,
+      "loop": false
+    },
+    "Oil_Spout": {
+      "start": 148,
+      "end": 150.0670068027211,
+      "loop": false
+    },
+    "Reels_spin1": {
+      "start": 152,
+      "end": 156.32133786848073,
+      "loop": false
+    },
+    "Reel_stop": {
+      "start": 158,
+      "end": 158.20786848072564,
+      "loop": false
+    },
+    "scatter_landing": {
+      "start": 158,
+      "end": 158.20786848072564,
+      "loop": false
+    },
+    "Spin_button": {
+      "start": 160,
+      "end": 160.7974149659864,
+      "loop": false
+    },
+    "Spin_stop": {
+      "start": 162,
+      "end": 163.72746031746033,
+      "loop": false
+    },
+    "super_big_win_loop": {
+      "start": 165,
+      "end": 168.9728117913832,
+      "loop": false
+    },
+    "Transition_1": {
+      "start": 170,
+      "end": 172.31913832199547,
+      "loop": false
+    },
+    "Transition_2": {
+      "start": 174,
+      "end": 175.9777097505669,
+      "loop": false
+    },
+    "ultra_big_win_loop": {
+      "start": 177,
+      "end": 181.00843537414966,
+      "loop": false
+    },
+    "Wild_landing": {
+      "start": 183,
+      "end": 184.34757369614513,
+      "loop": false
+    },
+    "wild_win": {
+      "start": 186,
+      "end": 188.2,
+      "loop": false
+    },
+    "wintickup_center": {
+      "start": 190,
+      "end": 193.4061904761905,
+      "loop": false
+    },
+    "wintickup_center_volup": {
+      "start": 195,
+      "end": 196.29662131519274,
+      "loop": false
+    }
+  }
+}

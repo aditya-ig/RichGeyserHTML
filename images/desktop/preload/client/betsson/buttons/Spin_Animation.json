@@ -1,0 +1,102 @@
+{"frames": {
+
+"Spin_01.png":
+{
+	"frame": {"x":2,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_02.png":
+{
+	"frame": {"x":78,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_03.png":
+{
+	"frame": {"x":154,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_04.png":
+{
+	"frame": {"x":230,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_05.png":
+{
+	"frame": {"x":306,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_06.png":
+{
+	"frame": {"x":382,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_07.png":
+{
+	"frame": {"x":458,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_08.png":
+{
+	"frame": {"x":534,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_09.png":
+{
+	"frame": {"x":610,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_10.png":
+{
+	"frame": {"x":686,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Spin_Animation.png",
+	"format": "RGBA8888",
+	"size": {"w":762,"h":78},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e7ac1df7ebe5184f804007049c9f3a49:e3e66568bf82f647eda5fd97d7695a4a:f61db06849575340ac842d86650deb71$"
+}
+}

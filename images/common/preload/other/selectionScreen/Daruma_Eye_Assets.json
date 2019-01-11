@@ -1,0 +1,48 @@
+{"frames": {
+
+"Daruma.png":
+{
+	"frame": {"x":1,"y":1,"w":419,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":419,"h":433},
+	"sourceSize": {"w":419,"h":433},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Daruma_eye_glow.png":
+{
+	"frame": {"x":422,"y":1,"w":419,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":419,"h":433},
+	"sourceSize": {"w":419,"h":433},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Daruma_left_eye.png":
+{
+	"frame": {"x":843,"y":1,"w":49,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":44},
+	"sourceSize": {"w":49,"h":44},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Daruma_Right_eye.png":
+{
+	"frame": {"x":894,"y":1,"w":49,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":44},
+	"sourceSize": {"w":49,"h":44},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Daruma_Eye_Assets.png",
+	"format": "RGBA8888",
+	"size": {"w":944,"h":435},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2b4af7edc6ce0f6d2de839c60ab3e227:fa9a2449dc1a624620722393e8ec5ddf:9e7c1fe0ef91c6a336c1340af5ab3806$"
+}
+}

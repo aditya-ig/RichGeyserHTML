@@ -1,0 +1,34 @@
+
+transition.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+transition_flower
+  rotate: false
+  xy: 2, 278
+  size: 722, 720
+  orig: 722, 720
+  offset: 0, 0
+  index: -1
+transition_freegame_solid
+  rotate: false
+  xy: 2, 1000
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+transition_petals_pink
+  rotate: false
+  xy: 1284, 1394
+  size: 403, 326
+  orig: 403, 326
+  offset: 0, 0
+  index: -1
+transition_petals_red
+  rotate: false
+  xy: 2, 2
+  size: 296, 274
+  orig: 296, 274
+  offset: 0, 0
+  index: -1

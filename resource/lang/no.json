@@ -1,0 +1,125 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": { 
+    "text": "Du har %freePlayCounter% GRATIS SPILL til %freePlayStake% innsats"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Velge det GOLDEN CHIP ikon alt å lek"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "GRATULERER"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Gratisspillene fullført"
+  },
+  "lbl_you_have_won": {
+    "text": "DU HAR VUNNET"
+  },
+  "lbl_free_play_completed": {
+    "text": "Gratisspillene fullført"
+  },
+  "lbl_free_plays_left": {
+    "text": "%freePlayCounter%  GRATISSPILL igjen"
+  },
+  "lbl_NoLimits":{
+    "text":"INGEN GRENSER"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"VIRKELIGHETSSJEKK"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"Du har bedt om en virkelighetskontroll hvert %n % minutt under spillingen. Din spilløkt %n% har nå nådd minutter"
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"MISTET FORBINDELSE"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"Du har mistet forbindelsen til spillserveren. \n Start spillet på nytt og forsøk igjen."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"Sikkerheten er viktig for oss. Siden du har vært inaktiv en periode har vi automatisk logget deg ut fra spilløkten din."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"SIKKERHET TIMEOUT"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"IKKE NOK PENGER"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Utilstrekkelig med penger til å fullføre spinnet."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"GJENOPPTAR TIDLIGERE SPILL"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"Vi ser at det tidligere spill ikke ble \n fullført. Vi vil nå gjøre spillet ferdig \n slik at du kan fortsette."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"Vi har oppdaget at du spiller spillet på \nIE11-nettleseren, noe som kan føre til lydproblemer i spillet. \nVi anbefaler at du spiller dette spillet i mer\n brukte nettlesere for en bedre opplevelse. "
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "Vi har oppdaget at du har lastet inn spillet på iPad 2 som ikke er en kompatibel enhet for spillet. Vennligst bytt til en nyere enhet for å få en bedre spillopplevelse."
+  },
+  "lbl_free_spins": {
+    "text": "GRATISSPINN"
+  },
+  "lbl_tooltip_labelMaxBet" :{
+    "text": "MAKSIMALINNSATS"
+   },
+   "lbl_tooltip_labelSpin" :{
+    "text": "SPINN"
+   },
+   "lbl_tooltip_labelStop" :{
+    "text": "Stop"
+   },
+  
+   "lbl_tooltip_labelBetSettings":{
+    "text":"Innsatsinnstillinger"
+  },
+  "lbl_auto_play": {
+    "text": "Autospill"
+  },
+"lbl_tooltip_auto_play_off": {
+  "text": "Stopp Autospill"
+},
+  "lbl_tooltip_labelGameSettings":{
+    "text": "Spillinnstillinger"
+  },
+  "lbl_tooltip_labelpaytable": {
+    "text": "Utbetalingstabell"
+  },
+  "lbl_tooltip_labelInformation": {
+    "text": "INFORMASJON"
+  },
+  "lbl_tooltip_labelSettings": {
+    "text": "innstillinger"
+  },
+  "lbl_tooltip_labelHistory": {
+    "text": "Spillhistorikk"
+  },
+  "lbl_tooltip_labelCashier": {
+    "text": "Kasse"
+  },
+  "lbl_tooltip_labelHome": {
+    "text": "Hjem"
+  },
+  "lbl_tooltip_AudioOnAndOff":{
+    "text":"Lyd på/av"
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "ÅRVÅKEN"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "ÅRVÅKEN"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "ÅRVÅKEN"
+  }
+}

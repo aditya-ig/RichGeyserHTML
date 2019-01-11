@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 95vw;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+            word-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+        }
+
+        .pad-left10 {
+            padding-left: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul {
+            color: white;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) {
+            body {
+                font-size: 12px !important;
+                word-wrap: break-word;
+            }
+            p {
+                max-width: 90vw;
+            }
+            ul>li {
+                max-width: 90vw;
+            }
+            ul:last-child {
+                height: auto;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+            body {
+                font-size: .688em !important;
+            }
+            ul:last-child {
+                margin-bottom: 20em;
+            }
+        }
+
+        .para-box {
+            margin-bottom: 0cm;
+            font-size: 13px;
+            font-family: Calibri, serif;
+            line-height: 17px;
+            text-align: justify;
+        }
+
+        li p.para-box {
+            line-height: 100% !important;
+        }
+
+        table tr td {
+            font-size: 12px;
+            font-family: 'Segoe UI', serif;
+            line-height: 20px;
+        }
+
+        #tblGameButtons tr td:first-child,
+        #tblSettButtons tr td:nth-child(2) {
+            text-align: center;
+        }
+
+        table tr td img {
+            border: 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wild-box {
+            margin: 10px;
+        }
+
+        .help-box::-webkit-scrollbar-track {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+
+        .help-box {
+            width: 99%;
+            height: auto;
+            margin: 0 auto;
+            overflow: auto;
+            background: black;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <body>
+        <div class="help-box" id="preventZoom">
+            <p class="para-box">
+              Willkommen beim RICH GEYSER Video Slot zum Thema Ölbohrindustrie. Das Spiel bietet Gushing Wild Neudrehungen, und viele weitere aufregende Features.
+            </p>
+            <p class="para-box">
+                <b>ÜBER DAS SPIEL</b>
+            </p>
+            <p class="para-box pad-left10">
+                RICH GEYSER wird mit 10 festen Gewinnlinien gespielt. Das Spiel hat 8 reguläre Symbole, die bezahlt werden, wenn drei oder mehr auf benachbarten Walzen aufgereiht sind, beginnend von der linken Position auf einer Gewinnlinie.
+            </p>
+           
+               
+                <p class="para-box">
+                    <b>GUSHING WILD NEUDREHUNGS BONUS</b>
+                </p>
+            <p class="para-box pad-left10">
+                2 oder mehr wildsymbole in der ansicht lösen das 'gushing wilds' neudrehungs-feature aus. jeder 'ölgeysir' unter den walzen mit dem auslösenden wild, wird öl bis zur wild position ausstoßen und jede position unter dem auslösenden wild-symbol in einen wild verwandeln. die gewinne werden vergeben und die walzen drehen sich erneut, wobei sich die wilds um 1 position nach unten bewegen. nachfolgende wilds, die während der neudrehung erreicht werden, lösen die neudrehungen erneut aus. die neudrehungen werden fortgesetzt, bis sich alle wilds aus dem bildschirm bewegt haben. 
+            </p>      
+            <p class="para-box">
+                <b>WIE MAN SPIELT</b>
+            </p>
+            <ul>
+                <p class="para-box"></p>
+                <li>
+                    <p class="para-box">
+                        Wähle die Bezeichnung deines Einsatzes/Münze.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="para-box">
+                       Klicke (bei Desktop) oder tippe (bei Mobilgerät) auf den Spin-Button, um einen Spielzyklus zu starten.
+                    </p>
+                </li>
+            </ul>
+            <p class="para-box">
+                <b>SPIELBUTTONS
+                </b>
+            </p>
+            <table id="tblGameButtons" width="510" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                <colgroup>
+                    <col width="89">
+                    <col width="90">
+                    <col width="118">
+                    <col width="155">
+                </colgroup>
+                <thead>
+                    <tr valign="TOP">
+                        <td width="89" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Zeichen</b>
+                            </p>
+                        </td>
+                        <td width="90" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Desktop</b>
+                            </p>
+                        </td>
+                        <td width="118" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Mobilgerät</b>
+                            </p>
+                        </td>
+                        <td width="155" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Aktion</b>
+                            </p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                <img src="../../../other/paytable/Help_icons/Big_icon/Spin_Big.png" align="BOTTOM">
+                            </p>
+                        </td>
+                        <td width="90">
+                            <b>DREHEN</b>
+                            </p>
+                        </td>
+                        <td width="118">
+                            <b>DREHEN</b>
+                            </p>
+                        </td>
+                        <td width="155">
+                            Startet einen Einzelzyklus
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Max_Bet_Big.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Max. Einsatz</b>
+                        </td>
+                        <td width="118">
+                            (enthalten im Bildschirm für Einsatzauswahl im Menü der Einstellungen)
+                        </td>
+                        <td width="155">
+                            Stellt die Einsatzkonfiguration auf das maximale Einsatzlevel. Zum Starten Spin-Button drücken.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Autoplay.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Autoplay</b>
+                        </td>
+                        <td width="118">
+                            <b>Für Autoplay Spin gedrückt halten</b> (oder im Menü der Einstellungen enthalten)
+                        </td>
+                        <td width="155">
+                            Öffnet das Menü und zeigt alle im Spiel verfügbaren Autoplay-Optionen, zum Starten mehrerer Zyklen gleichzeitig.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Bet_Settings.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Einsatzauswahl </b>
+                        </td>
+                        <td width="118">
+                            <b>Einsatzauswahl </b>(oder im Menü der Einstellungen enthalten)
+                        </td>
+                        <td width="155">
+                            Zeigt die Einsatzoptionen an, damit der Spieler seinen Wetteinsatz wählen kann.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Settings_Menu.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Einstellungen</b>
+                        </td>
+                        <td width="118">
+                            <b>Einstellungen
+                            </b>
+                        </td>
+                        <td width="155">
+                            Öffnet ein unabhängiges Menü mit Einstellungen mit folgenden Optionen: Home; Ton; Spieleinstellungen; Verlauf; Info/Hilfe und Kassierer (wenn erforderlich)
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Audio.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Ton</b>
+                        </td>
+                        <td width="118">
+                            (Haupteinstellungen sind im Menü der Einstellungen verfügbar)
+                        </td>
+                        <td width="155">
+                            Desktop - öffnet das Menü der Toneinstellungen, damit der Spieler die Musik und die Soundeffekte unabhängig ein- und ausschalten kann.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Turbo_Play.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Turbo-Spiel
+                            </b>
+                        </td>
+                        <td width="118">
+                           (verfügbar im Menü der Spieleinstellungen)
+                        </td>
+                        <td width="155">
+                            Ändert die Geschwindigkeit der Walzen zu Quickspin
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="para-box">
+                <b>EINSTELLUNGSBUTTONS</b>
+                <table id="tblSettButtons" width="538" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                    <colgroup>
+                        <col width="136">
+                        <col width="71">
+                        <col width="287">
+                    </colgroup>
+                    <thead>
+                        <tr valign="TOP">
+                            <td width="136" bgcolor="#e6e6e6">
+                                <b>Symbol</b>
+                            </td>
+                            <td width="71" bgcolor="#e6e6e6">
+                                <b>Zeichen</b>
+                            </td>
+                            <td width="287" bgcolor="#e6e6e6">
+                                <b>Verhalten</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Kassierer</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Cashier.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Initiiert eine Weiterleitung zu den Einzahlungsseiten eines Betreibers, damit der Spieler seinem Konto Geldmittel hinzufügen kann 
+								(davon ausgehend, dass die Funktion im System des Betreibers vorhanden ist).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136"> 
+                                <b>Auszahlungstabelle &amp; Hilfe</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Paytables_&_Help.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                               Gibt die allgemeine Auszahlungstabelle und die Funktionsbeschreibungen für das Spiel an.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Spielverlauf
+                                </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_History.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                               Zeigt dem Spieler eine Liste der gespielten Spielzyklen während der Sitzung.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Einsatz-Einstellungen </b>
+                            </td>
+                            <td width="71">
+                                <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                    <img src="../../../other/paytable/Help_icons/Small_Icon/Stake_Selection.png" align="BOTTOM">
+                                </p>
+                            </td>
+                            <td width="287">
+                                Hier kann der Spieler den Wert des Einsatzes für das Spiel festlegen, oder eine der anderen verfügbaren Optionen auswählen.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Autoplays</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Autoplays.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Öffnet die Seite, auf der die unterschiedlichen standardmäßigen oder erweiterten Autoplayoptionen ausgewählt 
+								und gestartet werden können, einschließlich Verlustlimit (wenn anwendbar).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Spieleinstellungen</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_Settings.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                               Zeigt die allgemeinen verfügbaren Einstellungen (zum Beispiel vom Spieler wählbare Toneinstellungen, 
+							   mit denen der Spieler wählen kann, welche Töne während des Spiels zu hören sind).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Home</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Home.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Beendet das aktuelle Spiel (nach einer letzten Abfrage) und kehrt zurück zur Menüseite des Hauptspiels.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="para-box">
+                    <b>ANDERE SPIELINFOS</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Mehrere Gewinne auf unterschiedlichen Gewinnlinien werden zusammengezählt und dem Spieler ausgezahlt.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Münzwert - Zeigt den theoretischen Preis für den Einsatz mit den derzeitigen Einstellungen an. Alle Gewinne werden als Münzen angezeigt, die mit dem Münzwert multipliziert werden, um einen Auszahlungsgewinn zu erhalten.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Wetteinsatz - Zeigt den Wert des Wetteinsatzes, der aktuell eingestellt ist. Die Einsatzgröße ist 1 Münze multipliziert mit dem Einsatzmultiplikator.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Der gesamteinsatz ist der münzwert multipliziert mit dem einsatz pro linie.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                          Max. Wetteinsatz (NUR bei Desktop) - Stellt den höchsten verfügbaren Münzwert ein.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Spinbutton - Startet das Spiel. Wenn sich die Walzen drehen, wird der Spinbutton zum Turbo-Stopp-Button. Drücke auf den Turbo-Stopp-Button, um die Walzen sofort zu stoppen.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Autoplay - Man kann das Spiel so einstellen, dass man nicht jedes Mal den Spinbutton drücken muss. Wähle die Anzahl der Runden, die automatisch gespielt werden sollen, wenn du Autoplay drückst (oder öffne das Autoplay-Menü, indem die den Spinbutton gedrückt hältst). Wenn diese Optionen verfügbar sind, kann man in den Spieleinstellungen bestimmte Bedingungen festlegen, unter denen das Autoplay-Spiel angehalten wird. Ein Verlustlimit schützt den Spieler in einigen Spielversionen davor, mehr als das festgelegte Verlustlimit in einer Autoplay-Runde zu verlieren. Wenn du die Autoplay-Runde von Hand anhalten möchtest, drücke auf den Stopp-Autoplay-Button.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Gewinn - Zeigt den aktuellen oder letzten ausgezahlten Gewinn an.
+                        </p>
+                    </li>
+					<li>
+                        <p class="para-box">
+                           Cash/Münze - Zeigt die Kontobilanz je nach Wahl des Spielers entweder als Cash (Geldwert) oder Münzen (Anzahl der Gutschriften) an. Die Standardeinstellung ist die Cash-Einstellung.
+                        </p>
+                    </li>
+					<li>
+                    <p class="para-box">
+                       Die Umwandlung von Bargeld in Münzen und umgekehrt erfolgt mit 2 Dezimalwerten, um die nächstgelegenen Originalwerte zu erreichen, aber im Spiel wird die Münzumrechnung immer in ganzen Zahlen angezeigt.
+
+                    </p>
+                </li>
+                </ul>
+                <p class="para-box">
+                    <b>RÜCKFLUSSQUOTE</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Die theoretische Gesamtrückflussquote an den Spieler liegt bei 95,513 %
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>ZUSÄTZLICHE INFORMATIONEN</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                             Alle Gewinnkombinationen werden von links nach rechts in einem Kombinationsweg ausgezahlt, 
+							wobei an der 1. Walze begonnen wird, außer bei Scatter-Kombinationen, die auf der 1. und der 5. Position erscheinen.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Erreichte Gewinne in den Funktionen werden zusätzlich zu den Kombinationswegen ausgezahlt.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Sollte die Hardware/Software des Spiels nicht ordnungsgemäß funktionieren, werden alle betroffenen Spielwetten und Auszahlungen für nichtig erklärt und alle betroffenen Einsätze werden zurückgezahlt.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                              Der Höchstgewinn im Spiel hat eine Obergrenze von 250.000,- €.
+                        </p>
+                    </li>
+                    
+                    
+                    <li>
+                        <p class="para-box">
+                            <a name="_GoBack"></a>
+                            Das ist die Spielregelversion 1.1, vom 27/03/2018.
+                        </p>
+                    </li>
+                </ul>
+        </div>
+    </body>
+</body>
+
+</html>

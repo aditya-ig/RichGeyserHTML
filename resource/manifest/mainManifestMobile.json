@@ -1,0 +1,138 @@
+{
+  "basegame": {
+    "assetsList": {
+      "key": "manifest",
+      "url": "resource/manifest/list_base_%lang%_%res%.json",
+      "type": "pack"
+    },
+    "lang": {
+      "key": "lang",
+      "url": "resource/lang/%lang%.json",
+      "type": "json"
+    },
+    "maindata": {
+      "key": "main_data",
+      "url": "resource/manifest/%res%/main_data.json",
+      "type": "json"
+    },
+    "currency": {
+      "key": "currency",
+      "url": "resource/manifest/currencySymbols.json",
+      "type": "json"
+    },
+    "playerMsgFont": {
+      "key": "playerMsgFont",
+      "url": "resource/font/Coin_Value.png",
+      "jsonURL": "resource/font/Coin_Value.fnt",
+      "type": "bitmapfont"
+    },
+    "BaseGameWinFont": {
+      "key": "BaseGameWinFont",
+      "url": "resource/font/Numbers_export.png",
+      "jsonURL": "resource/font/Numbers_export.fnt",
+      "type": "bitmapfont"
+    },
+    "LineWinFont": {
+      "key": "LineWinFont",
+      "url": "resource/font/Line_Win.png",
+      "jsonURL": "resource/font/Line_Win.fnt",
+      "type": "bitmapfont"
+    },
+    "FreeGameOutroWinFont": {
+      "key": "FreeGameOutroWinFont",
+      "url": "resource/font/Numbers_export.png",
+      "jsonURL": "resource/font/Numbers_export.fnt",
+      "type": "bitmapfont"
+    },
+    "Sound": {
+      "type": "audiosprite",
+      "key": "soundList",
+      "url": [
+        "resource/audio/preLoad.ogg",
+        "resource/audio/preLoad.mp3",
+        "resource/audio/preLoad.m4a"
+      ],
+      "jsonURL": "resource/audio/preLoad.json"
+    },
+    "BetFont": {
+      "key": "BetFont",
+      "url": "resource/font/Bet.png",
+      "jsonURL": "resource/font/Bet.fnt",
+      "type": "bitmapfont"
+    },
+    "CashFont": {
+      "key": "CashFont",
+      "url": "resource/font/Cash.png",
+      "jsonURL": "resource/font/Cash.fnt",
+      "type": "bitmapfont"
+    },
+    "CoinValueFont": {
+      "key": "CoinValueFont",
+      "url": "resource/font/Coin_Value.png",
+      "jsonURL": "resource/font/Coin_Value.fnt",
+      "type": "bitmapfont"
+    },
+    "PlayerMessageWinAmountFont": {
+      "key": "PlayerMessageWinAmountFont",
+      "url": "resource/font/playerMsg_WinAmt.png",
+      "jsonURL": "resource/font/playerMsg_WinAmt.fnt",
+      "type": "bitmapfont"
+    },
+    "NormalValueFont": {
+      "key": "NormalValueFont",
+      "url": "resource/font/Normal_Value.png",
+      "jsonURL": "resource/font/Normal_Value.fnt",
+      "type": "bitmapfont"
+    },
+    "SelectedValueOptionFont": {
+      "key": "SelectedValueOptionFont",
+      "url": "resource/font/Select_Value.png",
+      "jsonURL": "resource/font/Select_Value.fnt",
+      "type": "bitmapfont"
+    },
+    "TotalBetWithCurrencyFont": {
+      "key": "TotalBetWithCurrencyFont",
+      "url": "resource/font/Total_Bet_Currency.png",
+      "jsonURL": "resource/font/Total_Bet_Currency.fnt",
+      "type": "bitmapfont"
+    },
+    "WinFont": {
+      "key": "WinFont",
+      "url": "resource/font/Win.png",
+      "jsonURL": "resource/font/Win.fnt",
+      "type": "bitmapfont"
+    },
+    "FGameWinFont": {
+      "key": "FGameWinFont",
+      "url": "resource/font/Numbers_exportFG.png",
+      "jsonURL": "resource/font/Numbers_exportFG.fnt",
+      "type": "bitmapfont"
+    },
+    "FreePlayFont": {
+      "key": "FreePlayFont",
+      "url": "resource/font/number-export.png",
+      "jsonURL": "resource/font/number-export.fnt",
+      "type": "bitmapfont"
+    },
+    "freePlayWinAmountBitmap": {
+      "key": "freePlayWinAmountBitmap",
+      "url": "resource/font/Win_Text.png",
+      "jsonURL": "resource/font/Win_Text.fnt",
+      "type": "bitmapfont"
+    }
+  },
+  "baseGamePostload": {
+    "assetsList": {
+      "key": "manifest",
+      "url": "resource/manifest/list_base_postload_%lang%_%res%.json",
+      "type": "pack"
+    }
+  },
+  "freegame": {
+    "assetsList": {
+      "key": "manifest",
+      "url": "resource/manifest/list_free_postload_%lang%_%res%.json",
+      "type": "pack"
+    }
+  }
+}
