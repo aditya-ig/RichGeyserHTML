@@ -1,0 +1,39 @@
+{"frames": {
+
+"SA_Down.png":
+{
+	"frame": {"x":3,"y":3,"w":371,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":371,"h":48},
+	"sourceSize": {"w":371,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"SA_Normal.png":
+{
+	"frame": {"x":3,"y":55,"w":371,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":371,"h":48},
+	"sourceSize": {"w":371,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"SA_Over.png":
+{
+	"frame": {"x":3,"y":107,"w":371,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":371,"h":48},
+	"sourceSize": {"w":371,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Start_Autoplay_btn.png",
+	"format": "RGBA8888",
+	"size": {"w":377,"h":158},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8a2e5ae6e4b5bc8162b98421fb67bf14:828480343064dd1e76acf3c9f547f77c:c52a7eff72950c1c575f5ec84d320f1c$"
+}
+}

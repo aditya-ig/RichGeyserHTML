@@ -1,0 +1,140 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": {
+    "text": "Bạn có %freePlayCounter%  LƯỢT CHƠI MIỄN PHÍ ở mức tiền cược %freePlayStake%"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Chọn biểu tượng CHIP VÀNG bất cứ lúc nào để Chơi"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "CHÚC MỪNG!"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Đã hoàn thành các lượt chơi miễn phí"
+  },
+  "lbl_you_have_won": {
+    "text": "BẠN ĐÃ CHIẾN THẮNG"
+  },
+  "lbl_free_play_completed": {
+    "text": "Đã hoàn thành các lượt chơi miễn phí"
+  },
+  "lbl_free_plays_left": {
+    "text": "Còn lại %freePlayCounter% LƯỢT CHƠI MIỄN PHÍ"
+  },
+  "lbl_free_play_resume": {
+    "text": "CHƠI TRÒ CHƠI"
+  },
+  "lbl_back_to_game": {
+    "text": "BACK TO GAME"
+  },
+ 
+  
+  "lbl_NumberOfSpins":{
+    "text":"Số lượt quay"
+  },
+  "lbl_NumberOfSpinsOff":{
+    "text":"TẮT"
+  },
+  "lbl_NoLimits":{
+    "text":"KHÔNG GIỚI HẠN"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"KIỂM TRA THỰC TẾ"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"Bạn đã yêu cầu Kiểm tra Thực tế mỗi \n % phút chơi. Hiện tại phiên chơi của bạn \n đã đạt % phút"
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"MẤT KẾT NỐI"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"Bạn đã mất kết nối với Máy chủ Trò chơi.\n Vui lòng khởi chạy lại trò chơi và thử lại."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"Bảo mật có ý nghĩa quan trọng đối với chúng tôi.\n Do bạn không hoạt động trong một khoảng thời gian, \nchúng tôi đã tự động đăng xuất bạn khỏi Phiên Chơi."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"THỜI GIAN CHỜ BẢO MẬT"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"KHÔNG ĐỦ TIỀN"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Không đủ tiền để hoàn thành lượt quay."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"ĐANG TIẾP TỤC LƯỢT CHƠI TRƯỚC"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"Chúng tôi nhận thấy lượt chơi trước của bạn chưa \n hoàn thành. Bây giờ chúng tôi sẽ chuẩn bị sẵn sàng lượt chơi \n để bạn tiếp tục."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"Chúng tôi đã phát hiện thấy bạn đang chơi trên trình\n duyệt IE11, điều này có thể gây một số vấn đề \nvề âm thanh trong trò chơi, chúng tôi khuyến nghị\n bạn chơi trò chơi này trên các trình duyệt thông \ndụng để có trải nghiệm tốt hơn."
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"Chúng tôi đã phát hiện thấy bạn đang chơi trên trình  \nduyệt UC, điều này có thể gây một số vấn đề về \nâm thanh trong trò chơi, chúng tôi khuyến  \nnghị bạn chơi trò chơi này trên các trình duyệt  \nthông dụng để có trải nghiệm tốt hơn."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "Chúng tôi đã phát hiện thấy bạn đang tải trò chơi \ntrên iPad2, thiết bị này không tương thích để \nchạy trò chơi này, vui lòng chuyển sang thiết bị có \nphiên bản cao hơn để có trải nghiệm chơi tốt hơn."
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "CẢNH BÁO"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "CẢNH BÁO"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "CẢNH BÁO"
+  },
+  "lbl_free_spins": {
+    "text": "FREE SPINS"
+  },
+ "lbl_tooltip_labelMaxBet" :{
+  "text": "CƯỢC TỐI ĐA"
+ },
+ "lbl_tooltip_labelSpin" :{
+  "text": "Quay"
+ },
+ "lbl_tooltip_labelStop" :{
+  "text": "DỪNG LẠI"
+ },
+
+ "lbl_tooltip_labelBetSettings":{
+  "text":"Cài đặt Cược"
+},
+"lbl_auto_play": {
+  "text": "Chơi tự động"
+},
+"lbl_tooltip_auto_play_off": {
+  "text": "Dừng tự động chơi"
+},
+"lbl_tooltip_labelGameSettings":{
+  "text": "Cài đặt Trò chơi"
+},
+"lbl_tooltip_labelpaytable": {
+  "text": "BẢNG TRẢ THƯỞNG"
+},
+"lbl_tooltip_labelInformation": {
+  "text": "THÔNG TIN"
+},
+"lbl_tooltip_labelSettings": {
+  "text": "cài đặt"
+},
+"lbl_tooltip_labelHistory": {
+  "text": "Lịch sử Trò chơi"
+},
+"lbl_tooltip_labelCashier": {
+  "text": "Thu ngân"
+},
+"lbl_tooltip_labelHome": {
+  "text": "Màn hình chính"
+},
+"lbl_tooltip_AudioOnAndOff":{
+  "text":"Audio On/Off"
+}
+
+}

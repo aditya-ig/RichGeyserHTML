@@ -1,0 +1,125 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": { 
+    "text": "Dispone de %freePlayCounter% JUGADAS GRATIS con una apuesta de %freePlayStake% "
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Seleccione en cualquier momento el icono de su \n GOLDEN CHIP para jugar"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "¡ENHORABUENA"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Jugadas gratis completadas"
+  },
+  "lbl_you_have_won": {
+    "text": "HA GANADO"
+  },
+  "lbl_free_play_completed": {
+    "text": "Jugadas gratis completadas"
+  },
+  "lbl_free_plays_left": {
+    "text": "%freePlayCounter% GIROS GRATIS restantes"
+  },
+  "lbl_NoLimits":{
+    "text":"SIN LIMITES"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"CHEQUE DE REALIDAD"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"Ha solicitado una comprobación de realidad cada \n % minutos de juego. Su sesión de juego % ha \n llegado a los minutos."
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"CONEXIÓN PERDIDA"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"Has perdido la conexión al servidor del juego. \n Por favor, vuelve a iniciar el juego e inténtalo otra vez."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"La seguridad es importante para nosotros. Como ha estado inactivo durante algún tiempo, hemos cerrado automáticamente su sesión de juego."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"TIEMPO DE SEGURIDAD"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"FONDOS INSUFICIENTES"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Fondos insuficientes para completar el giro."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"REANUDANDO PARTIDA ANTERIOR"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"Nos hemos dado cuenta de que una partida anterior no se \nha completado. A continuación reanudaremos \nel juego y tú podrás continuarlo."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"Hemos detectado que está jugando con el navegador IE11, \n lo cual podría provocar algunos problemas de sonido en \n el juego. Le recomendamos jugar con los navegadores más\nconocidos para disfrutar de una mejor experiencia de juego."
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "Hemos detectado que está cargando el juego en un iPad2, que no es un dispositivo compatible con este juego. Le recomendamos usar una versión superior de este dispositivo para disfrutar de una mejor experiencia de juego."
+  },
+  "lbl_free_spins": {
+    "text": "TIRADAS GRATIS"
+  },
+  "lbl_tooltip_labelMaxBet" :{
+    "text": "APUESTA MÁXIMA"
+   },
+   "lbl_tooltip_labelSpin" :{
+    "text": "Girar"
+   },
+   "lbl_tooltip_labelStop" :{
+    "text": "Dejar Juego automático"
+   },
+  
+   "lbl_tooltip_labelBetSettings":{
+    "text":"Configuración de apuesta"
+  },
+  "lbl_auto_play": {
+    "text": "partida auto"
+  },
+  "lbl_tooltip_auto_play_off": {
+   "text": "Dejar Juego automático"
+  },
+  "lbl_tooltip_labelGameSettings":{
+    "text": "Configuración del juego"
+  },
+  "lbl_tooltip_labelpaytable": {
+    "text": "Tabla de premios"
+  },
+  "lbl_tooltip_labelInformation": {
+    "text": "INFORMACIÓN"
+  },
+  "lbl_tooltip_labelSettings": {
+    "text": "Configuración"
+  },
+  "lbl_tooltip_labelHistory": {
+    "text": "Historial de juego"
+  },
+  "lbl_tooltip_labelCashier": {
+    "text": "Cajero"
+  },
+  "lbl_tooltip_labelHome": {
+    "text": "Início"
+  },
+  "lbl_tooltip_AudioOnAndOff":{
+    "text":"Audio encendido/desactivado"
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "ALARMA"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "ALARMA"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "ALARMA"
+  }
+}

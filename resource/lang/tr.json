@@ -1,0 +1,125 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },  
+  "lbl_freeplay_sentence": {
+    "text": " %freePlayCounter% FREE PLAY, %freePlayStake% Stake sahibisiniz."
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Oynamak için her zaman GOLDEN CHIP simgesini seçin"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "TEBRİKLER"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Free Play'ler tamamlandı"
+  },
+  "lbl_you_have_won": {
+    "text": "KAZANDINIZ"
+  },
+  "lbl_free_play_completed": {
+    "text": "Free Play'ler tamamlandı"
+  },
+  "lbl_free_plays_left": {
+    "text": "%freePlayCounter% Kalan FREE PLAY"
+  },
+  "lbl_NoLimits":{
+    "text":"LİMİT YOK"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"GERÇEKLİK KONTROLÜ"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"Oyunun oynandığı her % dakika Reality Check \ntalebinde bulundunuz. Oyun % oturumunuz için izin \nverilen dakikaya ulaşıldı."
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"SON BAĞLANTI"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"Oyun Sunucusu ile olan bağlantınızı kaybettiniz. \n Lütfen oyunu yeniden başlatın ve yeniden deneyin."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"Güvenlik bizim için önemlidir. Belli bir süredir aktif olmadığınızdan, Oyun Oturumunuzu otomatik olarak kapattık."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"GÜVENLİK ZAMAN AŞIMI"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"YETERSIZ BAKIYE"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Spinin tamamlanması için yeterli fon bulunmuyor."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"ÖNCEKİ OYUNUN ÖZETİ"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"Önceki oyunun \ntamamlanmadığını gördük. Devam edebilmeniz için, \noyuna yeniden dönüş sağlıyoruz."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"IE11 tarayıcısı üzerinden oyun oynadığınızı \ntespit ettik, bu oyun içinde bazı sorunlara neden olabilir. \nDaha iyi bir oyun tecrübesi için, bu oyunu \nana tarayıcılardan oynamanızı tavsiye ederiz.  "
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "Bu oyunu, oyunun çalışması için uyumlu olmayan iPad2 üzerine yüklemeye çalıştığınızı tespit ettik, lütfen bu oyunu daha iyi oynayabilmek için daha ileri sürümde bir cihaz kullanın."
+  },
+  "lbl_free_spins": {
+    "text": "ÜCRETSİZ DÖNDÜRMELER"
+  }, 
+  "lbl_tooltip_labelMaxBet" :{
+    "text": "MAKSİMUM BAHİS"
+   },
+   "lbl_tooltip_labelSpin" :{
+    "text": "DÖNDÜR"
+   },
+   "lbl_tooltip_labelStop" :{
+    "text": "Durmak Autoplay'ler"
+   },
+  
+   "lbl_tooltip_labelBetSettings":{
+    "text":"Bahis Ayarları"
+  },
+  "lbl_auto_play": {
+    "text": "OTOMATİK OYUN"
+  },
+"lbl_tooltip_auto_play_off": {
+  "text": "Durmak Autoplay'ler"
+},
+  "lbl_tooltip_labelGameSettings":{
+    "text": "Oyun Ayarları"
+  },
+  "lbl_tooltip_labelpaytable": {
+    "text": "Kazanç Tablosu"
+  },
+  "lbl_tooltip_labelInformation": {
+    "text": "BİLGİ"
+  },
+  "lbl_tooltip_labelSettings": {
+    "text": "Ayarları"
+  },
+  "lbl_tooltip_labelHistory": {
+    "text": "Oyun Geçmişi"
+  },
+  "lbl_tooltip_labelCashier": {
+    "text": "Kasiyer "
+  },
+  "lbl_tooltip_labelHome": {
+    "text": "Karşılama sayfası"
+  },
+  "lbl_tooltip_AudioOnAndOff":{
+    "text":"Ses açık/kapalı"
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "ALÂRM"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "ALÂRM"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "ALÂRM"
+  }
+}

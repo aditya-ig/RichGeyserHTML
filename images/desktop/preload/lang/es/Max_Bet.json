@@ -1,0 +1,30 @@
+{"frames": {
+
+"MaxbetButton_1.png":
+{
+	"frame": {"x":0,"y":0,"w":97,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":79},
+	"sourceSize": {"w":97,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MaxbetButton_1_Disable.png":
+{
+	"frame": {"x":97,"y":0,"w":97,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":79},
+	"sourceSize": {"w":97,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Max_Bet.png",
+	"format": "RGBA8888",
+	"size": {"w":194,"h":79},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2cff4c65bc77289976e63df2f1cf92c5:ea0b02f2494a85ffcb5457671eeaef1d:86948b366e1d05e9d85fba354de050ed$"
+}
+}

@@ -1,0 +1,140 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": {
+    "text": "You have %freePlayCounter% FREE PLAYS at %freePlayStake% Stake"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Select the GOLDEN CHIP icon anytime to Play"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "CONGRATULATIONS"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Free plays completed"
+  },
+  "lbl_you_have_won": {
+    "text": "You have won"
+  },
+  "lbl_free_play_completed": {
+    "text": "Free Plays Completed"
+  },
+  "lbl_free_plays_left": {
+    "text": "%freePlayCounter% FREE PLAYS left"
+  },
+  "lbl_free_play_resume": {
+    "text": "RESUME PLAY"
+  },
+  "lbl_back_to_game": {
+    "text": "BACK TO GAME"
+  },
+ 
+  
+  "lbl_NumberOfSpins":{
+    "text":"Number Of Spins"
+  },
+  "lbl_NumberOfSpinsOff":{
+    "text":"OFF"
+  },
+  "lbl_NoLimits":{
+    "text":"NO LIMITS"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"REALITY CHECK"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"You have requested Reality Check every \n % minutes of game play.Your gaming session \n has now reached % minutes"
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"LOST CONNECTION"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"You've lost connection to the Game Server. \n Please re-launch the game and try again."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"Security is important to us. As you have been \n inactive for some time we have automatically \n logged you out of your Game Session."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"SECURITY TIMEOUT"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"INSUFFICIENT FUND"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Insufficient funds to complete spin."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"RESUMING PREVIOUS GAME"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"We recognize a previous game did not \n complete. We will now resume the game ready \n for you to continue."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"We have detected that you are playing game on IE11 browser \n which may cause some sound issues in the game, we recommend \n you to play this game on mainstream browsers for best \n experience."
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "We have detected that you are loading game on iPad2 which is not compatible device to run this game, kindly switch to the higher version device for better experience of this game."
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "ALERT"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "ALERT"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "ALERT"
+  },
+  "lbl_free_spins": {
+    "text": "FREE SPINS"
+  },
+ "lbl_tooltip_labelMaxBet" :{
+  "text": "Maximum Bet"
+ },
+ "lbl_tooltip_labelSpin" :{
+  "text": "Spin"
+ },
+ "lbl_tooltip_labelStop" :{
+  "text": "Stop"
+ },
+
+ "lbl_tooltip_labelBetSettings":{
+  "text":"Bet Settings"
+},
+"lbl_auto_play": {
+  "text": "AUTOPLAY"
+},
+"lbl_tooltip_auto_play_off": {
+  "text": "Stop Autoplays"
+},
+"lbl_tooltip_labelGameSettings":{
+  "text": "Game Settings"
+},
+"lbl_tooltip_labelpaytable": {
+  "text": "Paytable"
+},
+"lbl_tooltip_labelInformation": {
+  "text": "Information"
+},
+"lbl_tooltip_labelSettings": {
+  "text": "Settings"
+},
+"lbl_tooltip_labelHistory": {
+  "text": "Game History"
+},
+"lbl_tooltip_labelCashier": {
+  "text": "Cashier"
+},
+"lbl_tooltip_labelHome": {
+  "text": "Home"
+},
+"lbl_tooltip_AudioOnAndOff":{
+  "text":"Audio On/Off"
+}
+
+}

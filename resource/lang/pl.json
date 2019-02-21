@@ -1,0 +1,125 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": { 
+    "text": "Masz %freePlayCounter% BEZPŁATNE GRY przy stawce %freePlayStake%"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Wybierz ikonę GOLDEN CHIP w dowolnym momencie,\n aby odtworzyć"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "GRATULACJE"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Bezpłatne gry zakończone"
+  },
+  "lbl_you_have_won": {
+    "text": "WYGRAŁEŚ:"
+  },
+  "lbl_free_play_completed": {
+    "text": "Bezpłatne gry zakończone"
+  },
+  "lbl_free_plays_left": {
+    "text": "Pozostało DARMOWYCH GIER %freePlayCounter% "
+  },
+  "lbl_NoLimits":{
+    "text":"BEZ LIMITÓW"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"SPRAWDZENIE AUTENTYCZNOŚCI"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"Poprosiłeś(aś) o kontrolę czasu spędzonego w grze \n co % minut(y) gry. Twoja sesja % trwa już minut:"
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"ZERWANE POŁĄCZENIE"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"Straciłeś połączenie z serwerem gry. \n Proszę wznowić grę i spróbować ponownie."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"Bezpieczeństwo jest dla nas ważne. Byłeś nieaktywny przez jakiś czas, dlatego zostałeś automatycznie wylogowany ze swojej sesji."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"LIMIT CZASU BEZPIECZEŃSTWA"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"NIEWYSTARCZAJĄCE ŚRODKI"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Brak wystarczających środków, by zakończyć rundę."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"WZNAWIANIE POPRZEDNIEJ GRY"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"Widzimy, że poprzedniej gdy nie \n ukończono. Wznowimy ją teraz, \n abyś mógł/mogła ją kontynuować."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"Wykryliśmy, że grasz na przeglądarce IE11,\n co może powodować problemy z dźwiękiem w grze, zalecamy \ngrę na powszechnie używanych przeglądarkach, \nby mieć więcej przyjemności z grania."
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "Wykryliśmy, że ściągasz grę na iPad2, który nie jest urządzeniem kompatybilnym z tą grą, prosimy zmienić na urządzenie z wyższą wersją, by mieć więcej przyjemności z grania."
+  },
+  "lbl_free_spins": {
+    "text": "DARMOWE RUNDY"
+  },
+  "lbl_tooltip_labelMaxBet" :{
+    "text": "MAKSYMALNA STAWKA"
+   },
+   "lbl_tooltip_labelSpin" :{
+    "text": "Działanie"
+   },
+   "lbl_tooltip_labelStop" :{
+    "text": "Zatrzymać Autogra"
+   },
+  
+   "lbl_tooltip_labelBetSettings":{
+    "text":"Ustawienia zakładu"
+  },
+  "lbl_auto_play": {
+    "text": "Gra automatyczna"
+  },
+"lbl_tooltip_auto_play_off": {
+  "text": "Zatrzymać Autogra"
+},
+  "lbl_tooltip_labelGameSettings":{
+    "text": "Ustawienia gry"
+  },
+  "lbl_tooltip_labelpaytable": {
+    "text": "Tabela wygranych"
+  },
+  "lbl_tooltip_labelInformation": {
+    "text": "INFORMACJE"
+  },
+  "lbl_tooltip_labelSettings": {
+    "text": "Ustawienia"
+  },
+  "lbl_tooltip_labelHistory": {
+    "text": "Historia gry"
+  },
+  "lbl_tooltip_labelCashier": {
+    "text": "Kasjer"
+  },
+  "lbl_tooltip_labelHome": {
+    "text": "Dom"
+  },
+  "lbl_tooltip_AudioOnAndOff":{
+    "text":"Włącz dźwięk/wyłączone"
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "ALARM"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "ALARM"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "ALARM"
+  }
+}
