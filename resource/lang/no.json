@@ -30,7 +30,7 @@
     "text":"VIRKELIGHETSSJEKK"
   },
   "lbl_RealityCheckText" : {
-    "text":"Du har bedt om en virkelighetskontroll hvert %n % minutt under spillingen. Din spilløkt %n% har nå nådd minutter"
+    "text":"Du har bedt om en virkelighetskontroll hvert % minutt \n under spillingen. Din spilløkt % har nå nådd minutter"
   },
   "lbl_NetworkErrorHeading" : {
     "text":"MISTET FORBINDELSE"
@@ -77,7 +77,7 @@
     "text": "SPINN"
    },
    "lbl_tooltip_labelStop" :{
-    "text": "Stop"
+    "text": "Stopp Autospill"
    },
   
    "lbl_tooltip_labelBetSettings":{

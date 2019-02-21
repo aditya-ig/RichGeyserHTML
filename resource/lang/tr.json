@@ -30,7 +30,7 @@
     "text":"GERÇEKLİK KONTROLÜ"
   },
   "lbl_RealityCheckText" : {
-    "text":"Oyunun oynandığı her %n % dakika Reality Check talebinde bulundunuz. Oyun %n% oturumunuz için izin verilen dakikaya ulaşıldı."
+    "text":"Oyunun oynandığı her % dakika Reality Check \ntalebinde bulundunuz. Oyun % oturumunuz için izin \nverilen dakikaya ulaşıldı."
   },
   "lbl_NetworkErrorHeading" : {
     "text":"SON BAĞLANTI"
@@ -77,7 +77,7 @@
     "text": "DÖNDÜR"
    },
    "lbl_tooltip_labelStop" :{
-    "text": "Stop"
+    "text": "Durmak Autoplay'ler"
    },
   
    "lbl_tooltip_labelBetSettings":{

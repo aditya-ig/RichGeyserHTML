@@ -143,16 +143,6 @@
       "key": "manifest",
       "url": "resource/manifest/list_free_postload_%lang%_%res%.json",
       "type": "pack"
-    },
-    "freeGameBgBackgroundAnim_spine": {
-      "key": "freegame_idle",
-      "url": "images/common/postload/other/freegame/bg/freegame_idle.json",
-      "type": "spine"
-    },
-    "freeGameIntroAnim_spine": {
-      "key": "transition",
-      "url": "images/common/postload/other/freegame/transition/transition.json",
-      "type": "spine"
     }
   }
 }

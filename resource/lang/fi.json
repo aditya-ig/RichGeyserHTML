@@ -30,7 +30,7 @@
     "text":"TODELLISUUDEN TARKASTUS"
   },
   "lbl_RealityCheckText" : {
-    "text":"Olette pyytäneet peliaika-vahdin, joka %n% minuutin kuluttua. Peli-istuntosi on nyt %n% minuuttia."
+    "text":"Olette pyytäneet peliaika-vahdin, joka % minuutin kuluttua. \n Peli-istuntosi on nyt % minuuttia."
   },
   "lbl_NetworkErrorHeading" : {
     "text":"YHTEYS KATKESI"
@@ -77,7 +77,7 @@
     "text": "Pyöriä"
    },
    "lbl_tooltip_labelStop" :{
-    "text": "Stop"
+    "text": "Lopeta toistetaan automaattisesti"
    },
   
    "lbl_tooltip_labelBetSettings":{

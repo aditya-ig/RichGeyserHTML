@@ -30,7 +30,7 @@
     "text":"REALITY CHECK"
   },
   "lbl_RealityCheckText" : {
-    "text":"Du har begärt att bli påmind om en verklighetskoll var %n % minut under spelets gång. Din spelsession %n% har nu varat i minuter."
+    "text":"Du har begärt att bli påmind om en verklighetskoll var \n % minut under spelets gång. Din spelsession % har \nnu varat i minuter."
   },
   "lbl_NetworkErrorHeading" : {
     "text":"CONEXIÓN PERDIDA"
@@ -49,7 +49,7 @@
     "text":"OTILLRÄCKLIGT SALDO"
   },
   "lbl_InSufficientFundErrorMsg" : {
-    "text":"Fondos insuficientes para completar el giro."
+    "text":"Otillräckliga medel för att genomföra spelomgången."
   },
 
   "lbl_ShowBrokenPopUpHeading" : {
@@ -59,7 +59,7 @@
     "text":"Vi har upptäckt att det föregående spelet inte \n slutförts. Vi kommer att återuppta spelet, som du nu \n kan fortsätta med."
   },
   "lbl_GameOnIEBrowserErrorMsg":{
-    "text":"Hemos detectado que está jugando con el navegador IE11, lo\n cual podría provocar algunos problemas de sonido en el \n juego.Le recomendamos jugar con los navegadores más \n conocidos para disfrutar de una mejor experiencia de juego."
+    "text": "Vi har upptäckt att du spelar via webbläsaren IE11, vilket\n kan medföra vissa ljudproblem i spelet. Vi rekommenderar \n att du istället spelar det här spelet på någon av de \n vanligaste webbläsarna för att få en bättre spelupplevelse."
   },
   "lbl_GameOnUCBrowserErrorMsg":{
     "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
@@ -77,7 +77,7 @@
     "text": "Acción"
    },
    "lbl_tooltip_labelStop" :{
-    "text": "Stop"
+    "text": "Stopp Autospel"
    },
   
    "lbl_tooltip_labelBetSettings":{

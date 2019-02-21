@@ -1,356 +1,307 @@
 
 basegame_idle.png
-size: 2048,2048
+size: 2048,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-basegame_bg_shine
+basegame_bg_grass_1
   rotate: false
-  xy: 2, 1354
-  size: 640, 360
-  orig: 640, 360
+  xy: 1507, 68
+  size: 90, 148
+  orig: 90, 148
   offset: 0, 0
   index: -1
-basegame_coral_1
-  rotate: false
-  xy: 2, 425
-  size: 62, 70
-  orig: 62, 70
-  offset: 0, 0
-  index: -1
-basegame_coral_10
-  rotate: false
-  xy: 721, 1532
-  size: 61, 182
-  orig: 61, 182
-  offset: 0, 0
-  index: -1
-basegame_coral_11
-  rotate: false
-  xy: 944, 1647
-  size: 102, 67
-  orig: 102, 67
-  offset: 0, 0
-  index: -1
-basegame_coral_12
-  rotate: false
-  xy: 1286, 1729
-  size: 75, 66
-  orig: 75, 66
-  offset: 0, 0
-  index: -1
-basegame_coral_13
-  rotate: false
-  xy: 2, 1716
-  size: 1282, 330
-  orig: 1282, 330
-  offset: 0, 0
-  index: -1
-basegame_coral_14
-  rotate: false
-  xy: 1559, 1913
-  size: 97, 133
-  orig: 97, 133
-  offset: 0, 0
-  index: -1
-basegame_coral_15
-  rotate: false
-  xy: 845, 1585
-  size: 97, 129
-  orig: 97, 129
-  offset: 0, 0
-  index: -1
-basegame_coral_16
-  rotate: false
-  xy: 1212, 1652
-  size: 42, 62
-  orig: 42, 62
-  offset: 0, 0
-  index: -1
-basegame_coral_17
-  rotate: false
-  xy: 2, 873
-  size: 159, 115
-  orig: 159, 115
-  offset: 0, 0
-  index: -1
-basegame_coral_18
-  rotate: false
-  xy: 1286, 1797
-  size: 83, 249
-  orig: 83, 249
-  offset: 0, 0
-  index: -1
-basegame_coral_19
+basegame_bg_grass_10
   rotate: true
-  xy: 2, 211
-  size: 55, 45
-  orig: 55, 45
+  xy: 1797, 263
+  size: 102, 143
+  orig: 102, 143
   offset: 0, 0
   index: -1
-basegame_coral_2
-  rotate: false
-  xy: 944, 1600
-  size: 100, 45
-  orig: 100, 45
-  offset: 0, 0
-  index: -1
-basegame_coral_20
+basegame_bg_grass_11
   rotate: true
-  xy: 1758, 1996
-  size: 50, 113
-  orig: 50, 113
+  xy: 723, 216
+  size: 132, 248
+  orig: 132, 248
   offset: 0, 0
   index: -1
-basegame_coral_21
+basegame_bg_grass_12
   rotate: true
-  xy: 1982, 1999
-  size: 47, 58
-  orig: 47, 58
+  xy: 1709, 367
+  size: 63, 227
+  orig: 63, 227
   offset: 0, 0
   index: -1
-basegame_coral_22
+basegame_bg_grass_13
+  rotate: false
+  xy: 1951, 396
+  size: 95, 114
+  orig: 95, 114
+  offset: 0, 0
+  index: -1
+basegame_bg_grass_14
   rotate: true
-  xy: 2, 100
-  size: 55, 40
-  orig: 55, 40
+  xy: 1923, 166
+  size: 87, 121
+  orig: 87, 121
   offset: 0, 0
   index: -1
-basegame_coral_23
+basegame_bg_grass_15
   rotate: false
-  xy: 52, 588
-  size: 74, 89
-  orig: 74, 89
+  xy: 1599, 136
+  size: 91, 107
+  orig: 91, 107
   offset: 0, 0
   index: -1
-basegame_coral_24
+basegame_bg_grass_16
+  rotate: false
+  xy: 978, 60
+  size: 159, 162
+  orig: 159, 162
+  offset: 0, 0
+  index: -1
+basegame_bg_grass_17
+  rotate: false
+  xy: 1302, 348
+  size: 192, 162
+  orig: 192, 162
+  offset: 0, 0
+  index: -1
+basegame_bg_grass_18
+  rotate: false
+  xy: 1221, 49
+  size: 69, 177
+  orig: 69, 177
+  offset: 0, 0
+  index: -1
+basegame_bg_grass_19
   rotate: true
-  xy: 845, 1554
-  size: 29, 93
-  orig: 29, 93
+  xy: 1797, 206
+  size: 55, 124
+  orig: 55, 124
   offset: 0, 0
   index: -1
-basegame_coral_25
-  rotate: false
-  xy: 2, 268
-  size: 44, 77
-  orig: 44, 77
-  offset: 0, 0
-  index: -1
-basegame_coral_26
-  rotate: false
-  xy: 1658, 1971
-  size: 98, 75
-  orig: 98, 75
-  offset: 0, 0
-  index: -1
-basegame_coral_27
-  rotate: false
-  xy: 452, 915
-  size: 18, 20
-  orig: 18, 20
-  offset: 0, 0
-  index: -1
-basegame_coral_28
-  rotate: false
-  xy: 2, 2
-  size: 9, 46
-  orig: 9, 46
-  offset: 0, 0
-  index: -1
-basegame_coral_29
-  rotate: false
-  xy: 644, 1498
-  size: 75, 216
-  orig: 75, 216
-  offset: 0, 0
-  index: -1
-basegame_coral_3
+basegame_bg_grass_2
   rotate: true
-  xy: 1658, 1920
-  size: 49, 90
-  orig: 49, 90
+  xy: 1496, 295
+  size: 71, 150
+  orig: 71, 150
   offset: 0, 0
   index: -1
-basegame_coral_30
+basegame_bg_grass_20
   rotate: false
-  xy: 784, 1538
-  size: 59, 176
-  orig: 59, 176
+  xy: 723, 2
+  size: 128, 212
+  orig: 128, 212
   offset: 0, 0
   index: -1
-basegame_coral_31
+basegame_bg_grass_21
   rotate: false
-  xy: 278, 884
-  size: 26, 25
-  orig: 26, 25
+  xy: 1292, 54
+  size: 149, 162
+  orig: 149, 162
   offset: 0, 0
   index: -1
-basegame_coral_32
+basegame_bg_grass_22
   rotate: false
-  xy: 2, 497
-  size: 72, 89
-  orig: 72, 89
+  xy: 1942, 255
+  size: 86, 139
+  orig: 86, 139
   offset: 0, 0
   index: -1
-basegame_coral_33
+basegame_bg_grass_23
   rotate: true
-  xy: 571, 945
-  size: 43, 65
-  orig: 43, 65
+  xy: 1648, 245
+  size: 120, 147
+  orig: 120, 147
   offset: 0, 0
   index: -1
-basegame_coral_34
+basegame_bg_grass_24
   rotate: false
-  xy: 721, 1516
-  size: 38, 14
-  orig: 38, 14
+  xy: 1040, 350
+  size: 260, 160
+  orig: 260, 160
   offset: 0, 0
   index: -1
-basegame_coral_35
+basegame_bg_grass_25
   rotate: false
-  xy: 326, 911
-  size: 124, 77
-  orig: 124, 77
+  xy: 2, 350
+  size: 1036, 160
+  orig: 1036, 160
   offset: 0, 0
   index: -1
-basegame_coral_36
-  rotate: false
-  xy: 1873, 1998
-  size: 107, 48
-  orig: 107, 48
-  offset: 0, 0
-  index: -1
-basegame_coral_37
-  rotate: false
-  xy: 1371, 1804
-  size: 95, 79
-  orig: 95, 79
-  offset: 0, 0
-  index: -1
-basegame_coral_38
-  rotate: false
-  xy: 1371, 1885
-  size: 107, 161
-  orig: 107, 161
-  offset: 0, 0
-  index: -1
-basegame_coral_4
+basegame_bg_grass_3
   rotate: true
-  xy: 691, 1425
-  size: 71, 24
-  orig: 71, 24
+  xy: 1709, 432
+  size: 78, 240
+  orig: 78, 240
   offset: 0, 0
   index: -1
-basegame_coral_5
-  rotate: false
-  xy: 1142, 1651
-  size: 68, 63
-  orig: 68, 63
-  offset: 0, 0
-  index: -1
-basegame_coral_6
-  rotate: false
-  xy: 76, 511
-  size: 49, 75
-  orig: 49, 75
-  offset: 0, 0
-  index: -1
-basegame_coral_7
+basegame_bg_grass_4
   rotate: true
-  xy: 1559, 1889
-  size: 22, 96
-  orig: 22, 96
+  xy: 853, 2
+  size: 31, 174
+  orig: 31, 174
   offset: 0, 0
   index: -1
-basegame_coral_8
-  rotate: false
-  xy: 644, 1365
-  size: 45, 131
-  orig: 45, 131
-  offset: 0, 0
-  index: -1
-basegame_coral_9
-  rotate: false
-  xy: 2, 588
-  size: 48, 186
-  orig: 48, 186
-  offset: 0, 0
-  index: -1
-basegame_shadow_10
+basegame_bg_grass_5
   rotate: true
-  xy: 163, 874
-  size: 35, 113
-  orig: 35, 113
+  xy: 973, 224
+  size: 124, 209
+  orig: 124, 209
   offset: 0, 0
   index: -1
-basegame_shadow_11
-  rotate: false
-  xy: 1048, 1648
-  size: 92, 66
-  orig: 92, 66
-  offset: 0, 0
-  index: -1
-basegame_shadow_17
-  rotate: false
-  xy: 2, 776
-  size: 147, 95
-  orig: 147, 95
-  offset: 0, 0
-  index: -1
-basegame_shadow_18
-  rotate: false
-  xy: 1480, 1887
-  size: 77, 159
-  orig: 77, 159
-  offset: 0, 0
-  index: -1
-basegame_shadow_20
+basegame_bg_grass_6
   rotate: true
-  xy: 452, 937
-  size: 51, 117
-  orig: 51, 117
+  xy: 404, 25
+  size: 80, 236
+  orig: 80, 236
   offset: 0, 0
   index: -1
-basegame_shadow_29
+basegame_bg_grass_7
   rotate: true
-  xy: 163, 911
-  size: 77, 161
-  orig: 77, 161
+  xy: 1470, 218
+  size: 75, 106
+  orig: 75, 106
   offset: 0, 0
   index: -1
-basegame_shadow_3
+basegame_bg_grass_8
   rotate: true
-  xy: 2, 50
-  size: 48, 43
-  orig: 48, 43
+  xy: 1496, 378
+  size: 132, 211
+  orig: 132, 211
   offset: 0, 0
   index: -1
-basegame_shadow_32
+basegame_bg_grass_9
   rotate: false
-  xy: 52, 679
-  size: 79, 95
-  orig: 79, 95
+  xy: 1139, 46
+  size: 80, 176
+  orig: 80, 176
   offset: 0, 0
   index: -1
-basegame_shadow_33
-  rotate: false
-  xy: 2, 347
-  size: 47, 76
-  orig: 47, 76
-  offset: 0, 0
-  index: -1
-basegme_rays
-  rotate: false
-  xy: 2, 990
-  size: 638, 362
-  orig: 638, 362
-  offset: 0, 0
-  index: -1
-common_star_spark
+basegame_bg_machine_left_base
   rotate: true
-  xy: 2, 157
-  size: 52, 50
-  orig: 52, 50
+  xy: 404, 107
+  size: 241, 317
+  orig: 241, 317
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_left_cable_1
+  rotate: true
+  xy: 2, 19
+  size: 20, 219
+  orig: 20, 219
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_left_cable_2
+  rotate: true
+  xy: 1599, 64
+  size: 70, 85
+  orig: 70, 85
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_left_cable_3
+  rotate: true
+  xy: 2, 9
+  size: 8, 216
+  orig: 8, 216
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_left_part_1
+  rotate: false
+  xy: 1295, 218
+  size: 173, 128
+  orig: 173, 128
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_left_part_2
+  rotate: false
+  xy: 978, 35
+  size: 45, 23
+  orig: 45, 23
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_left_part_3
+  rotate: false
+  xy: 642, 2
+  size: 53, 103
+  orig: 53, 103
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_left_part_4
+  rotate: false
+  xy: 1443, 49
+  size: 62, 167
+  orig: 62, 167
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_base
+  rotate: true
+  xy: 2, 41
+  size: 307, 400
+  orig: 307, 400
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_cable_1
+  rotate: true
+  xy: 1496, 368
+  size: 8, 209
+  orig: 8, 209
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_cable_2
+  rotate: false
+  xy: 1578, 244
+  size: 19, 49
+  orig: 19, 49
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_part_1
+  rotate: true
+  xy: 853, 35
+  size: 179, 123
+  orig: 179, 123
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_part_2
+  rotate: false
+  xy: 2030, 376
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_part_3
+  rotate: false
+  xy: 322, 3
+  size: 59, 36
+  orig: 59, 36
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_part_4
+  rotate: true
+  xy: 1772, 173
+  size: 31, 114
+  orig: 31, 114
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_part_5
+  rotate: true
+  xy: 1184, 228
+  size: 120, 109
+  orig: 120, 109
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_part_6
+  rotate: true
+  xy: 223, 2
+  size: 37, 97
+  orig: 37, 97
+  offset: 0, 0
+  index: -1
+basegame_bg_machine_right_part_7
+  rotate: false
+  xy: 1692, 124
+  size: 78, 119
+  orig: 78, 119
   offset: 0, 0
   index: -1

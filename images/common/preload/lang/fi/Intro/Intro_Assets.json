@@ -38,7 +38,7 @@
 },
 "Continue_Over.png":
 {
-	"frame": {"x":4,"y":97,"w":282,"h":93},
+	"frame": {"x":2,"y":93,"w":265,"h":89},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":265,"h":89},

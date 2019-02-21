@@ -30,7 +30,7 @@
     "text":"PROVJERA STVARNOSTI"
   },
   "lbl_RealityCheckText" : {
-    "text":"Zahtijevali ste Provjeru u stvarnom vremenu svakih %n % minute/a igranja. Vaša sesija igranja %s% već traje minuta"
+    "text":"Zahtijevali ste Provjeru u stvarnom vremenu svakih \n % minute/a igranja. Vaša sesija igranja % već traje minuta"
   },
   "lbl_NetworkErrorHeading" : {
     "text":"PREKINUTA VEZA"
@@ -77,7 +77,7 @@
     "text": "Zavrti"
    },
    "lbl_tooltip_labelStop" :{
-    "text": "Stop"
+    "text": "Zaustaviti Automatska odigravanja"
    },
   
    "lbl_tooltip_labelBetSettings":{
