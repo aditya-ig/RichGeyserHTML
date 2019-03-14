@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 95vw;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+            word-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+        }
+
+        .pad-left10 {
+            padding-left: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul {
+            color: white;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) {
+            body {
+                font-size: 12px !important;
+                word-wrap: break-word;
+            }
+            p {
+                max-width: 90vw;
+            }
+            ul>li {
+                max-width: 90vw;
+            }
+            ul:last-child {
+                height: auto;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+            body {
+                font-size: .688em !important;
+            }
+            ul:last-child {
+                margin-bottom: 20em;
+            }
+        }
+
+        .para-box {
+            margin-bottom: 0cm;
+            font-size: 13px;
+            font-family: Calibri, serif;
+            line-height: 17px;
+            text-align: justify;
+        }
+
+        li p.para-box {
+            line-height: 100% !important;
+        }
+
+        table tr td {
+            font-size: 12px;
+            font-family: 'Segoe UI', serif;
+            line-height: 20px;
+        }
+
+        #tblGameButtons tr td:first-child,
+        #tblSettButtons tr td:nth-child(2) {
+            text-align: center;
+        }
+
+        table tr td img {
+            border: 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wild-box {
+            margin: 10px;
+        }
+
+        .help-box::-webkit-scrollbar-track {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+
+        .help-box {
+            width: 99%;
+            height: auto;
+            margin: 0 auto;
+            overflow: auto;
+            background: black;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <body>
+        <div class="help-box" id="preventZoom">
+            <p class="para-box">
+                Welcome to the RICH GEYSER Video Slot – themed upon the oil rigging industry. The game features with gushing wilds re-spin and many more exciting features.</p>
+            <p class="para-box">
+                <b>ABOUT THE GAME</b>
+            </p>
+            <p class="para-box pad-left10">
+                RICH GEYSER is played with 10 fixed paylines. The game has 8 regular symbols that pay if three or more are lined up on adjacent reels, beginning from the leftmost position on a payline.
+            </p>      
+            <p class="para-box">
+                <b>GUSHING WILD RE-SPINS BONUS</b>
+            </p>
+            <p class="para-box pad-left10">
+                2 or more wild symbols in view trigger the Gushing wilds re-spin feature. Each Oil Geyser below the reels with the triggering wild, 
+                will spout Oil up to the wild position turning any position below the triggering wild symbol into a wild. The wins are awarded and the reels 
+                re-spin with the wilds moving down 1 position. Subsequent wilds achieved during the re-spin will retrigger the re-spins. 
+                Re-spins continue until all Wilds move out of the screen.
+            </p>      
+            <p class="para-box">
+                <b>HOW TO PLAY</b>
+            </p>
+            <ul>
+                <p class="para-box"></p>
+                <li>
+                    <p class="para-box">
+                        Select your stake/coin denomination.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="para-box">
+                        Click (for Desktop) or Touch (for Mobile) the Spin button to start a game cycle.
+                    </p>
+                </li>
+            </ul>
+            <p class="para-box">
+                <b>GAME BUTTONS
+                </b>
+            </p>
+            <table id="tblGameButtons" width="510" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                <colgroup>
+                    <col width="89">
+                    <col width="90">
+                    <col width="118">
+                    <col width="155">
+                </colgroup>
+                <thead>
+                    <tr valign="TOP">
+                        <td width="89" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Icon</b>
+                            </p>
+                        </td>
+                        <td width="90" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Desktop</b>
+                            </p>
+                        </td>
+                        <td width="118" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Mobile</b>
+                            </p>
+                        </td>
+                        <td width="155" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Action</b>
+                            </p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                <img src="../../../other/paytable/Help_icons/Big_icon/Spin_Big.png" align="BOTTOM">
+                            </p>
+                        </td>
+                        <td width="90">
+                            <b>Spin</b>
+                            </p>
+                        </td>
+                        <td width="118">
+                            <b>Spin</b>
+                            </p>
+                        </td>
+                        <td width="155">
+                            Initiates a single cycle.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../lang/en/paytable/Max_Bet.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Max Bet</b>
+                        </td>
+                        <td width="118">
+                            (Contained in Stake Selection screen within the settings menu)
+                        </td>
+                        <td width="155">
+                            Sets the bet configuration to the maximum stake level. Spin button pressed to initiate.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Autoplay.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Autoplay</b>
+                        </td>
+                        <td width="118">
+                            <b>Hold down Spin for Autoplay </b>
+                            (or contained in settings menu)
+                        </td>
+                        <td width="155">
+                            Brings up menu screen showing all Autoplay Options available in the game to initiate multiple cycles simultaneously.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Bet_Settings.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Stake Selection </b>
+                        </td>
+                        <td width="118">
+                            <b>Stake Selection </b>
+                            (or contained in settings menu)
+                        </td>
+                        <td width="155">
+                            Brings up the Stake Options for the player to select the level of their wager.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Settings_Menu.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Settings Menu</b>
+                        </td>
+                        <td width="118">
+                            <b>Settings Menu
+                            </b>
+                        </td>
+                        <td width="155">
+                            Opens up a separate settings screen offering the following: Home; Audio; Game Settings; History; Info/Help and Cashier (where required).
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Audio.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Audio</b>
+                        </td>
+                        <td width="118">
+                            (Main settings area available in settings menu)
+                        </td>
+                        <td width="155">
+                            Desktop – opens the audio settings menu to enable player to independently switch on or off the music or effects.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Turbo_Play.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Turbo Play
+                            </b>
+                        </td>
+                        <td width="118">
+                            (Available in Game settings menu)
+                        </td>
+                        <td width="155">
+                            Initiates a change in the speed of the reels to a Quickspin.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="para-box">
+                <b>SETTINGS BUTTONS </b>
+                <table id="tblSettButtons" width="538" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                    <colgroup>
+                        <col width="136">
+                        <col width="71">
+                        <col width="287">
+                    </colgroup>
+                    <thead>
+                        <tr valign="TOP">
+                            <td width="136" bgcolor="#e6e6e6">
+                                <b>Symbol</b>
+                            </td>
+                            <td width="71" bgcolor="#e6e6e6">
+                                <b>Icon</b>
+                            </td>
+                            <td width="287" bgcolor="#e6e6e6">
+                                <b>Behaviour</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Cashier</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Cashier.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Initiates a return to the deposit pages of an operator for the player to add funds to their account 
+								(assuming functionality available in operator system).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Paytable &amp; Help</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Paytables_&_Help.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Details the general Paytable and feature descriptions for the game.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Game History
+                                </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_History.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Shows the player a list of game cycles played within that game session.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Bet Settings </b>
+                            </td>
+                            <td width="71">
+                                <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                    <img src="../../../other/paytable/Help_icons/Small_Icon/Stake_Selection.png" align="BOTTOM">
+                                </p>
+                            </td>
+                            <td width="287">
+                                From here the player can determine the stake value for the game, or make selection of any of the other options available.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Autoplays</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Autoplays.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Initiates the page from which the various standard and extended Autoplay options can be selected and initiated, 
+								including Loss Limits (where applicable).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Game Settings </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_Settings.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Shows the various general settings options available (e.g. Player selectable Audio settings for players to determine which sounds they 
+								wish to be played during the session).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Home</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Home.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Quits the current game session (after a final prompt) and returns the screen back to the Operators Main Game Menu pages.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="para-box">
+                    <b>OTHER GAME INFO</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Coinciding wins on different paylines are added together and paid to player.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Coin Value – Displays the theoretical stake prize of the current setting. All wins are shown in coins which should be 
+                            multiplied by the coin value to convert to a Cash Prize win.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Bet – Shows the value of bet of the current setting. The bet size is 1 coin multiplied by the number of fixed paylines.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Total bet is coin value multiplied by bet per line.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Max Bet (Desktop ONLY) – Sets the coin value to the largest available.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Spin Button – Starts the game. When the reels are spinning, the spin button transforms into the Turbo Stop Button. 
+                            Press the Turbo Stop Button to stop the reels immediately.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Autoplay – You can set the game to play without needing to press the spin button each time. Choose the number of rounds 
+                            to auto play by pressing the Autoplay button (or by holding down the Spin Button to open the Autoplay Menu (for Mobile)). 
+                            Where applicable you can choose additional conditions for when to stop Autoplay in the Game Settings. The loss limit 
+                            in some game client versions prevents you from losing above set limit during your Autoplay session. 
+                            To stop Autoplay manually, press the Stop Autoplay button.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Win – Displays the win for the current or last win paid.
+                        </p>
+                    </li>
+					<li>
+                        <p class="para-box">
+                            Cash/Coin – Displays your account balance as either Cash (monetary value) or Coins (number of credits) depending on the choice of the player. The default display is Cash.
+                        </p>
+                    </li>
+					<li>
+                        <p class="para-box">
+                             The conversion of Cash to Coins and vice a versa is done with 2 decimal values to achieve the closest original values, however in game, Coin conversions will always display in whole number.
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>RETURN TO PLAYER</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            The overall theoretical return to player is 97.36%.  
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>ADDITIONAL INFORMATION </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            All winning combinations are paid left to right on a payline, with each starting at Reel 1.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Winnings achieved within Features are paid in addition to line combinations.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            In the event of malfunction of the gaming hardware/software, all affected game bets and payouts are rendered void and all affected bets refunded.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="para-box">
+                            The maximum win in the game has an upper limit equivalent to €250,000.
+                        </p>
+                    </li>
+                    
+                    
+                    <li>
+                        <p class="para-box">
+                            <a name="_GoBack"></a>
+                            This is game rules version 1.0, dated 21/02/2019.
+                        </p>
+                    </li>
+                </ul>
+        </div>
+    </body>
+</body>
+
+</html>

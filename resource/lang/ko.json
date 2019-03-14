@@ -1,0 +1,140 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": {
+    "text": "%freePlayCounter%  무료 플레이가 %freePlayStake%  판돈에 있습니다"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "플레이할 황금 칩 아이콘을 선택하세요"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "축하합니다!"
+  },
+  "lbl_freeplay_completed": {
+    "text": "무료 플레이 완료됨"
+  },
+  "lbl_you_have_won": {
+    "text": "승리"
+  },
+  "lbl_free_play_completed": {
+    "text": "무료 플레이 완료됨"
+  },
+  "lbl_free_plays_left": {
+    "text": "%freePlayCounter% 무료 플레이 남음"
+  },
+  "lbl_free_play_resume": {
+    "text": "재생 다시 시작"
+  },
+  "lbl_back_to_game": {
+    "text": "BACK TO GAME"
+  },
+ 
+  
+  "lbl_NumberOfSpins":{
+    "text":"스핀 횟수"
+  },
+  "lbl_NumberOfSpinsOff":{
+    "text":"끔"
+  },
+  "lbl_NoLimits":{
+    "text":"한도 없음"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"현실 확인"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"게임 플레이 %분 마다 \n 현실 확인을 요청하셨습니다. 현재 게임 세션은 \n %분이 경과했습니다"
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"분실 된 연결"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"게임 서버에 대한 연결이 끊겼습니다.\n 게임을 다시 실행하고 다시 시도하세요."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"저희에게는 보안이 가장 중요합니다. 일정 시간 동안 활동이 없으셔서 게임 세션에서 자동으로 로그아웃했습니다."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"보안 시간 초과"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"자금 부족"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"스핀 완료에 필요한 자금이 부족합니다."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"이전 게임 계속하기"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"이전 게임이 완료되지 않았음을 \n 확인했습니다. 계속하기 위해 준비된 게임을 \n 계속합니다."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"게임에서 일부 사운드 문제를 유발할 수도 있는 IE11 \n브라우저에서 게임을 플레이하고 계신 것을 감지했습니다. \n더 나은 게임 환경을 위해 주요 브라우저에서 이 게임을 \n플레이하는 것을 권장합니다."
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"게임에서 일부 사운드 문제를 유발할 수도 있는 UC 브라우저에서 \n게임을 플레이하고 계신 것을 감지했습니다. 더 나은 \n게임 환경을 위해 주요 브라우저에서 이 게임을 \n플레이하는 것을 권장합니다. "
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "이 게임을 실행하는 데 호환되지 않는 장치인 iPad2에서 게임을 \n 불러오고 있음을 감지했습니다. 이 게임의 더 나은 게임 환경을 \n위해 더 높은 버전의 장치로 바꾸세요."
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "알림"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "알림"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "알림"
+  },
+  "lbl_free_spins": {
+    "text": "FREE SPINS"
+  },
+ "lbl_tooltip_labelMaxBet" :{
+  "text": "최대 베팅"
+ },
+ "lbl_tooltip_labelSpin" :{
+  "text": "스핀"
+ },
+ "lbl_tooltip_labelStop" :{
+  "text": "중지"
+ },
+
+ "lbl_tooltip_labelBetSettings":{
+  "text":"베팅 설정"
+},
+"lbl_auto_play": {
+  "text": "자동 진행"
+},
+"lbl_tooltip_auto_play_off": {
+  "text": "자동 진행 정지"
+},
+"lbl_tooltip_labelGameSettings":{
+  "text": "게임 설정"
+},
+"lbl_tooltip_labelpaytable": {
+  "text": "배당표"
+},
+"lbl_tooltip_labelInformation": {
+  "text": "정보"
+},
+"lbl_tooltip_labelSettings": {
+  "text": "설정 메"
+},
+"lbl_tooltip_labelHistory": {
+  "text": "게임 기록"
+},
+"lbl_tooltip_labelCashier": {
+  "text": "캐셔"
+},
+"lbl_tooltip_labelHome": {
+  "text": "홈"
+},
+"lbl_tooltip_AudioOnAndOff":{
+  "text":"오디오 켬/끔"
+}
+
+}

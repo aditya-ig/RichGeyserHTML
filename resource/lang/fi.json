@@ -1,0 +1,125 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": { 
+    "text": "Sinulla on %freePlayCounter% ILMAISTA PELIÄ panoksella %freePlayStake%"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Ensiluokkainen GOLDEN CHIP ikoni hän jotta ilakoida"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "Onnittelut"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Ilmaiset pelit käytetty"
+  },
+  "lbl_you_have_won": {
+    "text": "VOITIT"
+  },
+  "lbl_free_play_completed": {
+    "text": "Ilmaiset pelit käytetty"
+  },
+  "lbl_free_plays_left": {
+    "text": "%freePlayCounter%  ILMAISTA PELIÄ jäljellä"
+  },
+  "lbl_NoLimits":{
+    "text":"NO LIMITS"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"TODELLISUUDEN TARKASTUS"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"Olette pyytäneet peliaika-vahdin, joka % minuutin kuluttua. \n Peli-istuntosi on nyt % minuuttia."
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"YHTEYS KATKESI"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"Yhteys Pelin Palvelimeen katkesi. \n Ole hyvä ja käynnistä peli uudelleen."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"Turvallisuutesi on meille tärkeää. Koska et ole pelannut vähään aikaan, sinut on kirjattu automaattisesti ulos pelisessiosta."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"TURVALLISUUNNITELMA"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"VARAT EIVÄT RIITÄ"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Varat eivät riitä pyöräytykseen."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"JATKETAAN EDELLISTÄ PELIÄ"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"Huomasimme, että viimeisin peli ei \npäättynyt. Käynnistämme nyt pelin voidaksenne jatkaa sitä."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"Huomasimme, että pelaat \nIE11-selaimella, mikä saattaa aiheuttaa pelin aikana \nääniongelmia; saat paremman pelikokemuksen \nkäyttämällä jotain muuta suosittua selainta."
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "Huomasimme, että lataat peliä iPad2:lle, joka ei ole tämän pelin kanssa yhteensopiva laiteversio. Saat paremman pelikokemuksen käyttämällä uudempaa laiteversiota."
+  },
+  "lbl_free_spins": {
+    "text": "ILMAISKIERROKSET"
+  },
+  "lbl_tooltip_labelMaxBet" :{
+    "text": "MAKSIMIPANOS"
+   },
+   "lbl_tooltip_labelSpin" :{
+    "text": "Pyöriä"
+   },
+   "lbl_tooltip_labelStop" :{
+    "text": "Lopeta toistetaan automaattisesti"
+   },
+  
+   "lbl_tooltip_labelBetSettings":{
+    "text":"Vetoasetukset"
+  },
+  "lbl_auto_play": {
+    "text": "Automaattipeli"
+  },
+"lbl_tooltip_auto_play_off": {
+  "text": "Lopeta toistetaan automaattisesti"
+},
+  "lbl_tooltip_labelGameSettings":{
+    "text": "Peliasetukset"
+  },
+  "lbl_tooltip_labelpaytable": {
+    "text": "VOITONMAKSUTAULUKKO"
+  },
+  "lbl_tooltip_labelInformation": {
+    "text": "TIEDOT"
+  },
+  "lbl_tooltip_labelSettings": {
+    "text": "asetukset"
+  },
+  "lbl_tooltip_labelHistory": {
+    "text": "Pelihistoria"
+  },
+  "lbl_tooltip_labelCashier": {
+    "text": "Kassanhoitaja"
+  },
+  "lbl_tooltip_labelHome": {
+    "text": "Aloitus"
+  },
+  "lbl_tooltip_AudioOnAndOff":{
+    "text":"Ääni päälle/Pois"
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "HÄLYTYS"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "HÄLYTYS"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "HÄLYTYS"
+  }
+}

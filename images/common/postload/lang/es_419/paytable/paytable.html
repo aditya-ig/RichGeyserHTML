@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 95vw;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+            word-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+        }
+
+        .pad-left10 {
+            padding-left: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul {
+            color: white;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) {
+            body {
+                font-size: 12px !important;
+                word-wrap: break-word;
+            }
+            p {
+                max-width: 90vw;
+            }
+            ul>li {
+                max-width: 90vw;
+            }
+            ul:last-child {
+                height: auto;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+            body {
+                font-size: .688em !important;
+            }
+            ul:last-child {
+                margin-bottom: 20em;
+            }
+        }
+
+        .para-box {
+            margin-bottom: 0cm;
+            font-size: 13px;
+            font-family: Calibri, serif;
+            line-height: 17px;
+            text-align: justify;
+        }
+
+        li p.para-box {
+            line-height: 100% !important;
+        }
+
+        table tr td {
+            font-size: 12px;
+            font-family: 'Segoe UI', serif;
+            line-height: 20px;
+        }
+
+        #tblGameButtons tr td:first-child,
+        #tblSettButtons tr td:nth-child(2) {
+            text-align: center;
+        }
+
+        table tr td img {
+            border: 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wild-box {
+            margin: 10px;
+        }
+
+        .help-box::-webkit-scrollbar-track {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+
+        .help-box {
+            width: 99%;
+            height: auto;
+            margin: 0 auto;
+            overflow: auto;
+            background: black;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <body>
+        <div class="help-box" id="preventZoom">
+            <p class="para-box">
+               Bienvenido al tragamonedas en video RICH GEYSER, basado en el tema de las plataformas petroleras. Este juego incluye características con comodines “GUSHING” , con nuevas vueltas y muchas atractivas características más.
+            </p>
+            <p class="para-box">
+                <b>ACERCA DEL JUEGO</b>
+            </p>
+            <p class="para-box pad-left10">
+                RICH GEYSER se juega con 10 líneas de pago fijas. El juego tiene 8 símbolos regulares que pagan si tres o más de ellos están alineados en cilindros adyacentes, comenzando desde la posición más a la izquierda de una línea de pago.
+                </p>
+                <p class="para-box">
+                    <b>BONO DE NUEVAS VUELTAS POR COMODÍN “GUSHING”</b>
+                </p>
+            <p class="para-box pad-left10">
+                2 o más símbolos de comodín a la vista otorgan la función de nueva vuelta “gushing wilds”. cada “geiser de petróleo” por debajo de los cilindros con el comodín pondrá petróleo en la posición de comodín convirtiendo toda posición por debajo del comodín en un comodín. los triunfos son premiados y los cilindros vuelven a girar con los comodines bajando 1 posición. los comodines subsiguientes logrados durante la nueva vuelta otorgarán nuevas vueltas. las nuevas vueltas continuarán hasta que todos los comodines queden fuera de pantalla. 
+            </p>      
+            <p class="para-box">
+                <b>CÓMO JUGAR</b>
+            </p>
+            <ul>
+                <p class="para-box"></p>
+                <li>
+                    <p class="para-box">
+                        Seleccione su denominación de apuesta / moneda.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="para-box">
+                        Haga clic en (para escritorio) o toque (para dispositivos móviles) el botón Girar (Spin) para iniciar un ciclo de juego.
+                    </p>
+                </li>
+            </ul>
+            <p class="para-box">
+                <b>BOTONES DEL JUEGO
+                </b>
+            </p>
+            <table id="tblGameButtons" width="510" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                <colgroup>
+                    <col width="89">
+                    <col width="90">
+                    <col width="118">
+                    <col width="155">
+                </colgroup>
+                <thead>
+                    <tr valign="TOP">
+                        <td width="89" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Icono</b>
+                            </p>
+                        </td>
+                        <td width="90" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Escritorio</b>
+                            </p>
+                        </td>
+                        <td width="118" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Dispositivo móvil</b>
+                            </p>
+                        </td>
+                        <td width="155" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Acción</b>
+                            </p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                <img src="../../../other/paytable/Help_icons/Big_icon/Spin_Big.png" align="BOTTOM">
+                            </p>
+                        </td>
+                        <td width="90">
+                            <b>Girar</b>
+                            </p>
+                        </td>
+                        <td width="118">
+                            <b>Girar</b>
+                            </p>
+                        </td>
+                        <td width="155">
+                            Inicia un ciclo simple
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../lang/es_419/paytable/Max_Bet.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Apuesta máxima</b>
+                        </td>
+                        <td width="118">
+                            (contenida en la pantalla de selección de apuesta en el menú de configuración)
+                        </td>
+                        <td width="155">
+                            Establece la configuración de apuestas en el nivel máximo de apuesta. Botón Girar presionado para iniciar.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Autoplay.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Juego automático</b>
+                        </td>
+                        <td width="118">
+                            <b>Mantenga presionado el botón Girar para entrar en juego automático </b>
+                            (o la opción contenida en el menú de configuración)
+                        </td>
+                        <td width="155">
+                            Muestra la pantalla del menú con todas las opciones de juego automático disponibles en el juego para iniciar múltiples ciclos simultáneamente.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Bet_Settings.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Selección de apuesta </b>
+                        </td>
+                        <td width="118">
+                            <b>Selección de apuesta </b>
+                            (o la contenida en el menú de configuración)
+                        </td>
+                        <td width="155">
+                            Muestra las Opciones de apuesta para que el jugador seleccione el nivel de su apuesta.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Settings_Menu.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Menú de configuración</b>
+                        </td>
+                        <td width="118">
+                            <b>Menú de configuración
+                            </b>
+                        </td>
+                        <td width="155">
+                            Abre una pantalla de configuración separada que ofrece lo siguiente: Inicio; Audio; Configuraciones de juego; Historial; Información / Ayuda y Cajero (donde se requiera)
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Audio.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Audio</b>
+                        </td>
+                        <td width="118">
+                            (El área principal de configuración está disponible en el menú de configuración)
+                        </td>
+                        <td width="155">
+                            Escritorio: abre el menú de configuración de audio para permitir que el reproductor active o desactive la música o los efectos de forma independiente.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Turbo_Play.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Turbo Play
+                            </b>
+                        </td>
+                        <td width="118">
+                            (disponible en el Menú de configuración del juego)
+                        </td>
+                        <td width="155">
+                            Inicia un cambio en la velocidad de los cilindros para un Quickspin
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="para-box">
+                <b>BOTONES DE CONFIGURACIÓN </b>
+                <table id="tblSettButtons" width="538" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                    <colgroup>
+                        <col width="136">
+                        <col width="71">
+                        <col width="287">
+                    </colgroup>
+                    <thead>
+                        <tr valign="TOP">
+                            <td width="136" bgcolor="#e6e6e6">
+                                <b>Símbolo</b>
+                            </td>
+                            <td width="71" bgcolor="#e6e6e6">
+                                <b>Icono</b>
+                            </td>
+                            <td width="287" bgcolor="#e6e6e6">
+                                <b>Comportamiento</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Cajero</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Cashier.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Inicia el regreso a las páginas de depósito de un operador para que el jugador agregue fondos a su cuenta (suponiendo que la función esté disponible en el sistema del operador).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Tabla de pagos y Ayuda</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Paytables_&_Help.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Detalla las tablas de pagos generales y las descripciones de las características del juego.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Historial del juego
+                                </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_History.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Muestra al jugador una lista de ciclos de juego jugados durante esa sesión de juego.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Configuración de apuesta </b>
+                            </td>
+                            <td width="71">
+                                <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                    <img src="../../../other/paytable/Help_icons/Small_Icon/Stake_Selection.png" align="BOTTOM">
+                                </p>
+                            </td>
+                            <td width="287">
+                                Desde aquí, el jugador puede determinar el valor de apuesta para el juego o hacer una selección de otras opciones disponibles.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Juego automático</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Autoplays.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Inicia la página desde la cual se pueden seleccionar e iniciar las diversas opciones de juego automático, extendido y estándar, incluyendo los límites de pérdida (cuando corresponda).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Configuración de juego </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_Settings.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Muestra las diversas opciones de configuración generales disponibles (por ejemplo, los ajustes de audio que el jugador puede seleccionar para determinar qué sonidos desea que se reproduzcan durante la sesión).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Inicio</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Home.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Sale de la sesión de juego actual (después de un aviso final) y regresa la pantalla a las páginas del Menú principal de juego de los operadores.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="para-box">
+                    <b>OTRA INFORMACIÓN DEL JUEGO</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Los triunfos que coinciden en diferentes líneas de pago se suman y pagan al jugador.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Valor de moneda: muestra el premio de apuesta teórico de la configuración actual. Todos los triunfos se muestran en monedas que se deben multiplicar por el valor de la moneda para convertirla en una ganancia en efectivo.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Apuesta: muestra el valor de la apuesta de la configuración actual. El valor de la apuesta es de 1 moneda multiplicada por el multiplicador de apuestas.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            La apuesta total es el valor de la moneda multiplicado por la apuesta por línea.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Apuesta máxima (SOLO para computadora de escritorio): establece el valor de la moneda al mayor disponible.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                          Botón Girar: inicia el juego Cuando los cilindros giran, el botón Girar se transforma en el botón Turbo Stop. Presione el botón Turbo Stop para detener los cilindros de inmediato.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Juego automático: puede configurar el juego para jugar sin necesidad de presionar a cada vez el botón Girar. Elija el número de vueltas de juego automático presionando el botón Juego automático (o manteniendo presionado el botón Girar para abrir el menú de juego automático. En la Configuración de juego podrá elegir, cuando corresponda, condiciones adicionales sobre cuándo detener el juego automático. En algunas versiones del juego, el límite de pérdida evita que pierda por encima del límite establecido durante la sesión de juego automático Para detener el juego automático de forma manual, presione el botón Detener juego automático.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Triunfo: muestra la ganancia para el triunfo actual o para el último ganado.
+                        </p>
+                    </li>
+					<li>
+                        <p class="para-box">
+                            Efectivo / Moneda: muestra el saldo de su cuenta en Efectivo (valor monetario) o Monedas (número de créditos) según la opción del jugador. La pantalla predeterminada es Efectivo.
+                        </p>
+                    </li>
+					<li>
+                    <p class="para-box">
+				    La conversión de efectivo a moneda y viceversa se realiza con 2 valores decimales para lograr los valores originales más cercanos. Sin embargo, en el juego, las conversiones de moneda siempre se mostrarán en números enteros.
+				 </p>
+                </li>
+                </ul>
+                <p class="para-box">
+                    <b>RENDIMIENTO PARA EL JUGADOR</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            El rendimiento general teórico para el jugador es 97.36%.    
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>INFORMACIÓN ADICIONAL </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Todas las combinaciones ganadoras se pagan de izquierda a derecha en una línea de pago, excepto las combinaciones de dispersión (scatter), que pueden aparecer en cualquier posición.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Las ganancias logradas con distintas características se pagan además de las combinaciones de modos.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            En caso de mal funcionamiento del hardware / software del juego, todas las apuestas y pagos afectados se anulan y todas las apuestas afectadas se reembolsan.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            El triunfo máximo del juego tiene un límite máximo de €250,000.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p class="para-box">
+                            <a name="_GoBack"></a>
+                            Esta es la versión 1.0 de las reglas del juego, con fecha 21/02/2019.
+                        </p>
+                    </li>
+                </ul>
+        </div>
+    </body>
+</body>
+
+</html>

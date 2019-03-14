@@ -1,0 +1,30 @@
+{"frames": {
+
+"Bet_Setting_Normal.png":
+{
+	"frame": {"x":3,"y":3,"w":116,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":116,"h":116},
+	"sourceSize": {"w":116,"h":116},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Bet_Setting_Select.png":
+{
+	"frame": {"x":123,"y":3,"w":116,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":116,"h":116},
+	"sourceSize": {"w":116,"h":116},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Total_Bet_btn.png",
+	"format": "RGBA8888",
+	"size": {"w":242,"h":122},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:14ffae78bca3adcbb85b38ee2c898fca:460e5c78f2076cb6eba1ef0faa04cb30:a8e19aa38eeb89e0c1b44b7a5f554d42$"
+}
+}

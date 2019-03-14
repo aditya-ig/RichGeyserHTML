@@ -1,0 +1,39 @@
+{"frames": {
+
+"MaxBet_Btn_Disable.png":
+{
+	"frame": {"x":2,"y":2,"w":112,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":62},
+	"sourceSize": {"w":112,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MaxBet_Btn_Normal.png":
+{
+	"frame": {"x":2,"y":66,"w":112,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":62},
+	"sourceSize": {"w":112,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MaxBet_Btn_Over.png":
+{
+	"frame": {"x":2,"y":130,"w":112,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":62},
+	"sourceSize": {"w":112,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "MaxBet_Btn.png",
+	"format": "RGBA8888",
+	"size": {"w":116,"h":194},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:365e6009754a675b6efa8d11972691a9:f878225f773df1538c9854450dcc836b:2d4725d5542a033e8fc78af115fef9a6$"
+}
+}

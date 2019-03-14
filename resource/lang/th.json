@@ -1,0 +1,140 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": {
+    "text": "คุณมีการเล่นฟรีได้ %freePlayCounter% ครั้งที่วงเงินเดิมพัน %freePlayStake%"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "เลือกไอคอน GOLDEN CHIP เพื่อเล่นได้ทุกเวลา"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "ขอแสดงความยินดี!"
+  },
+  "lbl_freeplay_completed": {
+    "text": "จบการเล่นฟรีแล้ว"
+  },
+  "lbl_you_have_won": {
+    "text": "คุณชนะ"
+  },
+  "lbl_free_play_completed": {
+    "text": "จบการเล่นฟรีแล้ว"
+  },
+  "lbl_free_plays_left": {
+    "text": "เหลือการเล่นฟรี %freePlayCounter% ครั้ง"
+  },
+  "lbl_free_play_resume": {
+    "text": "เล่นต่อ"
+  },
+  "lbl_back_to_game": {
+    "text": "BACK TO GAME"
+  },
+ 
+  
+  "lbl_NumberOfSpins":{
+    "text":"จำนวนการหมุน"
+  },
+  "lbl_NumberOfSpinsOff":{
+    "text":"ปิด"
+  },
+  "lbl_NoLimits":{
+    "text":"ไม่มีขีดจำกัด"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"ตรวจสอบสภาพจริง"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"คุณกำหนดให้มีการตรวจสอบสภาพจริงทุก \n % นาทีของการเล่นเกม ขณะนี้รอบเกมของคุณ\n ครบ % นาทีแล้ว"
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"การเชื่อมต่อที่หายไป"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"คุณขาดการเชื่อมต่อกับเซิร์ฟเวอร์เกม \nกรุณาเริ่มเกมใหม่และลองอีกครั้ง"
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"ความปลอดภัยเป็นสิ่งสำคัญสำหรับเรา\n เราได้ตัดการเชื่อมต่อรอบเกมของคุณอัตโนมัติ \nเนื่องจากคุณไม่มีการเคลื่อนไหวเป็นระยะเวลาหนึ่ง"
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"หมดเวลาด้านความปลอดภัย"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"ยอดเงินไม่เพียงพอ"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"เงินไม่เพียงพอที่จะหมุนต่อ"
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"กลับไปยังเกมก่อนหน้า"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"เราทราบว่าเกมก่อนหน้ายังไม่ \n จบ ขณะนี้ เราจะกลับไปยังเกมดังกล่าวซึ่งพร้อม \n ให้คุณดำเนินการต่อ"
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"เราตรวจพบว่าคุณกำลังเล่นเกมในเบราว์เซอร์ IE11 \nซึ่งอาจเป็นสาเหตุของปัญหาด้านเสียงในเกม \nเราขอแนะนำให้คุณเล่นเกมนี้ในเบราว์เซอร์หลัก ๆ \nเพื่อประสบการณ์ที่ดีกว่า"
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"เราตรวจพบว่าคุณกำลังเล่นเกมในเบราว์เซอร์ UC \nซึ่งอาจเป็นสาเหตุของปัญหาด้านเสียงในเกม \nเราขอแนะนำให้คุณเล่นเกมนี้ในเบราว์เซอร์หลัก ๆ \nเพื่อประสบการณ์ที่ดีกว่า "
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "เราตรวจพบว่าคุณกำลังโหลดเกมใน iPad2 \nซึ่งเป็นอุปกรณ์ที่ไม่รองรับการเล่นเกมนี้ \nกรุณาเปลี่ยนเป็นอุปกรณ์รุ่นที่สูงกว่าเพื่อประสบการณ์ที่ดีกว่าสำหรับเกมนี้"
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "แจ้งเตือน"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "แจ้งเตือน"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "แจ้งเตือน"
+  },
+  "lbl_free_spins": {
+    "text": "FREE SPINS"
+  },
+ "lbl_tooltip_labelMaxBet" :{
+  "text": "เดิมพันสูงสุด"
+ },
+ "lbl_tooltip_labelSpin" :{
+  "text": "หมุน"
+ },
+ "lbl_tooltip_labelStop" :{
+  "text": "หยุด"
+ },
+
+ "lbl_tooltip_labelBetSettings":{
+  "text":"การตั้งค่าการเดิมพัน"
+},
+"lbl_auto_play": {
+  "text": "เล่นอัตโนมัติ"
+},
+"lbl_tooltip_auto_play_off": {
+  "text": "หยุดเล่นอัตโนมัติ"
+},
+"lbl_tooltip_labelGameSettings":{
+  "text": "การตั้งค่าเกม"
+},
+"lbl_tooltip_labelpaytable": {
+  "text": "ตารางการจ่ายเงิน"
+},
+"lbl_tooltip_labelInformation": {
+  "text": "ข้อมูล"
+},
+"lbl_tooltip_labelSettings": {
+  "text": "เมนูการตั้งค่า"
+},
+"lbl_tooltip_labelHistory": {
+  "text": "ประวัติการเล่นเกม"
+},
+"lbl_tooltip_labelCashier": {
+  "text": "แคชเชียร์"
+},
+"lbl_tooltip_labelHome": {
+  "text": "หน้าแรก"
+},
+"lbl_tooltip_AudioOnAndOff":{
+  "text":"เปิ/ปิดเสียง"
+}
+
+}

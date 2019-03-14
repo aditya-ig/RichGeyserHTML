@@ -1,0 +1,282 @@
+{"frames": {
+
+"H2_Oil_Barrel_00000.png":
+{
+	"frame": {"x":2,"y":2,"w":178,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":93,"y":64,"w":178,"h":177},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00001.png":
+{
+	"frame": {"x":182,"y":2,"w":187,"h":186},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":59,"w":187,"h":186},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00002.png":
+{
+	"frame": {"x":371,"y":2,"w":190,"h":190},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":57,"w":190,"h":190},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00003.png":
+{
+	"frame": {"x":563,"y":2,"w":192,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":56,"w":192,"h":192},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00004.png":
+{
+	"frame": {"x":757,"y":2,"w":193,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":85,"y":56,"w":193,"h":192},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00005.png":
+{
+	"frame": {"x":2,"y":196,"w":194,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":85,"y":56,"w":194,"h":193},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00006.png":
+{
+	"frame": {"x":198,"y":196,"w":194,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":85,"y":55,"w":194,"h":194},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00007.png":
+{
+	"frame": {"x":394,"y":196,"w":194,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":85,"y":55,"w":194,"h":194},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00008.png":
+{
+	"frame": {"x":590,"y":196,"w":194,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":85,"y":55,"w":194,"h":195},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00009.png":
+{
+	"frame": {"x":786,"y":196,"w":195,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":55,"w":195,"h":195},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00010.png":
+{
+	"frame": {"x":2,"y":393,"w":196,"h":200},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":50,"w":196,"h":200},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00011.png":
+{
+	"frame": {"x":200,"y":393,"w":196,"h":215},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":35,"w":196,"h":215},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00012.png":
+{
+	"frame": {"x":398,"y":393,"w":196,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":30,"w":196,"h":220},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00013.png":
+{
+	"frame": {"x":596,"y":393,"w":201,"h":229},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":21,"w":201,"h":229},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00014.png":
+{
+	"frame": {"x":799,"y":393,"w":202,"h":235},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":15,"w":202,"h":235},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00015.png":
+{
+	"frame": {"x":2,"y":630,"w":198,"h":243},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":7,"w":198,"h":243},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00016.png":
+{
+	"frame": {"x":202,"y":630,"w":203,"h":234},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":83,"y":16,"w":203,"h":234},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00017.png":
+{
+	"frame": {"x":407,"y":630,"w":200,"h":237},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":83,"y":13,"w":200,"h":237},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00018.png":
+{
+	"frame": {"x":609,"y":630,"w":212,"h":245},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":5,"w":212,"h":245},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00019.png":
+{
+	"frame": {"x":2,"y":877,"w":214,"h":236},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":69,"y":14,"w":214,"h":236},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00020.png":
+{
+	"frame": {"x":218,"y":877,"w":222,"h":229},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":67,"y":21,"w":222,"h":229},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00021.png":
+{
+	"frame": {"x":442,"y":877,"w":232,"h":240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":10,"w":232,"h":240},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00022.png":
+{
+	"frame": {"x":676,"y":877,"w":236,"h":238},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":12,"w":236,"h":238},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00023.png":
+{
+	"frame": {"x":2,"y":1119,"w":242,"h":229},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":20,"w":242,"h":229},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00024.png":
+{
+	"frame": {"x":246,"y":1119,"w":242,"h":230},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":19,"w":242,"h":230},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00025.png":
+{
+	"frame": {"x":490,"y":1119,"w":248,"h":229},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":20,"w":248,"h":229},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00026.png":
+{
+	"frame": {"x":740,"y":1119,"w":250,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":21,"w":250,"h":227},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00027.png":
+{
+	"frame": {"x":2,"y":1351,"w":220,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":71,"y":56,"w":220,"h":192},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00028.png":
+{
+	"frame": {"x":224,"y":1351,"w":216,"h":190},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":73,"y":57,"w":216,"h":190},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"H2_Oil_Barrel_00029.png":
+{
+	"frame": {"x":442,"y":1351,"w":191,"h":186},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":59,"w":191,"h":186},
+	"sourceSize": {"w":364,"h":305},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "H2_Oil_barrel.png",
+	"format": "RGBA8888",
+	"size": {"w":1003,"h":1545},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e25246bd281a2eece448d483599bd5ba:a43547347ff772565ea5300a496f277b:72b659ca8329915405a7bb5007104882$"
+}
+}

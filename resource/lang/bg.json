@@ -1,0 +1,124 @@
+{
+  
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": { 
+    "text": "Вие имате %freePlayCounter% БЕЗПЛАТНА игра на %freePlayStake% Stake"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Изберете иконата GOLDEN CHIP по всяко време, за да играете"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": " ПОЗДРАВЛЕНИЯ"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Завършени безплатни игри"
+  },
+  "lbl_you_have_won": {
+    "text": "СПЕЧЕЛИХТЕ"
+  },
+  "lbl_free_play_completed": {
+    "text": "Завършени безплатни игри"
+  },
+  "lbl_free_plays_left": {
+    "text": "%freePlayCounter% Оставащи БЕЗПЛАТНИ ИГРИ"
+  }, 
+  "lbl_NoLimits":{
+    "text":"БЕЗ ОГРАНИЧЕНИЕ"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"Проверка на реалността"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"Заявихте проверка на реалността на всеки % минути игра. \nВашата игрална сесия % вече е достигнала минути"
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"ИЗГУБЕНА ВРЪЗКА"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"Изгубихте връзка със сървъра на играта. \n Моля, стартирайте отново играта и опитайте отново. "
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"Сигурността е важна за нас. Понеже не сте били активни от известно време, автоматично сме ви отписали от вашата сесия за игри."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"ВРЕМЕ ЗА СИГУРНОСТ"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"НЕДОСТАТЪЧЕН ФОНД"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Недостатъчни средства за завършване на завъртането."
+  },
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"ВЪЗСТАНОВЯВАНЕ НА \n ПРЕДИШНАТА ИГРА"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"Признаваме, че предишна игра не \n завърши. Сега ще възстановим играта, \n за да продължите."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"Установихме, че играете на игра на \n IE11 браузър, което може да причини известни проблеми \n със звука в играта. Препоръчваме ви да играете \n тази игра на основни браузъри за по-добър опит. "
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "Установихме, че зареждате игри на iPad2, което не е съвместимо устройство за стартиране на тази игра, моля, преминете на устройството с по-висока версия за по-добър опит в тази игра."
+  },
+  "lbl_free_spins": {
+    "text": "БЕЗПЛАТНИ ЗАВЪРТАНИЯ"
+  },
+  "lbl_tooltip_labelMaxBet" :{
+    "text": "МАКСИМАЛЕН ЗАЛОГ"
+   },
+   "lbl_tooltip_labelSpin" :{
+    "text": "въртене"
+   }, 
+   "lbl_tooltip_labelBetSettings":{
+    "text":"Настройки за залога"
+  },
+  "lbl_tooltip_labelStop" :{
+    "text": "Спиране на автоматичните препратки"
+   },
+  "lbl_auto_play": {
+    "text": "Автоматично изпълнение"
+  },
+ "lbl_tooltip_auto_play_off": {
+  "text": "Спиране на автоматичните препратки"
+ },
+  "lbl_tooltip_labelGameSettings":{
+    "text": "Настройки на играта"
+  },
+  "lbl_tooltip_labelpaytable": {
+    "text": "ТАБЛИЦА С ИЗПЛАЩАНИЯ"
+  },
+  "lbl_tooltip_labelInformation": {
+    "text": "ИНФОРМАЦИЯ"
+  },
+  "lbl_tooltip_labelSettings": {
+    "text": "Настройки"
+  },
+  "lbl_tooltip_labelHistory": {
+    "text": "История на играта"
+  },
+  "lbl_tooltip_labelCashier": {
+    "text": "Касиер"
+  },
+  "lbl_tooltip_labelHome": {
+    "text": "Начало"
+  },
+  "lbl_tooltip_AudioOnAndOff":{
+    "text":"Аудио Вкл/изкл"
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "СИГНАЛ ЗА ТРЕВОГА"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "СИГНАЛ ЗА ТРЕВОГА"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "СИГНАЛ ЗА ТРЕВОГА"
+  }
+}
