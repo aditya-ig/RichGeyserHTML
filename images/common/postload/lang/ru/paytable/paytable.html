@@ -1,0 +1,510 @@
+F<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 95vw;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+            word-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+        }
+
+        .pad-left10 {
+            padding-left: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul {
+            color: white;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) {
+            body {
+                font-size: 12px !important;
+                word-wrap: break-word;
+            }
+            p {
+                max-width: 90vw;
+            }
+            ul>li {
+                max-width: 90vw;
+            }
+            ul:last-child {
+                height: auto;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+            body {
+                font-size: .688em !important;
+            }
+            ul:last-child {
+                margin-bottom: 20em;
+            }
+        }
+
+        .para-box {
+            margin-bottom: 0cm;
+            font-size: 13px;
+            font-family: Calibri, serif;
+            line-height: 17px;
+            text-align: justify;
+        }
+
+        li p.para-box {
+            line-height: 100% !important;
+        }
+
+        table tr td {
+            font-size: 12px;
+            font-family: 'Segoe UI', serif;
+            line-height: 20px;
+        }
+
+        #tblGameButtons tr td:first-child,
+        #tblSettButtons tr td:nth-child(2) {
+            text-align: center;
+        }
+
+        table tr td img {
+            border: 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wild-box {
+            margin: 10px;
+        }
+
+        .help-box::-webkit-scrollbar-track {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+
+        .help-box {
+            width: 99%;
+            height: auto;
+            margin: 0 auto;
+            overflow: auto;
+            background: black;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <body>
+        <div class="help-box" id="preventZoom">
+            <p class="para-box">
+               Добро пожаловать на видеослот RICH GEYSER – это игра на нефтепромысловую тематику. В игре представлены повторные спины бьющих фонтанами Gushing Wilds и многие другие потрясающие функции. </p>
+            <p class="para-box">
+                <b>О ИГРЕ </b>
+            </p>
+            <p class="para-box pad-left10">
+              RICH GEYSER разыгрывается с 10 фиксированными линиями выплат.  В игре используются 8 обычных символов, которые оплачиваются, если три или более символов выстраиваются в линию на соседних барабанах, начиная с самой левой позиции на линии выплат.
+            </p>      
+            <p class="para-box">
+                <b>БОНУС ПОВТОРНЫЕ СПИНЫ GUSHING WILDS </b>
+            </p>
+            <p class="para-box pad-left10">
+                2 ИЛИ БОЛЕЕ СИМВОЛОВ <IMAGE> WILD В ОКНЕ ОБЗОРА АКТИВИРУЮТ ФУНКЦИЮ ПОВТОРНЫХ СПИНОВ 'GUSHING WILDS'. КАЖДЫЙ 'НЕФТЯНОЙ ГЕЙЗЕР' ПОД БАРАБАНАМИ С АКТИВИРУЮЩИМ WILD БУДЕТ ВЫБРАСЫВАТЬ НЕФТЬ НА ПОЗИЦИЮ WILD, ПРЕВРАЩАЯ ЛЮБУЮ ПОЗИЦИЮ ПОД АКТИВИРУЮЩИМ WILD В СИМВОЛ WILD. ПРИСУЖДАЮТСЯ ВЫИГРЫШИ, БАРАБАНЫ ЗАПУСКАЮТСЯ ПОВТОРНО С ПЕРЕМЕЩЕНИЕМ WILD НА 1 ПОЗИЦИЮ ВНИЗ. ПОСЛЕДУЮЩИЕ WILD, ПОЛУЧЕННЫЕ ВО ВРЕМЯ ПОВТОРНОГО СПИНА,  КТИВИРУЮТ ПОВТОРНЫЕ СПИНЫ. ПОВТОРНЫЕ СПИНЫ ПРОДОЛЖАТСЯ ДО ТЕХ ПОР, ПОКА ВСЕ WILD НЕ ПЕРЕМЕСТЯТСЯ С ЭКРАНА. 
+            </p>      
+            <p class="para-box">
+                <b>КАК ИГРАТЬ </b>
+            </p>
+            <ul>
+                <p class="para-box"></p>
+                <li>
+                    <p class="para-box">
+                       Выберите вашу ставку/деноминацию монеты.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="para-box">
+                        ЩЕЛКНИТЕ ПО КНОПКЕ ЗАПУСКА (ДЛЯ НАСТОЛЬНОГО КОМПЬЮТЕРА) ИЛИ КОСНИТЕСЬ КНОПКИ ЗАПУСКА (ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ) ДЛЯ ЗАПУСКА ИГРОВОГО ЦИКЛА.
+                    </p>
+                </li>
+            </ul>
+            <p class="para-box">
+                <b>КНОПКИ ИГРЫ
+                </b>
+            </p>
+            <table id="tblGameButtons" width="510" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                <colgroup>
+                    <col width="89">
+                    <col width="90">
+                    <col width="118">
+                    <col width="155">
+                </colgroup>
+                <thead>
+                    <tr valign="TOP">
+                        <td width="89" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Значок</b>
+                            </p>
+                        </td>
+                        <td width="90" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Стационарный компьютер</b>
+                            </p>
+                        </td>
+                        <td width="118" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Мобильное устройство</b>
+                            </p>
+                        </td>
+                        <td width="155" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Действие</b>
+                            </p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                <img src="../../../other/paytable/Help_icons/Big_icon/Spin_Big.png" align="BOTTOM">
+                            </p>
+                        </td>
+                        <td width="90">
+                            <b>Спин</b>
+                            </p>
+                        </td>
+                        <td width="118">
+                            <b>Спин</b>
+                            </p>
+                        </td>
+                        <td width="155">
+                            Активирует единичный цикл
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../lang/ru/paytable/Max_Bet.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Максимальная ставка </b>
+                        </td>
+                        <td width="118">
+                            (содержится на экране Выбор ставки в меню Настройки)
+                        </td>
+                        <td width="155">
+                            Устанавливает конфигурацию ставки для максимального уровня. Кнопка запуска нажата для активации.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Autoplay.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Автоигра</b>
+                        </td>
+                        <td width="118">
+                           Удерживайте Запуск для Автоигры (или содержится в меню Настройки)
+                        </td>
+                        <td width="155">
+                       Выводит на экран меню с доступными в игре Опциями Автоигры для активации нескольких циклов одновременно.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Bet_Settings.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Выбор ставки </b>
+                        </td>
+                        <td width="118">
+                           Выбор ставки (или содержится в меню Настройки)
+                        </td>
+                        <td width="155">
+                          Выводит на экран Опции ставки, чтобы игрок мог выбрать уровень ставки.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Settings_Menu.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Меню Настройки </b>
+                        </td>
+                        <td width="118">
+                            <b>Меню Настройки
+                            </b>
+                        </td>
+                        <td width="155">
+                            Открывает отдельный экран с настройками, на котором предлагается следующее: Главная; Звук; Настройки игры; Результаты; Информация/Справка и Касса (где требуется)
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Audio.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Звук</b>
+                        </td>
+                        <td width="118">
+                           (Зона основных настроек доступна в меню настроек)
+                        </td>
+                        <td width="155">
+                           Стационарный компьютер – открывает меню настроек звука, чтобы игрок мог самостоятельно включать или отключать музыку или звуковые эффекты.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Turbo_Play.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Режим игры Turbo
+                            </b>
+                        </td>
+                        <td width="118">
+                           (доступен в меню Настройки)
+                        </td>
+                        <td width="155">
+                          Изменяет скорость вращения барабана на Быстрый запуск
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="para-box">
+                <b>КНОПКИ НАСТРОЙКИ </b>
+                <table id="tblSettButtons" width="538" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                    <colgroup>
+                        <col width="136">
+                        <col width="71">
+                        <col width="287">
+                    </colgroup>
+                    <thead>
+                        <tr valign="TOP">
+                            <td width="136" bgcolor="#e6e6e6">
+                                <b>Символ</b>
+                            </td>
+                            <td width="71" bgcolor="#e6e6e6">
+                                <b>Значок</b>
+                            </td>
+                            <td width="287" bgcolor="#e6e6e6">
+                                <b>Поведение</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Касса</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Cashier.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                             Активирует возврат на страницы оператора для внесения депозита, чтобы игрок смог добавить средства на свой аккаунт (с учетом, что функционал будет доступен в системе оператора).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Таблицы выплат и справка </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Paytables_&_Help.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                               Представлены данные по общим таблицам выплат, а также описания функций игры.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>История игры
+                                </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_History.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                               Здесь игроку предлагается список игровых циклов, которые разыгрываются в игровом сеансе.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Настройки ставок </b>
+                            </td>
+                            <td width="71">
+                                <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                    <img src="../../../other/paytable/Help_icons/Small_Icon/Stake_Selection.png" align="BOTTOM">
+                                </p>
+                            </td>
+                            <td width="287">
+                               Здесь игрок может определить значение ставки для игры или выбрать любую другую доступную опцию.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Автоигра</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Autoplays.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                              Активирует страницу, на которой можно выбрать и запустить различные стандартные или расширенные опции Автоигры, включая Лимиты проигрыша (где применимо).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Настройки игры </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_Settings.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                            Здесь отображаются различные доступные опции общих настроек (например, настройки звука, с помощью которых игроки могут выбрать звуки для игры).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Главная</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Home.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                              Выйти из текущего игрового сеанса (после последней подсказки) и возвратиться обратно на страницы меню основной игры
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="para-box">
+                    <b>ДРУГАЯ ИНФОРМАЦИЯ ПО ИГРЕ </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                           Совпадающие выигрыши на различных линиях суммируются и выплачиваются игроку.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                         Значение монеты – отображается теоретическая ставка при текущих настройках. Все выигрыши отображаются в монетах, они должны быть умножены на значение монеты для конвертации в денежный выигрыш.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                          Ставка – отображается значение ставки при текущих настройках. Размер ставки – 1 монета, умноженная на число фиксированных линий выплат.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                         Максимальная ставка (ТОЛЬКО для стационарных компьютеров) – значение монеты устанавливается на самое крупное.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                          СУММАРНАЯ СТАВКА – ЗНАЧЕНИЕ МОНЕТЫ, УМНОЖЕННОЕ НА МНОЖИТЕЛЬ – 40 МОНЕТ.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Кнопка Запуск – запуск игры. Когда барабаны будут запущены, кнопка запуска трансформируется в кнопку Turbo Stop. Нажмите кнопку Turbo Stop, чтобы сразу же остановить барабаны.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                         Автоигра – вы можете настроить игру таким образом, что вам не придется каждый раз нажимать кнопку запуска. Выберите число конов для автоигры, нажав кнопку Автоигра (или удерживая кнопку Запуск, чтобы открыть меню Автоигра (для мобильных устройств)). Там, где это применимо, вы можете выбрать дополнительные условия для остановки автоигры в настройках игры. Лимит проигрыша в некоторых версиях клиент-программ игры не даст вам проиграть выше установленного лимита во время вашего сеанса автоигры. Чтобы остановить автоигру вручную, нажмите кнопку Остановить Автоигру.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Выигрыш – отображается выигрыш для текущего или последнего выплаченного выигрыша.
+                        </p>
+                    </li>
+					<li>
+                        <p class="para-box">
+                          Деньги/Монета – отображается баланс аккаунта в деньгах (финансовое значение) или в монетах (число кредитов), в зависимости от выбора игрока. По умолчанию отображается значение в монетах.
+                        </p>
+                    </li>
+					<li>
+                        <p class="para-box">
+                              КОНВЕРТАЦИЯ ДЕНЕГ В МОНЕТЫ И НАОБОРОТ ПРОИЗВОДИТСЯ С 2 ДЕСЯТИЧНЫМИ ЗНАЧЕНИЯМИ ДЛЯ ДОСТИЖЕНИЯ БЛИЖАЙШИХ ПЕРВОНАЧАЛЬНЫХ ЗНАЧЕНИЙ, ОДНАКО В ИГРЕ КОНВЕРСИИ ВСЕГДА ОТОБРАЖАЮТСЯ ЦЕЛЫМ ЧИСЛОМ.
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>ВОЗВРАТ ИГРОКУ </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Общий теоретический возврат игроку составляет 97.36%.
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                           Все выигрышные комбинации оплачиваются слева направо на линии выплат, каждая начинается с барабана 1, за исключением комбинаций Scatter, которые могут выпадать в любой позиции.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Выигрыши, полученные при розыгрыше функций, оплачиваются в дополнение к комбинациям на линиях.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                          При возникновении неисправности аппаратного/программного игрового обеспечения все ставки и выплаты, на которые это повлияет, будут аннулированы, все такие ставки будут возвращены.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="para-box">
+                           Максимальный выигрыш в игре имеет верхний лимит, который эквивалентен €250000.
+                        </p>
+                    </li>
+                    
+                    
+                    <li>
+                        <p class="para-box">
+                            <a name="_GoBack"></a>
+                            Правила игры, версия 1.0, дата: 21/02/2019.
+                        </p>
+                    </li>
+                </ul>
+        </div>
+    </body>
+</body>
+
+</html>

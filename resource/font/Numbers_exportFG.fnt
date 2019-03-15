@@ -1,0 +1,25 @@
+<font>
+	<info face="C:\Users\mchauhan\Desktop\Daruma\Common Package\Celebration Window\Fonts\Number\Win_Numbers-export" size="80" />
+	<common lineHeight="80" scaleW="411" scaleH="347" pages="1" />
+	<pages>
+		<page id="0" file="C:\Users\mchauhan\Desktop\Daruma\Common Package\Celebration Window\Fonts\Number\Win_Numbers-export.png" />
+	</pages>
+	<chars count="14">
+		<char id="48" x="0" y="230" width="107" height="116" xoffset="0" yoffset="-36" xadvance="113" /><!-- 0 -->
+		<char id="49" x="319" y="230" width="91" height="112" xoffset="0" yoffset="-34" xadvance="113" /><!-- 1 -->
+		<char id="50" x="217" y="0" width="103" height="114" xoffset="0" yoffset="-36" xadvance="113" /><!-- 2 -->
+		<char id="51" x="215" y="230" width="103" height="116" xoffset="0" yoffset="-36" xadvance="113" /><!-- 3 -->
+		<char id="52" x="0" y="0" width="112" height="112" xoffset="0" yoffset="-34" xadvance="113" /><!-- 4 -->
+		<char id="53" x="217" y="115" width="102" height="114" xoffset="0" yoffset="-34" xadvance="113" /><!-- 5 -->
+		<char id="54" x="110" y="113" width="106" height="116" xoffset="0" yoffset="-36" xadvance="113" /><!-- 6 -->
+		<char id="55" x="113" y="0" width="103" height="112" xoffset="0" yoffset="-34" xadvance="113" /><!-- 7 -->
+		<char id="56" x="0" y="113" width="109" height="116" xoffset="0" yoffset="-36" xadvance="113" /><!-- 8 -->
+		<char id="57" x="108" y="230" width="106" height="116" xoffset="0" yoffset="-36" xadvance="113" /><!-- 9 -->
+		<char id="58" x="321" y="0" width="48" height="90" xoffset="0" yoffset="-12" xadvance="113" /><!-- : -->
+		<char id="44" x="320" y="115" width="63" height="68" xoffset="0" yoffset="32" xadvance="113" /><!-- , -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

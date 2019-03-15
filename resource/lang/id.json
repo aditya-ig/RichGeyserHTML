@@ -1,0 +1,140 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": {
+    "text": "Anda memiliki %freePlayCounter% PERMAINAN GRATIS pada %freePlayStake% Taruhan"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Pilih ikon CHIP EMAS kapan saja untuk Main"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "SELAMAT!"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Permainan Gratis selesai"
+  },
+  "lbl_you_have_won": {
+    "text": "ANDA TELAH MENANG"
+  },
+  "lbl_free_play_completed": {
+    "text": "Permainan Gratis selesai"
+  },
+  "lbl_free_plays_left": {
+    "text": "sisa %freePlayCounter% PERMAINAN GRATIS"
+  },
+  "lbl_free_play_resume": {
+    "text": "MAINKAN RESUME"
+  },
+  "lbl_back_to_game": {
+    "text": "BACK TO GAME"
+  },
+ 
+  
+  "lbl_NumberOfSpins":{
+    "text":"Jumlah Putaran"
+  },
+  "lbl_NumberOfSpinsOff":{
+    "text":"MATI"
+  },
+  "lbl_NoLimits":{
+    "text":"TANPA BATAS"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"PERIKSA REALITAS"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"Anda telah meminta Periksa Realitas setiap \n % menit pada permainan. Sesi permainan Anda \n kini mencapai % menit"
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"KEHILANGAN KONEKSI"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"Anda kehilangan koneksi ke Server Permainan. \nHarap mulai ulang permainan dan coba lagi."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"Keamanan penting bagi kami. Karena Anda tidak \naktif selama beberapa waktu, kami mengeluarkan \nAnda secara otomatis dari Sesi Permainan Anda."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"KEAMANAN WAKTU-HABIS"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"DANA TIDAK CUKUP"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Dana tidak cukup untuk menyelesaikan putaran."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"MELANJUTKAN PERMAINAN SEBELUMNYA"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"Kami mengetahui permainan sebelumnya tidak \n selesai. Kini kami melanjutkan permainan siap \n bagi Anda untuk dilanjutkan."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"Kami telah mendeteksi bahwa Anda bermain di \nperamban IE11 yang mungkin dapat menimbulkan masalah \nsuara pada permainan, kami menyarankan Anda untuk\n memainkan permainan ini di peramban umum untuk\n pengalaman lebih baik."
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"Kami telah mendeteksi bahwa Anda bermain di peramban UC \nyang mungkin dapat menimbulkan masalah suara pada\n permainan, kami menyarankan Anda untuk memainkan \npermainan ini di peramban umum untuk pengalaman \nlebih baik."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "Kami telah mendeteksi bahwa Anda memuat permainan pada \niPad2 yang bukan peranti cocok untuk menjalankan \npermainan ini, harap ubah ke peranti dengan \nversi lebih tinggi untuk pengalaman lebih baik \natas permainan ini."
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "WASPADA"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "WASPADA"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "WASPADA"
+  },
+  "lbl_free_spins": {
+    "text": "FREE SPINS"
+  },
+ "lbl_tooltip_labelMaxBet" :{
+  "text": "TARUHAN MAKSIMAL"
+ },
+ "lbl_tooltip_labelSpin" :{
+  "text": "Putaran"
+ },
+ "lbl_tooltip_labelStop" :{
+  "text": "BERHENTI"
+ },
+
+ "lbl_tooltip_labelBetSettings":{
+  "text":"Pengaturan Taruhan"
+},
+"lbl_auto_play": {
+  "text": "Permainan otomatis"
+},
+"lbl_tooltip_auto_play_off": {
+  "text": "Permainan otomatis berhenti"
+},
+"lbl_tooltip_labelGameSettings":{
+  "text": "Pengaturan Permainan"
+},
+"lbl_tooltip_labelpaytable": {
+  "text": "Paytable"
+},
+"lbl_tooltip_labelInformation": {
+  "text": "INFORMASI"
+},
+"lbl_tooltip_labelSettings": {
+  "text": "Pengaturan"
+},
+"lbl_tooltip_labelHistory": {
+  "text": "Riwayat Permainan"
+},
+"lbl_tooltip_labelCashier": {
+  "text": "Kasir"
+},
+"lbl_tooltip_labelHome": {
+  "text": "Beranda"
+},
+"lbl_tooltip_AudioOnAndOff":{
+  "text":"Audio Menyala/Mati"
+}
+
+}

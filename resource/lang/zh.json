@@ -1,0 +1,140 @@
+{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },
+  "lbl_freeplay_sentence": {
+    "text": "您有 %freePlayCounter% 轮免费游戏，赌注为 %freePlayStake%"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "随时选择 GOLDEN CHIP 图标，开始游戏"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "恭喜"
+  },
+  "lbl_freeplay_completed": {
+    "text": "完成免费轮"
+  },
+  "lbl_you_have_won": {
+    "text": "您赢啦"
+  },
+  "lbl_free_play_completed": {
+    "text": "完成免费轮"
+  },
+  "lbl_free_plays_left": {
+    "text": "剩余 %freePlayCounter% 轮免费游戏"
+  },
+  "lbl_free_play_resume": {
+    "text": "恢复播放"
+  },
+  "lbl_back_to_game": {
+    "text": "BACK TO GAME"
+  },
+ 
+  
+  "lbl_NumberOfSpins":{
+    "text":"旋转次数"
+  },
+  "lbl_NumberOfSpinsOff":{
+    "text":"关闭"
+  },
+  "lbl_NoLimits":{
+    "text":"不限"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"现状核实"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"您要求游戏进行至 \n % 分钟 时需进行现状核实。\n 您的游戏目前已进行到第 % 分钟"
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"失去了连接"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text": "您已断开与游戏服务器的连接。 \n请重新登录游戏，再次尝试。"
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"我们非常重视安全。\n因为您有时处于不活跃状态，\n我们已自动将您退出游戏界面"
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"安全超时"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"金额不足"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"资金不够，不能完成旋转"
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"恢复之前的游戏"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"我们发现之前的游戏还有\n未完成。我们现在将恢复游戏 \n，您可继续。"
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text":"我们发现使用IE11浏览器运行游戏时可能会出现一些声音问题，\n我们建议您在主流浏览器上运行该游戏，\n以获得更好的体验。"
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"我们发现使用UC浏览器运行游戏时可能会出现一些声音问题，\n我们建议您在主流浏览器上运行该游戏，\n以获得更好的体验。"
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "我们检测到您在iPad2上加载游戏，\n该设备无法兼容本款游戏，\n请切换到更高版本的设备以获得更好的游戏体验"
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "警告"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "警告"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "警告"
+  },
+  "lbl_free_spins": {
+    "text": "FREE SPINS"
+  },
+ "lbl_tooltip_labelMaxBet" :{
+  "text": "最大投注"
+ },
+ "lbl_tooltip_labelSpin" :{
+  "text": "旋转"
+ },
+ "lbl_tooltip_labelStop" :{
+  "text": "停"
+ },
+
+ "lbl_tooltip_labelBetSettings":{
+  "text":"投注设置"
+},
+"lbl_auto_play": {
+  "text": "自动游戏"
+},
+"lbl_tooltip_auto_play_off": {
+  "text": "停止自动游戏"
+},
+"lbl_tooltip_labelGameSettings":{
+  "text": "游戏设置"
+},
+"lbl_tooltip_labelpaytable": {
+  "text": "赔付表"
+},
+"lbl_tooltip_labelInformation": {
+  "text": "信息"
+},
+"lbl_tooltip_labelSettings": {
+  "text": "设置"
+},
+"lbl_tooltip_labelHistory": {
+  "text": "游戏历史"
+},
+"lbl_tooltip_labelCashier": {
+  "text": "收银台"
+},
+"lbl_tooltip_labelHome": {
+  "text": "首页"
+},
+"lbl_tooltip_AudioOnAndOff":{
+  "text":"音频开/关"
+}
+
+}

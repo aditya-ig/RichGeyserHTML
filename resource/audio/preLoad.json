@@ -1,0 +1,190 @@
+{
+  "resources": [
+    "res\\Audio\\preLoad.ogg",
+    "res\\Audio\\preLoad.m4a",
+    "res\\Audio\\preLoad.mp3",
+    "res\\Audio\\preLoad.ac3"
+  ],
+  "spritemap": {
+    "5oak": {
+      "start": 0,
+      "end": 3.501814058956916,
+      "loop": false
+    },
+    "anticipation": {
+      "start": 5,
+      "end": 11.125963718820863,
+      "loop": false
+    },
+    "basegame_loop": {
+      "start": 13,
+      "end": 43,
+      "loop": true
+    },
+    "Bet_Button": {
+      "start": 44,
+      "end": 44.61578231292517,
+      "loop": false
+    },
+    "big_win_loop": {
+      "start": 46,
+      "end": 49.97891156462585,
+      "loop": false
+    },
+    "bonus_win": {
+      "start": 51,
+      "end": 54.97315192743764,
+      "loop": false
+    },
+    "common_win_end": {
+      "start": 56,
+      "end": 58.59689342403628,
+      "loop": false
+    },
+    "CS_BigWin_End": {
+      "start": 60,
+      "end": 64.12562358276644,
+      "loop": false
+    },
+    "CS_BonusPopUp_Intro": {
+      "start": 66,
+      "end": 68.37301587301587,
+      "loop": false
+    },
+    "CS_BonusPopUp_Outro": {
+      "start": 70,
+      "end": 72.37714285714286,
+      "loop": false
+    },
+    "fade_transition": {
+      "start": 74,
+      "end": 76.80281179138322,
+      "loop": false
+    },
+    "Freespins_Loop": {
+      "start": 78,
+      "end": 125.54285714285714,
+      "loop": true
+    },
+    "FS_counter_update_1": {
+      "start": 127,
+      "end": 127.23510204081633,
+      "loop": false
+    },
+    "FS_counter_update_2": {
+      "start": 129,
+      "end": 129.7226530612245,
+      "loop": false
+    },
+    "FS_counter_update_5": {
+      "start": 131,
+      "end": 132.32265306122449,
+      "loop": false
+    },
+    "fs_number_move": {
+      "start": 134,
+      "end": 134.87972789115645,
+      "loop": false
+    },
+    "generic_btn": {
+      "start": 136,
+      "end": 136.07607709750567,
+      "loop": false
+    },
+    "Its_a_Gusher!": {
+      "start": 138,
+      "end": 141.03315192743764,
+      "loop": false
+    },
+    "Its_a_Gusher_again": {
+      "start": 143,
+      "end": 146.22566893424036,
+      "loop": false
+    },
+    "Its_a_Gusher_once_again": {
+      "start": 148,
+      "end": 151.33319727891157,
+      "loop": false
+    },
+    "line_win": {
+      "start": 153,
+      "end": 154.66721088435375,
+      "loop": false
+    },
+    "mega_big_win_loop": {
+      "start": 156,
+      "end": 160.0084126984127,
+      "loop": false
+    },
+    "Oil_Spout": {
+      "start": 162,
+      "end": 164.0670068027211,
+      "loop": false
+    },
+    "Reels_spin1": {
+      "start": 166,
+      "end": 170.32133786848073,
+      "loop": false
+    },
+    "Reel_stop": {
+      "start": 172,
+      "end": 172.20786848072564,
+      "loop": false
+    },
+    "scatter_landing": {
+      "start": 197,
+      "end": 197.99979591836734,
+      "loop": false
+    },
+    "Spin_button": {
+      "start": 174,
+      "end": 174.7974149659864,
+      "loop": false
+    },
+    "Spin_stop": {
+      "start": 176,
+      "end": 177.72746031746033,
+      "loop": false
+    },
+    "super_big_win_loop": {
+      "start": 179,
+      "end": 182.9728117913832,
+      "loop": false
+    },
+    "Transition_1": {
+      "start": 184,
+      "end": 186.31913832199547,
+      "loop": false
+    },
+    "Transition_2": {
+      "start": 188,
+      "end": 189.9777097505669,
+      "loop": false
+    },
+    "ultra_big_win_loop": {
+      "start": 191,
+      "end": 195.00843537414966,
+      "loop": false
+    },
+    "Wild_landing": {
+      "start": 197,
+      "end": 197.99979591836734,
+      "loop": false
+    },
+    "wild_win": {
+      "start": 199,
+      "end": 201.2,
+      "loop": false
+    },
+    "wintickup_center": {
+      "start": 203,
+      "end": 206.4061904761905,
+      "loop": false
+    },
+    "wintickup_center_volup": {
+      "start": 208,
+      "end": 209.29662131519274,
+      "loop": false
+    }
+  }
+}

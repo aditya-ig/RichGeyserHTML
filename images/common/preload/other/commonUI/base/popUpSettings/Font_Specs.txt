@@ -1,0 +1,15 @@
+
+(Heading) INSUFFICIENT FUNDS
+
+Font 	: Arial
+Face 	: Bold
+Size	: 35 px
+Color	: #ffffff
+
+
+Insufficient funds to complete spin.
+
+Font 	: Arial
+Face 	: Bold
+Size	: 26 px
+Color	: #ffffff

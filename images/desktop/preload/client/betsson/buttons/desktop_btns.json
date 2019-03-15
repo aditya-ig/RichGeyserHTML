@@ -1,0 +1,174 @@
+{"frames": {
+
+"Autoplay_Center.png":
+{
+	"frame": {"x":2,"y":2,"w":35,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":35},
+	"sourceSize": {"w":35,"h":35},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Autoplay_Center_Disable.png":
+{
+	"frame": {"x":39,"y":2,"w":35,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":35},
+	"sourceSize": {"w":35,"h":35},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Autoplay_Stop.png":
+{
+	"frame": {"x":76,"y":2,"w":97,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":79},
+	"sourceSize": {"w":97,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Autoplay_Stop_Disable.png":
+{
+	"frame": {"x":2,"y":83,"w":97,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":79},
+	"sourceSize": {"w":97,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"AutoplayButton_1.png":
+{
+	"frame": {"x":101,"y":83,"w":97,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":79},
+	"sourceSize": {"w":97,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"AutoplayButton_1_Disable.png":
+{
+	"frame": {"x":2,"y":164,"w":97,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":79},
+	"sourceSize": {"w":97,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MaxbetButton_1.png":
+{
+	"frame": {"x":101,"y":164,"w":97,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":79},
+	"sourceSize": {"w":97,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MaxbetButton_1_Disable.png":
+{
+	"frame": {"x":2,"y":245,"w":97,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":79},
+	"sourceSize": {"w":97,"h":79},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_Center.png":
+{
+	"frame": {"x":101,"y":245,"w":74,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":63},
+	"sourceSize": {"w":74,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Spin_Center_Disable.png":
+{
+	"frame": {"x":177,"y":245,"w":74,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":63},
+	"sourceSize": {"w":74,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"StartButton.png":
+{
+	"frame": {"x":2,"y":326,"w":105,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":100},
+	"sourceSize": {"w":105,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"StartButton_Disable.png":
+{
+	"frame": {"x":109,"y":326,"w":105,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":100},
+	"sourceSize": {"w":105,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"StartButton_Stop.png":
+{
+	"frame": {"x":2,"y":428,"w":105,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":100},
+	"sourceSize": {"w":105,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"StartButton_Stop_Disable.png":
+{
+	"frame": {"x":109,"y":428,"w":105,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":100},
+	"sourceSize": {"w":105,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Tool_Tip_1.png":
+{
+	"frame": {"x":2,"y":530,"w":106,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":106,"h":23},
+	"sourceSize": {"w":106,"h":23},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Tool_Tip_2.png":
+{
+	"frame": {"x":2,"y":555,"w":150,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":23},
+	"sourceSize": {"w":150,"h":23},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Turbo_Rabbit.png":
+{
+	"frame": {"x":154,"y":555,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Turbo_Rabbit_Disable.png":
+{
+	"frame": {"x":185,"y":555,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Desktop_Icons.png",
+	"format": "RGBA8888",
+	"size": {"w":253,"h":587},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6e2077ec38bfe87e3eaea4dd906704ed:775588963f5fec72ac35ececed9d181b:7d4031325123a171e8208de1f6161a35$"
+}
+}
