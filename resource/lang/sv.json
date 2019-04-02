@@ -1,0 +1,125 @@
+﻿{
+  "lbl_Message_LineWinMessage": {
+    "text": "LINE %paylines% WINS %amount%"
+  },  
+  "lbl_freeplay_sentence": {
+    "text": "Du har %freePlayCounter% GRATISSPINN för %freePlayStake% insats"
+  },
+  "lbl_slot_machine_sentence": {
+    "text": "Välj ikonen GOLDEN CHIP när som helst för att spela"
+  },
+  "lbl_freeplay_congratulations": {
+    "text": "GRATTIS"
+  },
+  "lbl_freeplay_completed": {
+    "text": "Gratisspinn utfördas"
+  },
+  "lbl_you_have_won": {
+    "text": "DU HAR VUNNIT"
+  },
+  "lbl_free_play_completed": {
+    "text": "Jugadas gratis completadas"
+  },
+  "lbl_free_plays_left": {
+    "text": "%freePlayCounter% GIROS GRATIS restantes"
+  },
+  "lbl_NoLimits":{
+    "text":"INGA GRÄNSER"
+  },
+  "lbl_RealityCheckHeading" : {
+    "text":"REALITY CHECK"
+  },
+  "lbl_RealityCheckText" : {
+    "text":"Du har begärt att bli påmind om en verklighetskoll var \n % minut under spelets gång. Din spelsession % har \nnu varat i minuter."
+  },
+  "lbl_NetworkErrorHeading" : {
+    "text":"ANSLUTNINGEN BRÖTS"
+  },
+  "lbl_NetworkErrorMsg" : {
+    "text":"Du har tappat anslutningen till spelservern.\n Starta om spelet och försök igen."
+  },
+  "lbl_ConnectionLossErrorMsg" : {
+    "text":"La seguridad es importante para nosotros. Como ha estado inactivo durante algún tiempo, hemos cerrado automáticamente su sesión de juego."
+  },
+  "lbl_ConnectionLossHeading" : {
+    "text":"SÄKERHET TIMEOUT"
+  },
+
+  "lbl_InSufficientFundErrorHeading" : {
+    "text":"OTILLRÄCKLIGT SALDO"
+  },
+  "lbl_InSufficientFundErrorMsg" : {
+    "text":"Otillräckliga medel för att genomföra spelomgången."
+  },
+
+  "lbl_ShowBrokenPopUpHeading" : {
+    "text":"ÅTERUPPTAR FÖREGÅENDE SPEL"
+  },
+  "lbl_ShowBrokenPopUpText" :{
+    "text":"Vi har upptäckt att det föregående spelet inte \n slutförts. Vi kommer att återuppta spelet, som du nu \n kan fortsätta med."
+  },
+  "lbl_GameOnIEBrowserErrorMsg":{
+    "text": "Vi har upptäckt att du spelar via webbläsaren IE11, vilket\n kan medföra vissa ljudproblem i spelet. Vi rekommenderar \n att du istället spelar det här spelet på någon av de \n vanligaste webbläsarna för att få en bättre spelupplevelse."
+  },
+  "lbl_GameOnUCBrowserErrorMsg":{
+    "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
+  },
+  "lbl_GameOnUnSupportedDevicesErrorMsg":{
+    "text" : "Hemos detectado que está cargando el juego en un iPad2, que no es un dispositivo compatible con este juego. Le recomendamos usar una versión superior de este dispositivo para disfrutar de una mejor experiencia de juego."
+  },
+  "lbl_free_spins": {
+    "text": "FREE SPINS"
+  },
+  "lbl_tooltip_labelMaxBet" :{
+    "text": "MAXINSATS"
+   },
+   "lbl_tooltip_labelSpin" :{
+    "text": "Acción"
+   },
+   "lbl_tooltip_labelStop" :{
+    "text": "Stopp Autospel"
+   },
+  
+   "lbl_tooltip_labelBetSettings":{
+    "text":"Configuración de apuesta"
+  },
+  "lbl_auto_play": {
+    "text": "autospel"
+  },
+"lbl_tooltip_auto_play_off": {
+  "text": "Stopp Autospel"
+},
+  "lbl_tooltip_labelGameSettings":{
+    "text": "Configuración del juego"
+  },
+  "lbl_tooltip_labelpaytable": {
+    "text": "Betallista"
+  },
+  "lbl_tooltip_labelInformation": {
+    "text": "INFORMATION"
+  },
+  "lbl_tooltip_labelSettings": {
+    "text": "Configuración"
+  },
+  "lbl_tooltip_labelHistory": {
+    "text": "Spelhistorik"
+  },
+  "lbl_tooltip_labelCashier": {
+    "text": "Kassa"
+  },
+  "lbl_tooltip_labelHome": {
+    "text": "Início"
+  },
+  "lbl_tooltip_AudioOnAndOff":{
+    "text":"Ljud på/Av"
+  },
+  "lbl_GameOnIEBrowserHeading":{
+    "text" : "VARNA"
+  },
+  "lbl_GameOnUCBrowserHeading":{
+    "text" : "VARNA"
+  },
+ "lbl_GameOnUnSupportedDevicesHeading":{
+  "text" : "VARNA"
+  }
+}
