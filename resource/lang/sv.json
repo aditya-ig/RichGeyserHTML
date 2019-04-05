@@ -18,7 +18,7 @@
     "text": "DU HAR VUNNIT"
   },
   "lbl_free_play_completed": {
-    "text": "Jugadas gratis completadas"
+    "text": "Gratisspinn utfördas"
   },
   "lbl_free_plays_left": {
     "text": "%freePlayCounter% GIROS GRATIS restantes"
@@ -46,7 +46,7 @@
   },
 
   "lbl_InSufficientFundErrorHeading" : {
-    "text":"OTILLRÄCKLIGT SALDO"
+    "text":"OTILLRÄCKLIGA MEDEL"
   },
   "lbl_InSufficientFundErrorMsg" : {
     "text":"Otillräckliga medel för att genomföra spelomgången."
@@ -74,14 +74,14 @@
     "text": "MAXINSATS"
    },
    "lbl_tooltip_labelSpin" :{
-    "text": "Acción"
+    "text": "SPINN"
    },
    "lbl_tooltip_labelStop" :{
     "text": "Stopp Autospel"
    },
   
    "lbl_tooltip_labelBetSettings":{
-    "text":"Configuración de apuesta"
+    "text":"Satsningsinställningar"
   },
   "lbl_auto_play": {
     "text": "autospel"
@@ -99,7 +99,7 @@
     "text": "INFORMATION"
   },
   "lbl_tooltip_labelSettings": {
-    "text": "Configuración"
+    "text": "Inställnings"
   },
   "lbl_tooltip_labelHistory": {
     "text": "Spelhistorik"
