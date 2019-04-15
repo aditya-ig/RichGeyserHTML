@@ -12,16 +12,16 @@
     "text": "PARABÉNS"
   },
   "lbl_freeplay_completed": {
-    "text": "Jogos Grátis concluídos"
+    "text": "JOGOS GRÁTIS restantes"
   },
   "lbl_you_have_won": {
     "text": "VOCÊ GANHOU"
   },
   "lbl_free_play_completed": {
-    "text": "Jogos Grátis concluídos"
+    "text": "JOGOS GRÁTIS restantes"
   },
   "lbl_free_plays_left": {
-    "text": "%freePlayCounter% JOGOS GRÁTIS restantes"
+    "text": "%freePlayCounter% Jogos Grátis concluídos"
   },
   "lbl_NoLimits":{
     "text":"NÃO LIMITES"
