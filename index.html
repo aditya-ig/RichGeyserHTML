@@ -97,7 +97,20 @@
         window.envConfig = {
             "cdn": ""
         };
-
+		
+		 function getParams(url) {
+            var params = {};
+            var parser = document.createElement('a');
+            parser.href = url;
+            var query = parser.search.substring(1);
+            var vars = query.split('&');
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split('=');
+                params[pair[0]] = decodeURIComponent(pair[1]);
+            }
+            return params;
+        };
+		
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
@@ -114,6 +127,8 @@
                 var statusBarWidth = 300;
                 var statusBarHeight = 20;
                 var statusBarOffsetV = 180;
+                var errorPopUpWidth = 745;
+                var errorPopUpHeight = 421;
                 var loader = document.getElementById("loader");
                 var scaleX = loader.clientWidth / widthLand;
                 var scaleY = innerHeight / heightLand;
@@ -121,6 +136,14 @@
                 var loadingLogoSymbol = document.getElementById("loadingLogoSymbol");
                 var loadingLogoText = document.getElementById("loadingLogoText");
                 var statusBar = document.getElementById("percentBar");
+                var vendorLogo = document.getElementById("vendorLogo");
+
+                var langId = (getParams(window.location.href)['lang']) || 'en';
+                var connectionErrorImageURL = window.envConfig.cdn + "images/common/preload/lang/" + langId +
+                    "/initError/initError.png'";
+                var aplogyErrorImageURL = window.envConfig.cdn + "images/common/preload/lang/" + langId +
+                "/initError/initError.png'";
+
                 if (scaleX < scaleY) {
                     scale = scaleX;
                 } else {
@@ -141,6 +164,43 @@
                 statusBar.style.left = ((loader.clientWidth / 2) - (statusBar.clientWidth / 2)) + "px";
                 statusBar.style.top = ((innerHeight / 2) - (statusBar.clientHeight / 2) + (statusBarOffsetV * scale)) + "px";
                 loader.style.display = "block";
+				
+				
+                
+				
+				errorPopUp.style.backgroundImage = "url('" + connectionErrorImageURL + ")";
+				
+				 var scaleErrorPopUpX = innerWidth / widthLand;
+                var scaleErrorPopUpY = innerHeight / heightLand;
+                var scaleErrorPopUp = 1;
+                if (scaleErrorPopUpX < scaleErrorPopUpY) {
+                    scaleErrorPopUp = scaleErrorPopUpX;
+                } else {
+                    scaleErrorPopUp = scaleErrorPopUpY;
+                }
+
+
+                var errorPopuH = (innerHeight / 2) / (errorPopUpHeight / 2);
+                var errorPopuW = (innerWidth / 2) / (errorPopUpWidth / 2);
+
+                if (errorPopuW < errorPopuH) {
+
+                } else {
+                    scale = errorPopuH;
+                }
+
+                errorPopUp.style.width = errorPopUpWidth * scale + "px";
+                errorPopUp.style.height = errorPopUpHeight * scale + "px";
+
+                var errorPopupTop = (innerHeight / 2) - ((errorPopUpHeight * scale) / 2);
+                var errorPopupLeft = (innerWidth / 2) - ((errorPopUpWidth * scale) / 2);
+
+                errorPopUp.style.backgroundPosition = "top center";
+                errorPopUp.style.backgroundRepeat = "no-repeat";
+                errorPopUp.style.backgroundSize = "contain";
+                errorPopUp.style.left = errorPopupLeft + "px";
+                errorPopUp.style.top = errorPopupTop + "px";
+				
                 if (scale == 0) {
                     resizeLoadingScreen();
                 }
@@ -160,7 +220,7 @@
     <div id="gameContainer">
         <canvas id="gameCanvas"></canvas>
         <!-- <div id="infoContainer"></div> -->
-        <div id="errorPopUp">
+        <div id="errorPopUp1">
             <div id="errorBtn"></div>
             <div id="errorLabel"></div>
         </div>
@@ -202,8 +262,11 @@
         <input type="submit" id="submit" value="Submit">
     </div>
 	 <div id="socketConnection">
-        <input type="hidden" value="ws://35.176.116.182:9090/rgs/endpoint" id="socketURL">
+        <input type="hidden" value="ws://ingenuity-rgs.reach-dev.com:8585/rgs/endpoint" id="socketURL">
+        <input type="hidden" value="http://ingenuity-rgs.reach-dev.com/rgs/rest/rig/" id="socketCheatURL">
+        <input type="hidden" value="slot_ing_4_7" id="gameID">
     </div>
+	 <div id="errorPopUp"></div>
     <script>
         resizeLoadingScreen();
         var jsDeferLoadSingleFile = function (filesList, onCompleteCallback) {
