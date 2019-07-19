@@ -257,15 +257,18 @@
         <!-- <img id="swipe" alt="swipe"> -->
         <div id="swipe"></div>
     </div>
-    <div id="CheatPanel" class="CheatPanel">
+   
+	<div id="CheatPanel" class="CheatPanel">
         <input type="text" placeholder="Enter your cheat" name="cheat" id="cheat">
         <input type="submit" id="submit" value="Submit">
     </div>
-	 <div id="socketConnection">
-        <input type="hidden" value="ws://ingenuity-rgs.reach-dev.com:8585/rgs/endpoint" id="socketURL">
-        <input type="hidden" value="http://ingenuity-rgs.reach-dev.com/rgs/rest/rig/" id="socketCheatURL">
+
+  <div id="socketConnection">
+         <input type="hidden" value="ws://ingenuity-rgs.reach-dev.com:8585/rgs/endpoint" id="socketURL">
+        <input type="hidden" value="http://ingenuity-rgs.reach-dev.com:8383/rng/rest/rng/getRandomNumbers" id="socketCheatURL">
         <input type="hidden" value="slot_ing_4_7" id="gameID">
     </div>
+
 	 <div id="errorPopUp"></div>
     <script>
         resizeLoadingScreen();
