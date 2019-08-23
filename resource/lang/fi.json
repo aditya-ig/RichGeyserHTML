@@ -5,7 +5,7 @@
   "lbl_freeplay_sentence": { 
     "text": "Sinulla on %freePlayCounter% ILMAISTA PELIÄ panoksella %freePlayStake%"
   },
- "lbl_slot_machine_sentence": {
+  "lbl_slot_machine_sentence": {
     "text": "Aktivoi ilmaiskierroksesi klikkaamalla kultaista pelimerkkiä"
   },
   "lbl_freeplay_congratulations": {
