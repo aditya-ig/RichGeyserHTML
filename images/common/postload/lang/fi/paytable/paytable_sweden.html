@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 95vw;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+            word-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+        }
+
+        .pad-left10 {
+            padding-left: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul {
+            color: white;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) {
+            body {
+                font-size: 12px !important;
+                word-wrap: break-word;
+            }
+            p {
+                max-width: 90vw;
+            }
+            ul>li {
+                max-width: 90vw;
+            }
+            ul:last-child {
+                height: auto;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+            body {
+                font-size: .688em !important;
+            }
+            ul:last-child {
+                margin-bottom: 20em;
+            }
+        }
+
+        .para-box {
+            margin-bottom: 0cm;
+            font-size: 13px;
+            font-family: Calibri, serif;
+            line-height: 17px;
+            text-align: justify;
+        }
+
+        li p.para-box {
+            line-height: 100% !important;
+        }
+
+        table tr td {
+            font-size: 12px;
+            font-family: 'Segoe UI', serif;
+            line-height: 20px;
+        }
+
+        #tblGameButtons tr td:first-child,
+        #tblSettButtons tr td:nth-child(2) {
+            text-align: center;
+        }
+
+        table tr td img {
+            border: 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wild-box {
+            margin: 10px;
+        }
+
+        .help-box::-webkit-scrollbar-track {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+
+        .help-box {
+            width: 99%;
+            height: auto;
+            margin: 0 auto;
+            overflow: auto;
+            background: black;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <body>
+        <div class="help-box" id="preventZoom">
+            <p class="para-box">
+                Tervetuloa RICH GEYSER -videokolikkopeliin, jonka teema on öljynporaus. Pelissä on gushing wilds -uusintapyöritystoiminto ja monia muita jännittäviä toimintoja.
+            </p>
+            <p class="para-box">
+                <b>TIETOJA PELISTÄ</b>
+            </p>
+            <p class="para-box pad-left10">
+               RICH GEYSERIÄ pelataan 10 kiinteällä voittolinjalla. Pelissä on 8 tavallista merkkiä, joista voittaa, jos kolme tai useampi osuu vierekkäisille kiekoille vasemman-puolimmaisesta alkaen voittolinjalla.</p>
+               
+                <p class="para-box">
+                    <b>GUSHING WILD -UUSINTAPYÖRITYSBONUS</b>
+                </p>
+            <p class="para-box pad-left10">
+                2 tai useampi wild-merkki  käynnistää ”gushing wilds” -uusintapyöritystoiminnon. jokainen käynnistävä wild ja ”öljygeysiri” kiekkojen alla ruiskuttaa öljyä wildin paikalle kääntäen minkä tahansa seuraavista paikoista käynnistäneen wildin alla wildiksi. voitot maksetaan ja kiekot pyörivät uudelleen, jolloin wildit siirtyvät alas 1 paikan. seuraavat uusintapyörityksen aikana saadut wildit käynnistävät uusintapyöritykset uudelleen. uusintapyöritykset jatkuvat, kunnes kaikki wildit siirtyvät pois näytöltä. 
+            </p>      
+            <p class="para-box">
+                <b>PELIOHJEET</b>
+            </p>
+            <ul>
+                <p class="para-box"></p>
+                <li>
+                    <p class="para-box">
+                        Valitse panos/kolikoiden nimellisarvo.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="para-box">
+                        Aloita pelikierros napsauttamalla (tietokoneella) tai napauttamalla (mobiililaitteella) Pyöräytä-painiketta.
+                    </p>
+                </li>
+            </ul>
+            <p class="para-box">
+                <b>PELIN PAINIKKEET
+                </b>
+            </p>
+            <table id="tblGameButtons" width="510" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                <colgroup>
+                    <col width="89">
+                    <col width="90">
+                    <col width="118">
+                    <col width="155">
+                </colgroup>
+                <thead>
+                    <tr valign="TOP">
+                        <td width="89" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Kuvake</b>
+                            </p>
+                        </td>
+                        <td width="90" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Tietokone</b>
+                            </p>
+                        </td>
+                        <td width="118" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Mobiili</b>
+                            </p>
+                        </td>
+                        <td width="155" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Toimenpide</b>
+                            </p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                <img src="../../../other/paytable/Help_icons/Big_icon/Spin_Big.png" align="BOTTOM">
+                            </p>
+                        </td>
+                        <td width="90">
+                            <b>Pyöriä</b>
+                            </p>
+                        </td>
+                        <td width="118">
+                            <b>Pyöriä</b>
+                            </p>
+                        </td>
+                        <td width="155">
+                            Aloittaa kierroksen
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../lang/fi/paytable/Max_Bet.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>ENIMMÄISPANOS</b>
+                        </td>
+                        <td width="118">
+                            (sisältyy Panoksen valinta -näyttöön, joka on asetusvalikossa)
+                        </td>
+                        <td width="155">
+                            Määrittää vetokonfiguraation maksimaaliselle panostasolle. Aloita painamalla Pyöräytä-painike pohjaan.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Autoplay.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Automaattipeli</b>
+                        </td>
+                        <td width="118">
+                            <b>Käynnistä automaattipeli pitämällä Pyöräytä-painike pohjassa</b>
+                             (tai sisältyy asetusvalikkoon)
+                        </td>
+                        <td width="155">
+                            Tuo esiin valikkonäytön, josta näkyvät kaikki pelissä käytettävissä olevat automaattipelin vaihtoehdot, jotta voit käynnistää useita kierroksia samanaikaisesti.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Bet_Settings.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Panoksen valinta </b>
+                        </td>
+                        <td width="118">
+                            <b>Panoksen valinta </b>
+                            (tai sisältyy asetusvalikkoon)
+                        </td>
+                        <td width="155">
+                            Tuo esiin panoksen vaihtoehdot, joista pelaaja voi valita vetonsa tason.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Settings_Menu.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Asetusvalikko</b>
+                        </td>
+                        <td width="118">
+                            <b>Asetusvalikko
+                            </b>
+                        </td>
+                        <td width="155">
+                            Avaa erillisen asetusnäytön, josta löytyy seuraavat vaihtoehdot: Aloitus, Ääni, Peliasetukset, Historia, Tietoja/Tuki ja Kassa (tarvittaessa)
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Audio.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Ääni</b>
+                        </td>
+                        <td width="118">
+                            (Pääasetusten alue on käytettävissä asetusvalikossa)
+                        </td>
+                        <td width="155">
+                            Tietokone – avaa ääniasetusten valikon, jossa voit ottaa musiikin tai äänitehosteet käyttöön tai poistaa ne käytöstä.
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <p class="para-box">
+                <b>ASETUSPAINIKKEET </b>
+                <table id="tblSettButtons" width="538" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                    <colgroup>
+                        <col width="136">
+                        <col width="71">
+                        <col width="287">
+                    </colgroup>
+                    <thead>
+                        <tr valign="TOP">
+                            <td width="136" bgcolor="#e6e6e6">
+                                <b>Symboli</b>
+                            </td>
+                            <td width="71" bgcolor="#e6e6e6">
+                                <b>Kuvake</b>
+                            </td>
+                            <td width="287" bgcolor="#e6e6e6">
+                                <b>Toiminto</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Kassanhoitaja</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Cashier.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Palauttaa pelaajan operaattorin talletussivuille, jotta tämä voi lisätä varojaan tilille. 
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Maksutaulukot ja tuki</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Paytables_&_Help.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Esittelee yleiset maksutaulukot ja pelin toiminnot.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Pelihistoria
+                                </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_History.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Näyttää saman pelisession aikana pelatut pelikierrokset.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Vetoasetukset </b>
+                            </td>
+                            <td width="71">
+                                <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                    <img src="../../../other/paytable/Help_icons/Small_Icon/Stake_Selection.png" align="BOTTOM">
+                                </p>
+                            </td>
+                            <td width="287">
+                                Voit määrittää panosten arvon peliä varten tai valita jonkin muun käytettävissä olevan vaihtoehdon.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Automaattipelit</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Autoplays.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Avaa sivun, jolla voit valita ja ottaa käyttöön jonkin monista tavanomaisista tai laajennetuista automaattipelivaihtoehdoista,
+								mukaan lukien tappiorajoitukset (mikäli käytettävissä)
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Peliasetukset </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_Settings.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Esittää käytettävissä olevat yleiset asetusvaihtoehdot (esim. pelaajan valittavissa olevat ääniasetukset, joilla pelaaja voi määrittää, mitkä äänet ovat käytössä pelisession aikana)
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Aloitus</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Home.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Poistuu käynnissä olevasta pelisessiosta (vahvistuskysymyksen jälkeen) ja palaa takaisin palveluntarjoajan yleisille pelivalikkosivuille.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="para-box">
+                    <b>MUITA TIETOJA PELISTÄ</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Päällekkäiset voitot eri voittolinjoilla lasketaan yhteen ja maksetaan pelaajalle.
+                        </p>
+                    </li>
+                   
+                    <li>
+                        <p class="para-box">
+                            Veto – Näyttää nykyisen asetuksen vedon arvon. Vedon koko on yksi kolikko kerrottuna vedon kertoimella.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Kokonaispanos on kolikon arvo kerrottuna linjapanoksella.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Maks. veto (VAIN tietokone) – Määrittää kolikon arvon suurimmaksi mahdolliseksi.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Pyöräytä-painike – Käynnistää pelin. 
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Automaattipeli – Voit määrittää pelin pyörimään ilman, että sinun tarvitsee painaa Pyöräytä-painiketta joka kerta. Valitse automaattipelin kierrosten lukumäärä painamalla Automaattipeli-painiketta (tai pitämällä Pyöräytä-painike pohjassa, jolloin Automaattipeli-valikko avautuu). Voit tarvittaessa valita peliasetuksista lisäehtoja, joiden perusteella automaattipeli päättyy. Tappioraja estää joissain peliversioissa häviöitä ylittämästä automaattipelin aikana niille määrittämääsi rajaa. Voit pysäyttää automaattipelin manuaalisesti painamalla Pysäytä automaattipeli -painiketta.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Voitto – Näyttää tämänhetkisen tai viimeseksi maksetun voiton.
+                        </p>
+                    </li>
+					
+                </ul>
+                <p class="para-box">
+                    <b>PALAUTUSPROSENTTI</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Pelin teoreettinen palautusprosentti pelaajalle on 97.36%.  
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>LISÄTIETOJA </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Kaikkia voittoyhdistelmiä luetaan vasemmalta oikealle, alkaen Rullalta 1.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Lisätoimintojen aikana saadut voitot maksetaan voittolinjoilla saatujen voittojen lisäksi.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Mikäli pelilaitteessa tai -ohjelmassa sattuu toimintahäiriö, kaikki senhetkiset pelin vedot ja maksut nollataan ja senhetkiset vedot hyvitetään.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Maksimivoitto pelissä vastaava on €250,000.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p class="para-box">
+                            <a name="_GoBack"></a>
+                            Tämä on pelin sääntöjen versio 1.1, päivitetty 16/04/2019.
+                        </p>
+                    </li>
+                </ul>
+				<ul>
+                     <content class="para-box" id="swedenRegulationText" style="/* display: none; */">
+                        <li>
+                            <a name="_GoBack"></a>Kaikki keskeytyneet pelit, jotka eivät ole valmiita, säilytetään 90 päivää.
+                         </li> 
+                </content>
+            </ul>
+        </div>
+    </body>
+</body>
+
+</html>
