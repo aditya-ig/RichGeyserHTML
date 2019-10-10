@@ -87,7 +87,7 @@ ew\Select_Value1-export.png" />
 		<char id="162" x="135" y="23" width="15" height="28" xoffset="0" yoffset="58" xadvance="16" /><!-- ¢ -->
 		<char id="322" x="163" y="46" width="9" height="22" xoffset="0" yoffset="58" xadvance="10" /><!-- ł -->
 		<char id="8734" x="0" y="23" width="27" height="16" xoffset="0" yoffset="60" xadvance="28" /><!-- ∞ -->
-		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="5" /><!--   -->
 		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
 	</chars>
 	<kernings count="0">
