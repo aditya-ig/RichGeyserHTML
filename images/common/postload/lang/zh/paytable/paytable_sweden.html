@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 95vw;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+            word-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+        }
+
+        .pad-left10 {
+            padding-left: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul {
+            color: white;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) {
+            body {
+                font-size: 12px !important;
+                word-wrap: break-word;
+            }
+            p {
+                max-width: 90vw;
+            }
+            ul>li {
+                max-width: 90vw;
+            }
+            ul:last-child {
+                height: auto;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+            body {
+                font-size: .688em !important;
+            }
+            ul:last-child {
+                margin-bottom: 20em;
+            }
+        }
+
+        .para-box {
+            margin-bottom: 0cm;
+            font-size: 13px;
+            font-family: Calibri, serif;
+            line-height: 17px;
+            text-align: justify;
+        }
+
+        li p.para-box {
+            line-height: 100% !important;
+        }
+
+        table tr td {
+            font-size: 12px;
+            font-family: 'Segoe UI', serif;
+            line-height: 20px;
+        }
+
+        #tblGameButtons tr td:first-child,
+        #tblSettButtons tr td:nth-child(2) {
+            text-align: center;
+        }
+
+        table tr td img {
+            border: 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wild-box {
+            margin: 10px;
+        }
+
+        .help-box::-webkit-scrollbar-track {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+
+        .help-box {
+            width: 99%;
+            height: auto;
+            margin: 0 auto;
+            overflow: auto;
+            background: black;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <body>
+        <div class="help-box" id="preventZoom">
+            <p class="para-box">
+               欢迎来到RICH GEYSER在线老虎机 - 石油索具行业主题游戏。该游戏的功能包括Gushing Wild重新旋转和更多令人兴奋的功能。 </p>
+            <p class="para-box">
+                <b>关于游戏 </b>
+            </p>
+            <p class="para-box pad-left10">
+               RICH GEYSER以10个固定的赔付线进行游戏。游戏有8种常规图案，如果有三个或以上的图案排列在相邻的轮盘上，从最左边的位置开始，列在赔付线上，则予以赔付。
+            </p>      
+            <p class="para-box">
+                <b>GUSHING WILD重新旋转奖金 </b>
+            </p>
+            <p class="para-box pad-left10">
+          2个或以上 WILD百搭图案出现，则触发“GUSHING WILD”重新旋转功能。WILD图案触发的转轮下的每个“石油井”会喷出石油， 直到触发图案下方的任意位置出现WILD图案。获胜则可赢得奖金，转轮将重新旋转，WILD图案则下移1个位置。重新旋转时出现WILD，则可获得再次旋转的机会。继续重新旋转，直至所有的WILD移出屏幕之外。 
+            </p>      
+            <p class="para-box">
+                <b>游戏规则 </b>
+            </p>
+            <ul>
+                <p class="para-box"></p>
+                <li>
+                    <p class="para-box">
+                        选择您的赌注/金币面额。
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="para-box">
+                        按下（电脑用户）或触碰（移动设备用户）旋转键开始游戏
+                    </p>
+                </li>
+            </ul>
+            <p class="para-box">
+                <b>游戏键
+                </b>
+            </p>
+            <table id="tblGameButtons" width="510" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                <colgroup>
+                    <col width="89">
+                    <col width="90">
+                    <col width="118">
+                    <col width="155">
+                </colgroup>
+                <thead>
+                    <tr valign="TOP">
+                        <td width="89" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>图标</b>
+                            </p>
+                        </td>
+                        <td width="90" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>桌面</b>
+                            </p>
+                        </td>
+                        <td width="118" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>手机</b>
+                            </p>
+                        </td>
+                        <td width="155" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>操作</b>
+                            </p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                <img src="../../../other/paytable/Help_icons/Big_icon/Spin_Big.png" align="BOTTOM">
+                            </p>
+                        </td>
+                        <td width="90">
+                            <b>旋转</b>
+                            </p>
+                        </td>
+                        <td width="118">
+                            <b>旋转</b>
+                            </p>
+                        </td>
+                        <td width="155">
+                            启动单轮
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../lang/zh/paytable/Max_Bet.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>最大赌注 </b>
+                        </td>
+                        <td width="118">
+                         （包含在设置菜单中的赌注选择界面中）
+                        </td>
+                        <td width="155">
+                          将投注配置设置为最大投注级别。按下旋转键启动。
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Autoplay.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>自动游戏</b>
+                        </td>
+                        <td width="118">
+           按住旋转，开始自动游戏（或在设置菜单中）
+                        </td>
+                        <td width="155">
+                           出现菜单界面，显示游戏中可用的所有自动游戏选项，以同时启动多轮游戏。
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Bet_Settings.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>投注选择 </b>
+                        </td>
+                        <td width="118">
+                         投注选择（或在设置菜单中）
+                        </td>
+                        <td width="155">
+                           为玩家提供赌注选项，以选择他们的赌注等级。
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Settings_Menu.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>设置菜单</b>
+                        </td>
+                        <td width="118">
+                            <b>设置菜单
+                            </b>
+                        </td>
+                        <td width="155">
+                          打开一个单独的设置界面，设置以下内容：音频；游戏设置；历史；信息/帮助和收银员（如果需要）
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Audio.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>音频</b>
+                        </td>
+                        <td width="118">
+                           （设置菜单中可用的主设置区域）
+                        </td>
+                        <td width="155">
+                          桌面 - 打开音频设置菜单，使播放器能够独立打开或关闭音乐或效果。
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="para-box">
+                <b>设置键 </b>
+                <table id="tblSettButtons" width="538" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                    <colgroup>
+                        <col width="136">
+                        <col width="71">
+                        <col width="287">
+                    </colgroup>
+                    <thead>
+                        <tr valign="TOP">
+                            <td width="136" bgcolor="#e6e6e6">
+                                <b>符号</b>
+                            </td>
+                            <td width="71" bgcolor="#e6e6e6">
+                                <b>图标</b>
+                            </td>
+                            <td width="287" bgcolor="#e6e6e6">
+                                <b>行为</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>收银台</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Cashier.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                               开始返回运营商的存款页面，以便玩家向其账户添加资金（假设运营商系统中有该功能）。
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>赔付表与帮助 </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Paytables_&_Help.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                游戏的通用赔付表以及功能介绍的详细内容。
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>游戏历史
+                                </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_History.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                向玩家显示该游戏中播放的游戏周期清单。
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>投注设置 </b>
+                            </td>
+                            <td width="71">
+                                <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                    <img src="../../../other/paytable/Help_icons/Small_Icon/Stake_Selection.png" align="BOTTOM">
+                                </p>
+                            </td>
+                            <td width="287">
+                               玩家可以在这里设置游戏的投注价值，或选择其他可选项。
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>自动游戏</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Autoplays.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                启动页面，在该页面上可以选择和启动各种标准以及扩展自动游戏的选项，包括亏损上限（如果适用）
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>游戏设置 </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_Settings.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                              显示可用的各种常规设置选项（例如可选择的播放器音频设置，玩家可选择他们希望在游戏期间播放的声音）
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>首页</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Home.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                             退出当前游戏界面（在最终提示之后），并返回到操作员主游戏菜单页面。
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="para-box">
+                    <b>其他游戏信息</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            将不同线路上的同时赢取的金额叠加支付给玩家。
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                          金币值 - 显示投注奖金理论值对应的设置。所有赢得的金额都应乘以金币值，换算成赢取的现金额。
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           赌注 - 显示当前设置的赌注值。赌注大小是1个金币乘以固定的赔付线的数量。
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            总投注额是金币值乘以投注每行。
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            最大赌注（仅限桌面）- 将游戏币值设置为最大有效值。
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           旋转键 - 开始游戏。当转轮旋转时 . 
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           自动游戏 - 您可以将游戏设置为无需每次点击，便可直接游戏。按下自动游戏键（或按住旋转键，打开自动游戏菜单（手机适用）），选择自动游戏的轮次。同时您可以在游戏设置处选择停止自动游戏的额外条件。为某些游戏用户版本设置亏损上限，可以防止您在自动游戏的时候损失超过上限。如需手动停止自动游戏，请按下“停止自动游戏键”。
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            赢 - 显示当前或上一期的赢取金额。
+                        </p>
+                    </li>
+						<li>
+                        <p class="para-box">
+                             现金与硬币的转换会精确到小数点后两位，以最大化接近原始价值，反之亦然。然而在游戏中，硬币的转换总是以整数显示。
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>玩家返回值 </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            理论上玩家的总体返回值为97.36%.  
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>附加信息 </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            所有获奖组合都以赔付线从左到右支付，每个都从1号转轮开始。
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           特色功能游戏中赢取的金额不计入组合线中，将额外支付。
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           如游戏硬件/软件出现故障，所有受影响的赌注和支付清零，所有受到影响的赌注将获得退款。
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="para-box">
+                            游戏最高赢取金额为250 000欧元。
+                        </p>
+                    </li>
+                    
+                    
+                    <li>
+                        <p class="para-box">
+                            <a name="_GoBack"></a>
+                           游戏规则版本号为 1.1，发行日期为  16/04/2019.
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <content class="para-box" id="swedenRegulationText" style="/* display: none; */">
+                       <li>
+                           <a name="_GoBack"></a>All interrupted games that are not complete will be kept for 90 days.
+                        </li> 
+               </content>
+           </ul>
+        </div>
+    </body>
+</body>
+
+</html>

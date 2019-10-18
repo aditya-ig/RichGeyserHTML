@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 95vw;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+            word-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+        }
+
+        .pad-left10 {
+            padding-left: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul {
+            color: white;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) {
+            body {
+                font-size: 12px !important;
+                word-wrap: break-word;
+            }
+            p {
+                max-width: 90vw;
+            }
+            ul>li {
+                max-width: 90vw;
+            }
+            ul:last-child {
+                height: auto;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+            body {
+                font-size: .688em !important;
+            }
+            ul:last-child {
+                margin-bottom: 20em;
+            }
+        }
+
+        .para-box {
+            margin-bottom: 0cm;
+            font-size: 13px;
+            font-family: Calibri, serif;
+            line-height: 17px;
+            text-align: justify;
+        }
+
+        li p.para-box {
+            line-height: 100% !important;
+        }
+
+        table tr td {
+            font-size: 12px;
+            font-family: 'Segoe UI', serif;
+            line-height: 20px;
+        }
+
+        #tblGameButtons tr td:first-child,
+        #tblSettButtons tr td:nth-child(2) {
+            text-align: center;
+        }
+
+        table tr td img {
+            border: 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wild-box {
+            margin: 10px;
+        }
+
+        .help-box::-webkit-scrollbar-track {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+
+        .help-box {
+            width: 99%;
+            height: auto;
+            margin: 0 auto;
+            overflow: auto;
+            background: black;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <body>
+        <div class="help-box" id="preventZoom">
+            <p class="para-box">
+                Velkommen til videoautomaten RICH GEYSER – basert på oljeriggbransjen. Spillet har sprutende jokerrespinn og mange flere spennende funksjoner.
+            </p>
+            <p class="para-box">
+                <b>OM SPILLET</b>
+            </p>
+            <p class="para-box pad-left10">
+                RICH GEYSER spilles med 10 faste gevinstlinjer. Spillet har 8 vanlige symboler som gir utbetaling dersom tre eller flere stilles opp på tilstøtende hjul, med start fra posisjonen lengst til venstre på en gevinstlinje.</p>
+                <p class="para-box">
+                    <b>SPRUTENDE JOKERRESPINN-BONUS</b>
+                </p>
+            <p class="para-box pad-left10">
+                2 eller flere jokersymboler som vises 'sprutende joker'-respinnfunksjonen. hver 'oljegeysir' under hjulene med den aktiverende jokeren vil spurte olje opp på jokerposisjonen, noe som gjør alle posisjoner under det aktiverende jokersymbolet til en joker. gevinstene tildeles og hjulene respinner med jokere som beveger seg ned 1 posisjon. påfølgende jokere oppnådd under respinnene reaktiverer respinnene. respinnene fortsetter frem til alle jokere beveger seg ut av skjermen. 
+            </p>      
+            <p class="para-box">
+                <b>SLIK SPILLER DU</b>
+            </p>
+            <ul>
+                <p class="para-box"></p>
+                <li>
+                    <p class="para-box">
+                        Velg innsatsen/myntbeløpet.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="para-box">
+                        Klikk (for PC) eller berør (for mobil) spinnknappen for å starte en spillsyklus.
+                    </p>
+                </li>
+            </ul>
+            <p class="para-box">
+                <b>SPILLKNAPPER
+                </b>
+            </p>
+            <table id="tblGameButtons" width="510" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                <colgroup>
+                    <col width="89">
+                    <col width="90">
+                    <col width="118">
+                    <col width="155">
+                </colgroup>
+                <thead>
+                    <tr valign="TOP">
+                        <td width="89" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Ikon</b>
+                            </p>
+                        </td>
+                        <td width="90" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>PC</b>
+                            </p>
+                        </td>
+                        <td width="118" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Mobil</b>
+                            </p>
+                        </td>
+                        <td width="155" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Handling</b>
+                            </p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                <img src="../../../other/paytable/Help_icons/Big_icon/Spin_Big.png" align="BOTTOM">
+                            </p>
+                        </td>
+                        <td width="90">
+                            <b>SPINN</b>
+                            </p>
+                        </td>
+                        <td width="118">
+                            <b>SPINN</b>
+                            </p>
+                        </td>
+                        <td width="155">
+                            Starter en enkelt syklus
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../lang/no/paytable/Max_Bet.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Maks. innsats</b>
+                        </td>
+                        <td width="118">
+                            (er i delen med innsatsvalg i menyen for innstillinger)
+                        </td>
+                        <td width="155">
+                            Setter innsatskonfiguratoren til maksimalt innsatsnivå. Spinnknappen trykket for å starte.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Autoplay.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Autospill</b>
+                        </td>
+                        <td width="118">
+                            <b>Hold nede spinn for autospill </b>
+                            (eller ert i menyen for innstillinger)
+                        </td>
+                        <td width="155">
+                            Henter opp en meny med alle tilgjengelige autospill-alternativer i spillet for å starte flere samtidige sykluser.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Bet_Settings.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Innsatsvalg </b>
+                        </td>
+                        <td width="118">
+                            <b>Innsatsvalg </b>
+                             (eller er i innstillingsmenyen)
+                        </td>
+                        <td width="155">
+                            Henter frem innsatsalternativet hvor spilleren kan velge nivået for innsatsen.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Settings_Menu.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Innstillingsmenyen</b>
+                        </td>
+                        <td width="118">
+                            <b>Innstillingsmenyen
+                            </b>
+                        </td>
+                        <td width="155">
+                            Åpner en egen menyskjerm med følgende: Hjem, lyd, spillinnstillinger, historikk, info/hjelp og kasse (hvis nødvendig)
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Audio.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Lyd</b>
+                        </td>
+                        <td width="118">
+                            (Området for hovedinnstillinger er i innstillingsmenyen)
+                        </td>
+                        <td width="155">
+                            PC – åpner menyen for lydinnstillinger for å la spilleren selv slå på eller av musikk eller effekter.
+                        </td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+            <p class="para-box">
+                <b>INNSTILLINGSKNAPPENE </b>
+                <table id="tblSettButtons" width="538" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                    <colgroup>
+                        <col width="136">
+                        <col width="71">
+                        <col width="287">
+                    </colgroup>
+                    <thead>
+                        <tr valign="TOP">
+                            <td width="136" bgcolor="#e6e6e6">
+                                <b>Symbol</b>
+                            </td>
+                            <td width="71" bgcolor="#e6e6e6">
+                                <b>Ikon</b>
+                            </td>
+                            <td width="287" bgcolor="#e6e6e6">
+                                <b>Atferd</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Kasse</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Cashier.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Igangsetter retur til innskuddsiden hos en operatør slik at spillerne kan legge til penger til kontoen sin (forutsatt at funksjonaliteten er tilgjengelig i operatørsystemet).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Utbetalingstabeller & hjelp</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Paytables_&_Help.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Viser den generelle utbetalingstabellen og spillets funksjonsbeskrivelser.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Spillhistorikk
+                                </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_History.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Viser spilleren en liste med spillsykluser som er spilt innenfor samme spilløkt.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Innsatsinnstillinger </b>
+                            </td>
+                            <td width="71">
+                                <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                    <img src="../../../other/paytable/Help_icons/Small_Icon/Stake_Selection.png" align="BOTTOM">
+                                </p>
+                            </td>
+                            <td width="287">
+                                Fra her kan spillerne avgjøre spillets innsatsverdi, eller gjøre valg ut fra de andre tilgjengelige alternativene.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Autospill</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Autoplays.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Åpner siden hvor de forskjellige vanlige og utvidede autospill-alternativene kan velges og startes, inkludert å sette tapsgrenser (hvis aktuelt)
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Spillinnstillinger </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_Settings.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Viser forskjellige generelle tilgjengelige innstillingsalternativer (f.eks. forhåndsvalg av lyd for å bestemme hvilke lyder som skal spilles under økten)
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Hjem</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Home.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Avslutter nåværende spilløkt (etter en ekstra bekreftelse) og går tilbake til menyen i hovedspillet.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="para-box">
+                    <b>ANNEN SPILLINFO</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Sammenfallende gevinster på forskjellige gevinstlinjer legges sammen og utbetales til spilleren.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p class="para-box">
+                            Innsats – viser verdien til den nåværende innsatsinnstillingen. Innsatsstørrelsen er 1 mynt multiplisert med innsatsmultiplikatoren.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Totalinnsatsen er myntverdien multiplisert med innsatsen per linje.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Maksinnsats (kun for PC) – setter myntverdien til den største tilgjengelige.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                          Spinnknapp – starter spillet. 
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                          Autospill – du kan stille spillet til å spille uten å måtte trykke på spinnknappen hver gang. Velg antall runder for autospillene ved å trykke på autospill-knappen (eller ved å holde innen spinnknappen for å åpne autospillmenyen). Når tilgjengelig kan du velge ytterligere betingelser i spillinnstillingene for hvordan autospillene kan stoppe. Tapsgrensen i noen spillklientversjoner forhindrer deg fra å tape mer enn den valgte grensen i autospilløkten din. Trykk på stopp autospill-knappen for å stoppe autospillene manuelt.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Gevinst – viser gevinsten for nåværende eller siste utbetalte gevinst.
+                        </p>
+                    </li>
+						<li>
+                        <p class="para-box">
+                           Vekslingen av penger til mynter og motsatt gjøres med to desimaler for å komme nærmest mulig den opprinnelige verdien, men i spillet skjer myntveksling alltid som hele tall.
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>RETUR TIL SPILLER </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Den sammenlagte teoretisk returen til spilleren er 97.36%.
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>YTTERLIGERE INFORMASJON </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Alle vinnerkombinasjoner betales fra venstre til høyre på en gevinstlinje, hvor hver starter på hjul 1.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Gevinster oppnådd i funksjonene betales i tillegg til kombinasjonsveier.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Ved funksjonsfeil i spillets hardware/programvare vil alle påvirkede spillinnsatser og utbetalinger anses som ugyldige, og alle påvirkede innsatser blir refundert.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Maksimalgevinsten i spillet har et øvre tak på tilsvarende € 250 000.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p class="para-box">
+                            <a name="_GoBack"></a>
+                            Dette er spillets regler versjon 1,1 – datert 16/04/2019.
+                        </p>
+                    </li>
+                </ul>
+				<ul>
+                     <content class="para-box" id="swedenRegulationText" style="/* display: none; */">
+                        <li>
+                            <a name="_GoBack"></a>Alle avbrutte spill som ikke fullføres beholdes i 90 dager.
+                         </li> 
+                </content>
+            </ul>
+        </div>
+    </body>
+</body>
+
+</html>

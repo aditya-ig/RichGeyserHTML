@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 95vw;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+            word-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+        }
+
+        .pad-left10 {
+            padding-left: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul {
+            color: white;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) {
+            body {
+                font-size: 12px !important;
+                word-wrap: break-word;
+            }
+            p {
+                max-width: 90vw;
+            }
+            ul>li {
+                max-width: 90vw;
+            }
+            ul:last-child {
+                height: auto;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+            body {
+                font-size: .688em !important;
+            }
+            ul:last-child {
+                margin-bottom: 20em;
+            }
+        }
+
+        .para-box {
+            margin-bottom: 0cm;
+            font-size: 13px;
+            font-family: Calibri, serif;
+            line-height: 17px;
+            text-align: justify;
+        }
+
+        li p.para-box {
+            line-height: 100% !important;
+        }
+
+        table tr td {
+            font-size: 12px;
+            font-family: 'Segoe UI', serif;
+            line-height: 20px;
+        }
+
+        #tblGameButtons tr td:first-child,
+        #tblSettButtons tr td:nth-child(2) {
+            text-align: center;
+        }
+
+        table tr td img {
+            border: 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wild-box {
+            margin: 10px;
+        }
+
+        .help-box::-webkit-scrollbar-track {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+
+        .help-box {
+            width: 99%;
+            height: auto;
+            margin: 0 auto;
+            overflow: auto;
+            background: black;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <body>
+        <div class="help-box" id="preventZoom">
+            <p class="para-box">
+                Добре дошли във видео слота RICH GEYSER - тематичен за индустрията по производство на петрол. В играта има повторни завъртания на появяващи се уайлд и много други вълнуващи функции.
+            </p>
+            <p class="para-box">
+                <b>ЗА ИГРАТА</b>
+            </p>
+            <p class="para-box pad-left10">
+                RICH GEYSER се играе с 10 фиксирани линии на изплащане. Играта има 8 редовни символа, които плащат, ако три или повече се наредят на съседни барабани, като се започне от най-лявата позиция на печеливша линия
+            </p>
+            <p class="para-box">
+                    <b>БОНУС С ПОВТОРНИ ЗАВЪРТАНИЯ НА ПОЯВЯВАЩИ СЕ УАЙЛД СИМВОЛИ</b>
+                </p>
+            <p class="para-box pad-left10">
+                2 или повече уайлд символа, които се виждат, задействат функцията за повторно завъртане "появяващи се уайлд символи". всеки "петролен гейзер" под барабаните със задействащия уайлд, ще пръска петрол до позицията на уайлд символа, като превръща всяка позиция под задействащия уайлд символ в уайлд символ. печалбите се дават и барабаните се завъртат повторно, като уайлд символите се придвижват с 1 позиция надолу. следващите уайлд символи, постигнати по време на повторното завъртане, ще задействат отново повторните завъртания. повторните завъртания ще продължат, докато всички уайлд символи се преместят от екрана
+            </p>      
+            <p class="para-box">
+                <b>КАК ДА ИГРАЯ</b>
+            </p>
+            <ul>
+                <p class="para-box"></p>
+                <li>
+                    <p class="para-box">
+                        Изберете своя залог/деноминация на монета.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="para-box">
+                        Кликнете върху (за работен плот) или докоснете (за мобилни устройства) бутона Spin (завъртане), за да започнете цикъл на игра.
+                    </p>
+                </li>
+            </ul>
+            <p class="para-box">
+                <b>БУТОНИ ЗА ИГРИ
+                </b>
+            </p>
+            <table id="tblGameButtons" width="510" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                <colgroup>
+                    <col width="89">
+                    <col width="90">
+                    <col width="118">
+                    <col width="155">
+                </colgroup>
+                <thead>
+                    <tr valign="TOP">
+                        <td width="89" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Икона</b>
+                            </p>
+                        </td>
+                        <td width="90" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Работен плот</b>
+                            </p>
+                        </td>
+                        <td width="118" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Мобилен</b>
+                            </p>
+                        </td>
+                        <td width="155" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Действие</b>
+                            </p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                <img src="../../../other/paytable/Help_icons/Big_icon/Spin_Big.png" align="BOTTOM">
+                            </p>
+                        </td>
+                        <td width="90">
+                            <b>въртене</b>
+                            </p>
+                        </td>
+                        <td width="118">
+                            <b>въртене</b>
+                            </p>
+                        </td>
+                        <td width="155">
+                            Започва един цикъл
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../lang/bg/paytable/Max_Bet.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Макс. залог</b>
+                        </td>
+                        <td width="118">
+                            (съдържащ се в екрана за избор на залози в менюто с настройки).
+                        </td>
+                        <td width="155">
+                            Задава конфигурацията на залога до максималното ниво на залога. Бутонът за завъртане е натиснат, за да започне.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Autoplay.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Автоматично изпълнение</b>
+                        </td>
+                        <td width="118">
+                            <b>Задръжте Завъртане за автоматично изпълнение</b> (или се съдържа в менюто с настройки).
+                        </td>
+                        <td width="155">
+                           Показва екран с меню, показващ всички опции за автоматично изпълнение, налични в играта, за да инициирате няколко цикъла едновременно.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Bet_Settings.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Избор на залог </b>
+                        </td>
+                        <td width="118">
+                            <b>Избор на залог</b> (или съдържащ се в менюто с настройки)
+                        </td>
+                        <td width="155">
+                            Показва опциите за залози, за да може играчът да избере нивото на своя залог.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Settings_Menu.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Меню с настройки</b>
+                        </td>
+                        <td width="118">
+                            <b>Меню с настройки
+                            </b>
+                        </td>
+                        <td width="155">
+                            Отваря се отделен екран за настройки, който предлага следното: Начало; Аудио; Игрови настройки; История; Инфо/Помощ и касиер (където се изисква)
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Audio.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Аудио</b>
+                        </td>
+                        <td width="118">
+                            (Основната зона за настройките в менюто с настройки)
+                        </td>
+                        <td width="155">
+                            Работен плот - отваря менюто за аудио настройки, за да позволи на играча независимо да включва или изключва музика или ефекти.
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <p class="para-box">
+                <b>БУТОНИ ЗА НАСТРОЙКА</b>
+                <table id="tblSettButtons" width="538" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                    <colgroup>
+                        <col width="136">
+                        <col width="71">
+                        <col width="287">
+                    </colgroup>
+                    <thead>
+                        <tr valign="TOP">
+                            <td width="136" bgcolor="#e6e6e6">
+                                <b>Символ</b>
+                            </td>
+                            <td width="71" bgcolor="#e6e6e6">
+                                <b>Икона</b>
+                            </td>
+                            <td width="287" bgcolor="#e6e6e6">
+                                <b>Поведение</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Касиер</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Cashier.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Започва връщане към страниците на оператор за депозиране, за да може играчът да добави средства към сметката си (при положение, че в системата на оператора има налична функционалност).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Таблици с печалби и помощ</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Paytables_&_Help.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Описва подробно общите таблици с печалби и описанията на функциите за играта.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>История на играта
+                                </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_History.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Показва на играча списък с игрални цикли, играни в рамките на тази игрална сесия.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Настройки за залога </b>
+                            </td>
+                            <td width="71">
+                                <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                    <img src="../../../other/paytable/Help_icons/Small_Icon/Stake_Selection.png" align="BOTTOM">
+                                </p>
+                            </td>
+                            <td width="287">
+                                Оттук играчът може да определи стойността на залога за играта или да направи избор на някоя от другите налични опции.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Автоматични изпълнения</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Autoplays.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                               Инициализира страницата, от която могат да бъдат избрани и инициирани различните опции за стандартни и разширени автоматични опции, 
+							   включително лимити на загуби (където е приложимо)
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Настройки на играта</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_Settings.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Показва различните налични опции за общи настройки (например Избираеми от играча аудио настройки, чрез които играчите могат да определят 
+								кои звуци искат да бъдат възпроизведени по време на сесията)
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Начало</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Home.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Затваря текущата игрална сесия (след последно подканяне) и връща екрана обратно към страниците за главните менюта на операторите.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="para-box">
+                    <b>ДРУГА ИНФОРМАЦИЯ ЗА ИГРАТА</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Съвпадащите печалби на различни печеливши редове се събират заедно и се изплащат на играча.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p class="para-box">
+                            Залог - Показва стойността на залога на текущата настройка. Размерът на залога е 1 монета, умножена с коефициента на залога.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Общият залог е стойността на монетата, умножена по залога на линия.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                          Макс .залог (САМО за работен плот) - Задава стойността на монетата до най-голямата налична.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Бутон за завъртане - Стартира играта. 
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                        Автоматично - можете да настроите играта на възпроизвеждане, без да е необходимо да натискате бутона за завъртане всеки път. Изберете броя кръгове за автоматична игра чрез натискане на бутона за автоматична игра (или като задържите бутона за завъртане, за да отворите менюто за автоматична игра). Когато е приложимо, можете да изберете допълнителни условия за това кога да спрете автоматичната игра в настройките за игри. Ограничението на загубите в някои версии на клиентски игри ви предпазва от загуба над зададения лимит по време на сесията ви за автоматична игра. За да спрете ръчно автоматичното изпълнение, натиснете бутона Спри автоматичното изпълнение
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Печалба - Показва печалбата за текущата или последната изплатена печалба.
+                        </p>
+                    </li>
+					<li>
+                        <p class="para-box">
+                           Конвертирането на пари в монети и обратно се извършва до 2 десетични знака, за да се постигнат най-близките оригинални стойности, но в играта конвертирането на монети винаги ще показва цяло число.
+                        </p>
+                    </li>	
+                </ul>
+                <p class="para-box">
+                    <b>ВЪЗВРЪЩАЕМОСТ ЗА ИГРАЧА</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Общата теоретична възвръщаемост за играча е 97.36%. 
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>ДОПЪЛНИТЕЛНА ИНФОРМАЦИЯ</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Всички печеливши комбинации се изплащат отляво надясно на печеливш ред, като всяка от тях започва от барабан 1.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Печалбите, постигнати в рамките на Функциите, се изплащат в допълнение към комбинациите от начини.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            В случай на неизправност на хазартния хардуер/софтуер, всички засегнати залози и изплащания на игри се анулират и всички засегнати залози се възстановяват.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p class="para-box">
+                            Максималната печалба в играта има горна граница еквивалентен до €250 000.
+                       </p>
+                    </li>
+                    
+                    
+                    <li>
+                        <p class="para-box">
+                            <a name="_GoBack"></a>
+                            Това са правилата на играта версия 1.1, дата 16/04/2019.
+                        </p>
+                    </li>
+                </ul>
+				<ul>
+                     <content class="para-box" id="swedenRegulationText" style="/* display: none; */">
+                        <li>
+                            <a name="_GoBack"></a>All interrupted games that are not complete will be kept for 90 days.
+                         </li> 
+                </content>
+            </ul>
+        </div>
+    </body>
+</body>
+
+</html>

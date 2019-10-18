@@ -258,10 +258,17 @@
         <div id="swipe"></div>
     </div>
    
-	 <div id="socketConnection">
-        <input type="hidden" value="wss://service.qa.bisongmg.com:8181/rgs/endpoint" id="socketURL">
-        <input type="hidden" value="plk_ing_004_rgs" id="gameID">
+	<div id="CheatPanel" class="CheatPanel">
+        <input type="text" placeholder="Enter your cheat" name="cheat" id="cheat">
+        <input type="submit" id="submit" value="Submit">
     </div>
+
+  <div id="socketConnection">
+         <input type="hidden" value="ws://ingenuity-rgs.reach-dev.com:80/rgs/endpoint" id="socketURL">
+        <input type="hidden" value="http://ingenuity-rgs.reach-dev.com/rgs/rest/rig/" id="socketCheatURL">
+        <input type="hidden" value="slot_ing_4_7" id="gameID">
+    </div>
+
 	 <div id="errorPopUp"></div>
     <script>
         resizeLoadingScreen();
@@ -287,7 +294,7 @@
             document.body.appendChild(scriptElement);
         };
         var jsFiles = [
-            window.envConfig.cdn + "js/game-min.js"
+            window.envConfig.cdn + "js/game-debug.js"
         ];
         jsDeferLoadSingleFile(jsFiles, false);
 

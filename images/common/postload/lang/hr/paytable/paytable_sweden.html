@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 95vw;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+            word-wrap: break-word;
+            -ms-word-break: break-word;
+            word-break: break-word;
+        }
+
+        .pad-left10 {
+            padding-left: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul {
+            color: white;
+        }
+
+        table p,
+        table td,
+        table tr {
+            color: black !important;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) {
+            body {
+                font-size: 12px !important;
+                word-wrap: break-word;
+            }
+            p {
+                max-width: 90vw;
+            }
+            ul>li {
+                max-width: 90vw;
+            }
+            ul:last-child {
+                height: auto;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+            body {
+                font-size: .688em !important;
+            }
+            ul:last-child {
+                margin-bottom: 20em;
+            }
+        }
+
+        .para-box {
+            margin-bottom: 0cm;
+            font-size: 13px;
+            font-family: Calibri, serif;
+            line-height: 17px;
+            text-align: justify;
+        }
+
+        li p.para-box {
+            line-height: 100% !important;
+        }
+
+        table tr td {
+            font-size: 12px;
+            font-family: 'Segoe UI', serif;
+            line-height: 20px;
+        }
+
+        #tblGameButtons tr td:first-child,
+        #tblSettButtons tr td:nth-child(2) {
+            text-align: center;
+        }
+
+        table tr td img {
+            border: 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wild-box {
+            margin: 10px;
+        }
+
+        .help-box::-webkit-scrollbar-track {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .help-box::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+
+        .help-box {
+            width: 99%;
+            height: auto;
+            margin: 0 auto;
+            overflow: auto;
+            background: black;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <body>
+        <div class="help-box" id="preventZoom">
+            <p class="para-box">
+                Dobro došli u igru BOGATI GEJZIR na automatu koja se zasniva na naftnim platformama. Igra ima naviruće ponovno obrtaje džokera i brojne druge zanimljive značajke.
+            </p>
+            <p class="para-box">
+                <b>VIŠE O IGRI</b>
+            </p>
+            <p class="para-box pad-left10">
+                Igra BOGATI GEJZIR odigrava se s deset nepomičnih dobitnih linija. Igra ima osam redovnih simbola koji plaćaju ako se tri ili više poreda na susjednim stupcima, počevši od krajnjeg lijevog položaja na dobitnoj liniji.
+            </p>
+                
+                <p class="para-box">
+                    <b>BONUS ZBOG NAVIRUĆIH PONOVNIH OBRTAJA DŽOKERA</b>
+                </p>
+            <p class="para-box pad-left10">
+                dvama se ili više simbola džokera u pregledu pokreće značajka navirućih ponovnih obrtaja džokera. svakim se uljnim gejzirom ispod rola s aktivirajućim džokerom izbacuje ulje do položaja džokera pri čemu se bilo koji položaj ispod aktivirajućeg simbola džokera pretvara u džoker. dobitci se nagrađuju i ponovo se obrtanje rola s džokerima pomiče za jedan položaj. narednim se džokerima osvojenima prilikom ponovnih obrtaja ponovno pokreću novi obrtaji. ponovni obrtaji izvode se sve dok svi džokeri ne nestanu sa zaslona. 
+            </p>      
+            <p class="para-box">
+                <b>KAKO IGRATI</b>
+            </p>
+            <ul>
+                <p class="para-box"></p>
+                <li>
+                    <p class="para-box">
+                        Odaberite ulog/vrijednost novčića.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="para-box">
+                        Kliknite na (inačica za računalo) ili dodirnite (inačica za mobilni uređaj) gumb Zavrti kako biste pokrenuli sesiju igre.
+                    </p>
+                </li>
+            </ul>
+            <p class="para-box">
+                <b>GUMBI U IGRI
+                </b>
+            </p>
+            <table id="tblGameButtons" width="510" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                <colgroup>
+                    <col width="89">
+                    <col width="90">
+                    <col width="118">
+                    <col width="155">
+                </colgroup>
+                <thead>
+                    <tr valign="TOP">
+                        <td width="89" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Ikona</b>
+                            </p>
+                        </td>
+                        <td width="90" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Računalo</b>
+                            </p>
+                        </td>
+                        <td width="118" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Mobilni uređaj</b>
+                            </p>
+                        </td>
+                        <td width="155" bgcolor="#e6e6e6">
+                            <p lang="en-US" class="western" align="JUSTIFY" style="margin-top: 0.11cm">
+                                <b>Radnja</b>
+                            </p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                <img src="../../../other/paytable/Help_icons/Big_icon/Spin_Big.png" align="BOTTOM">
+                            </p>
+                        </td>
+                        <td width="90">
+                            <b>Zavrti</b>
+                            </p>
+                        </td>
+                        <td width="118">
+                            <b>Zavrti</b>
+                            </p>
+                        </td>
+                        <td width="155">
+                            Pokreće se pojedinačni ciklus
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../lang/hr/paytable/Max_Bet.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Najveći ulog</b>
+                        </td>
+                        <td width="118">
+                            (prikazuje se na zaslonu Odabiranje uloga unutar izbornika postavki)
+                        </td>
+                        <td width="155">
+                            Postavlja se konfiguracija uloga na najveću vrijednost uloga. Pritisnite gumb Zavrti za početak.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Autoplay.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Automatski odigraj</b>
+                        </td>
+                        <td width="118">
+                            <b>Držite pritisnutim gumb Zavrti kako biste pokrenuli značajku Automatsko odigravanje </b>
+                            (ili je uključite u izborniku postavki) 
+                        </td>
+                        <td width="155">
+                           Prikazuje se zaslon izbornika na kojem se prikazuju dostupne mogućnosti Automatskog odigravanja za igru kako biste pokrenuli istovremeno odigravanje više sesija.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Bet_Settings.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Odabiranje uloga </b>
+                        </td>
+                        <td width="118">
+                            <b>Odabiranje uloga  </b>
+                            (ili ga odaberite u izborniku postavki)
+                        </td>
+                        <td width="155">
+                            Prikazuju se Mogućnosti uloga za igrača koji treba odabrati vrijednost uloga.
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Settings_Menu.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Izbornik postavki</b>
+                        </td>
+                        <td width="118">
+                            <b>Izbornik postavki
+                            </b>
+                        </td>
+                        <td width="155">
+                            Otvara se posebni zaslon postavki sa sljedećim stavkama: Početni zaslon; Zvuk; Postavke igre; Povijest; Informacije/Pomoć i Blagajnik (gdje je potrebno)
+                        </td>
+                    </tr>
+                    <tr valign="TOP">
+                        <td width="89">
+                            <img src="../../../other/paytable/Help_icons/Big_icon/Audio.png" align="BOTTOM">
+                        </td>
+                        <td width="90">
+                            <b>Zvuk</b>
+                        </td>
+                        <td width="118">
+                            (Područje glavnih postavki nalazi se u izborniku postavki)
+                        </td>
+                        <td width="155">
+                            Računalna inačica – otvara se izbornik postavki zvuka kako bi se omogućio reproduktor da bi se neovisno uključivala ili isključivala glazba ili efekti.
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <p class="para-box">
+                <b>GUMBI POSTAVKI </b>
+                <table id="tblSettButtons" width="538" border="1" cellpadding="7" cellspacing="0" style=" background-color: #ffffff; width: 100%">
+                    <colgroup>
+                        <col width="136">
+                        <col width="71">
+                        <col width="287">
+                    </colgroup>
+                    <thead>
+                        <tr valign="TOP">
+                            <td width="136" bgcolor="#e6e6e6">
+                                <b>Simbol</b>
+                            </td>
+                            <td width="71" bgcolor="#e6e6e6">
+                                <b>Ikona</b>
+                            </td>
+                            <td width="287" bgcolor="#e6e6e6">
+                                <b>Ponašanje</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Blagajnik</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Cashier.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Obavlja se vraćanje na stranice operatora za polog kako bi igrač dodao sredstva na svoj račun (ako je funkcionalnost dostupna u sustavu operatera).
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Tablice dobitaka i pomoć</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Paytables_&_Help.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Navode se pojedinosti tablica dobitaka i opisi značajki igre.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Povijest igranja
+                                </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_History.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Prikazuju se igraču sesije igre unutar pojedinačne igre.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Postavke uloga </b>
+                            </td>
+                            <td width="71">
+                                <p lang="en-US" class="western" align="CENTER" style="margin-top: 0.11cm">
+                                    <img src="../../../other/paytable/Help_icons/Small_Icon/Stake_Selection.png" align="BOTTOM">
+                                </p>
+                            </td>
+                            <td width="287">
+                                Ovdje igrač može odrediti vrijednost uloga za igru ili odabrati bilo koju drugu dostupnu mogućnost.
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Automatska odigravanja</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Autoplays.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Prikazuje se stanica na kojoj se mogu odabrati i pokrenuti brojne uobičajene i proširene mogućnosti Automatskog odigravanja, uključujući i Ograničenja gubitka (gdje je primjenjivo)
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Postavke igre </b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Game_Settings.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Prikazuju se različite dostupne mogućnosti općih postavki (npr. Postavke zvuka koje može odabrati igrač kako bi igrači odabrali zvukove koje žele da se reproduciraju tijekom sesije)
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="136">
+                                <b>Početna stranica</b>
+                            </td>
+                            <td width="71">
+                                <img src="../../../other/paytable/Help_icons/Small_Icon/Home.png" align="BOTTOM">
+                            </td>
+                            <td width="287">
+                                Napušta se trenutačna sesija igre (nakon završnog upita) i prikazuje su se stranice Glavnog izbornika igre za igrače.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="para-box">
+                    <b>OSTALE INFORMACIJE O IGRI</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Slučajni dobitci ostvareni na različitim linijama za klađenje zbrajaju se i isplaćuju igraču.
+                        </p>
+                    </li>
+                   
+                    <li>
+                        <p class="para-box">
+                            Ulog – prikazuje se vrijednost uloga za trenutačnu postavku. Veličina je uloga jedan novčić pomnožen množiteljom uloga.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Ukupni ulog predstavlja vrijednost novčIća umnožena ulogom po liniji.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Najveći ulog (SAMO računalna inačica) – postavlja se vrijednost novčića na najveću dostupnu vrijednost.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Gumb za obrtanje – pokreće se igra. 
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                           Automatsko odigravanje – možete postaviti da se igra odigrava, a da pritom ne trebate pritisnuti gumb za obrtanje svaki puta.
+                           Odaberite broj rundi za automatsko odigravanje pritiskanjem gumba Automatski odigraj (ili držanjem pritisnutim gumba za obrtanje kako bi se prikazao izbornik Automatsko odigravanje).
+                           Ako je moguće možete odabrati dodatne uvjete kada želite zaustaviti automatsko odigravanje u postavkama igre.
+                           Ograničenjem se gubitka u nekim inačicama igre onemogućava vam se gubitak iznad postavljenog ograničenja tijekom sesije automatskog odigravanja.
+                           Kako biste ručno zaustavili automatsko odigravanje, pritisnite gumb Zaustavi automatsko odigravanje.
+
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Dobitak – prikazuje se dobitak za trenutačni dobitak ili zadnje isplaćeni dobitak.
+                        </p>
+                    </li>
+					<li>
+                        <p class="para-box">
+                          Pretvaranje gotovine u kovanice i obrnuto se obavlja primjenom dvodecimalne vrijednosti kako bi se postigla najbliža izvorna vrijednost, ali se u igri pretvaranje kovanica uvijek prikazuje kao cijeli broj.
+                        </p>
+                    </li>
+					
+                </ul>
+                <p class="para-box">
+                    <b>POVRAT ULOGA</b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Teoretski povrat uloga koji igrač može ostvariti je 97.36%.  
+                        </p>
+                    </li>
+                </ul>
+                <p class="para-box">
+                    <b>DODATNE INFORMACIJE </b>
+                </p>
+                <ul>
+                    <li>
+                        <p class="para-box">
+                            Isplata svih dobitnih kombinacija izračunava se s desna na lijevo na liniji za klađenje, pri čemu svaka počinje od stupca 1.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Dobitci ostvareni unutar značajki isplaćuju se dodatno uz dobitne kombinacije.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Ako dođe do kvara hardvera na kojem se odigrava igra/softvera, svi se zahvaćeni ulozi i isplate poništavaju te se svi zahvaćeni ulozi vraćaju.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para-box">
+                            Najveći je dobitak koji se može ostvariti u ovoj igri ekvivalentan €250,000.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p class="para-box">
+                            <a name="_GoBack"></a>
+                            Ovo je inačica pravilnika igre 1.1. koji se primjenjuje od datuma 16/04/2019.
+                        </p>
+                    </li>
+                </ul>
+				<ul>
+                     <content class="para-box" id="swedenRegulationText" style="/* display: none; */">
+                        <li>
+                            <a name="_GoBack"></a>All interrupted games that are not complete will be kept for 90 days.
+                         </li> 
+                </content>
+            </ul>
+        </div>
+    </body>
+</body>
+
+</html>
