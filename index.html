@@ -264,8 +264,8 @@
     </div>
 
   <div id="socketConnection">
-         <input type="hidden" value="ws://ingenuity-rgs.reach-dev.com:80/rgs/endpoint" id="socketURL">
-        <input type="hidden" value="http://ingenuity-rgs.reach-dev.com/rgs/rest/rig/" id="socketCheatURL">
+         <input type="hidden" value="wss://staging.reach-dev.com:11001/rgs/endpoint" id="socketURL">
+         <input type="hidden" value="https://staging.reach-dev.com:11001/rgs/rest/rig/" id="socketCheatURL">
         <input type="hidden" value="slot_ing_4_7" id="gameID">
     </div>
 
@@ -294,7 +294,7 @@
             document.body.appendChild(scriptElement);
         };
         var jsFiles = [
-            window.envConfig.cdn + "js/game-debug.js"
+            window.envConfig.cdn + "js/game-min.js"
         ];
         jsDeferLoadSingleFile(jsFiles, false);
 
